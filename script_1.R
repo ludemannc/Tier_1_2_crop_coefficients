@@ -2518,4 +2518,3 @@ Crop_df_1 <- Crop_df_1 %>%
   group_by(item, item_code) %>%
   summarise(original_crop = paste(original_crop, collapse = "| "))
 write.csv(Crop_df_1,"data/standardised/Original_crop_names_in_each_item_category_appendix_format.csv",row.names=FALSE)
-
