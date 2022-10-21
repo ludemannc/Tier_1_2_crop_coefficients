@@ -1,0 +1,37 @@
+Metadata
+#File type:CSV
+"#File name:"Panagos_2022_JofCP&FS.csv"
+#File size: 19KB
+#Data are from: Panagos et al (2022) Phosphorus plant removal from European agricultural land Journal of Consumer Protection and Food Safety 17,5-10: https://doi.org/10.1007/s00003-022-01363-3
+#Last name of first author:Panagos
+#Year of publication: 2022
+#Name of publication or database:  Journal of Consumer Protection and Food Safety
+#Relevant page numbers or tables:Supplementary information and Table 1 and 2.
+#DOI: https://doi.org/10.1007/s00003-022-01363-3
+#Website: https://link.springer.com/article/10.1007/s00003-022-01363-3
+#Data contained in file:
+#"Missing code""=NA"
+
+#Column description: 
+Column header						Units								Description
+Region							Character							Region/country these data relates to
+Original_crop_category					Character							The original aggregate crop category used by Panagos et al (2022).
+Original_crop						Character							The original crop category used by Panagos et al (2022).
+Crop_component						Character							The crop component (either as 'Crop_products' or 'Crop_residues') information added by Cameron Ludemann to this dataset.
+P_pc_DM							Numeric, percentage DM as elemental phosphorus (P)		Percentage of dry matter as elemental phosphorus. 
+sd_P_pc_DM						Numeric, standard deviation of percentage DM as elemental P 	Standard deviation of the percentage of dry matter as elemental phosphorus.
+No_samples_P_pc_DM					Numeric, number of samples used to get P_pc_DM			Number of samples used to estimate mean P_pc_DM and sd_P_pc_DM.
+Primary_reference_of_dataset				Character							Primary reference from which the data came from. This relates to the P_pc_DM data for Crop_products only. The authors did not refer to other references for the other data. 
+Comment							Character							Comments made by Panagos et al (2022) in their estimates. 
+DM_pc							Numeric, dry matter percentage					Dry matter percentage of crop component.
+Ratio_crop_residue_to_crop_products			Numeric, ratio							The ratio of crop residue to crop products. 
+Harvest_index						Numeric, unitless proportion					The harvest index of the crop based on the Ratio_crop_residue_to_crop_products (Cameron Ludemann made this interpolation). 
+Ratio_residues_removed_from_field			Numeric, ratio							The ratio/proportion of crop residues removed from the field.
+Reference_where_data_were_collated			Character							Reference by which the data were collated for use in this dataset
+Website_of_source_of_collated_data			Character							Website of the reference by which the data were collated for use in this dataset
+
+##Data were manually taken from pdf tables of results and inputted to an excel where they were converted 
+to a format suitable for a csv file. 
+#For questions ask: Cameron Ludemann (cameron.ludemann@wur.nl) or Martin van Ittersum (martin.vanittersum@wur.nl)
+
+This metadata file aligns to: https://www.wur.nl/en/Value-Creation-Cooperation/WDCC/Data-Management-WDCC/Finishing/Publishing-your-dataset-in-a-repository.htm

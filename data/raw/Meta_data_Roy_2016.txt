@@ -1,0 +1,46 @@
+Metadata
+#File type:csv
+#File name:"Roy_2016.csv"
+#File size: 44KB
+#Data are from Roy (2016) FAO Fertilizer and Plant Nutrition Bulletin: Plant nutrition for food security, Food and Agriculture Organization of the United Nations, Rome, Italy http://www.fao.org/3/a-a0443e.pdf
+#Last name of first author:Roy
+#Year of publication: 2016
+#Name of publication or database: FAO Fertilizer and Plant Nutrition Bulletin: Plant nutrition for food security
+#Relevant page numbers or tables:pg 121,154, 155 and 157.
+#DOI: NA
+#Website:http://www.fao.org/3/a-a0443e.pdf
+#Data contained in file:
+##Missing code=NA
+##Column description:
+ 
+Column header						Units						Description
+Original_region						Character					Original name of region data purported to represent.
+Reference_where_data_were_collated			Character					Reference by which the data were collated for use in this dataset
+Website_of_source_of_collated_data			Character					Website of the reference by which the data were collated for use in this dataset
+Primary_reference_of_dataset				Character					Indicates the primary reference where data were originally taken from.
+Pub_page_Number						Numeric						Numeric value indicating page in reference where data were taken from.				
+Original_crop						Character					Original crop name used in report.
+Original_crop_component					Character					Original crop component information from this reference.
+HI							Numeric, proportion				Harvest index value (proportion of above ground biomass as crop products). This ewas a backcalculation of the original grain to residue ratio data seen in the dataset. 
+N_content_kg_per_t					Numeric kg nutrient per tonne dry matter	Nitrogen concentration of component in kg nitrogen per tonne of dry matter*. 
+P2O5_content_kg_per_t					Numeric kg nutrient per tonne dry matter	P2O5 concentration of component in kg P2O5 per tonne of dry matter*. 
+K2O_content_kg_per_t					Numeric kg nutrient per tonne dry matter	K2O concentration of component in kg K2O per tonne of dry matter*. 
+Ca_content_kg_per_t					Numeric kg nutrient per tonne dry matter	Ca concentration of component in kg Ca per tonne of dry matter*.
+Mg_content_kg_per_t					Numeric kg nutrient per tonne dry matter	Mg concentration of component in kg Mg per tonne of dry matter*.
+S_content_kg_per_t					Numeric kg nutrient per tonne dry matter	S concentration of component in kg S per tonne of dry matter*.
+Cu_content_kg_per_t					Numeric kg nutrient per tonne dry matter	Cu concentration of component in kg Cu per tonne of dry matter*.
+Mn_content_kg_per_t					Numeric kg nutrient per tonne dry matter	Mn concentration of component in kg Mn per tonne of dry matter*.
+Zn_content_kg_per_t					Numeric kg nutrient per tonne dry matter	Zn concentration of component in kg Zn per tonne of dry matter*.
+Fe_uptake_kg_per_t					Numeric kg nutrient per tonne dry matter	Fe uptake in component in kg Fe per tonne of dry matter*.
+Mn_uptake_kg_per_t					Numeric kg nutrient per tonne dry matter	Mn uptake in component in kg Mn per tonne of dry matter*.
+Cu_uptake_kg_per_t					Numeric kg nutrient per tonne dry matter	Cu uptake in component in kg Cu per tonne of dry matter*.
+B_uptake_kg_per_t					Numeric kg nutrient per tonne dry matter	B uptake in component in kg B per tonne of dry matter*.
+Mo_uptake_kg_per_t					Numeric kg nutrient per tonne dry matter	Mo update in component in kg Mo per tonne of dry matter*.
+
+*Note that Roy et al (2016) does not explicitly state whether nutrient concentration is per tonne dry matter or tonne fresh weight.The Zublena (1991/1997) reference Roy et al (2016) refers to is not available so this cannot be decided for certain. 
+
+#Data were manually taken from pdf tables of results and inputted to an excel where they were converted 
+to a format suitable for a csv file. 
+#For questions ask: Cameron Ludemann (cameron.ludemann@wur.nl) or Martin van Ittersum (martin.vanittersum@wur.nl)
+
+This metadata file aligns to: https://www.wur.nl/en/Value-Creation-Cooperation/WDCC/Data-Management-WDCC/Finishing/Publishing-your-dataset-in-a-repository.htm

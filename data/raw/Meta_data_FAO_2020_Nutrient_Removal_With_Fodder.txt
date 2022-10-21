@@ -1,0 +1,44 @@
+Metadata
+#File type:CSV
+"#File name:"FAO_2020_Nutrient_Removal_With_Fodder.csv"
+#File size: 20KB
+#Data are from: Raw datafile Nathan Wanner (FAO) sent Cameron Ludemann on 27/7/2022. This raw data file relates to data shown in FAO(2020) FAOSTAT Domain Soil Nutrient Budget Metadata, release December 2020 https://fenixservices.fao.org/faostat/static/documents/ESB/ESB_e.pdf
+#Last name of first author:FAO
+#Year of publication: 2020
+#Name of publication or database: FAOSTAT Domain Soil Nutrient Budget Metadata
+#Relevant page numbers or tables:relates to tables of page 2 and 3, but is the raw data used to produce these tables.
+#DOI: 
+#Website: https://fenixservices.fao.org/faostat/static/documents/ESB/ESB_e.pdf
+#Data contained in file:
+#"Missing code""=NA"
+
+#Column description: 
+Column header						Units												Description
+Item Code						Numeric												Food and Agriculture Organisation Item numeric code related to crop type
+Item							Character											Food and Agriculture Organisation Item character code related to crop type
+Source							Character											Indicates where the original data were sourced from.
+Crop							Character											Indicates what crop and crop components were used to estimate the Grain and Plant nutrient concentration components. Eg Wheat (spring) grain + Wheat straw per unit of grain yield meant for N_Grain the N concentration was from Wheat (spring) grain and for N_plant the Wheat straw per unit of grain yield value was used. 									
+Average							Numeric, 1 or 0											Is a binomial indicator of whether a mean of other values (across a selection of other crops) was used to interpolate the nutrient concentration of this crop. A zero (0) indicates an average value was not used. A '1' indicates that a mean value was used. For example, there were no data for Quinoa, so it received values that were average across Other cereals. 
+N_Grain							Numeric, kg N per metric tonne grain fresh weight						Nitrogen concentration on a kg of nitrogen per tonne of grain fresh weight basis.
+N_Plant							Numeric, kg N per metric tonne crop residue fresh weight					Nitrogen concentration on a kg of nitrogen per tonne of crop residue fresh weight basis.
+N							Numeric, kg N per metric tonne crop product dry matter + metric tonne crop residue fresh weight	Total nitrogen (in kg) per 1 tonne of crop product fresh weight plus 1 tonne of crop residue. Note this does not appear to account for harvest index of the different crops.  
+P_Grain							Numeric, kg P per metric tonne grain fresh weight						Elemental phosphorus concentration on a kg of elemental phosphorus per tonne of grain fresh weight basis.
+P_Plant							Numeric, kg P per metric tonne crop residue fresh weight					Elemental phosphorus concentration on a kg of elemental phosphorus per tonne of crop residue fresh weight basis.
+P							Numeric, kg P per metric tonne crop product fresh weight + metric tonne crop residue fresh weight	Total elemental phosphorus (in kg) per 1 tonne of crop product fresh weight plus 1 tonne of crop residue. Note this does not appear to account for harvest index of the different crops.  
+K_Grain							Numeric, kg K per metric tonne grain fresh weight						Elemental potassium concentration on a kg of elemental potassium per tonne of grain fresh weight basis.
+K_Plant							Numeric, kg K per metric tonne crop residue fresh weight					Elemental potassium  concentration on a kg of elemental potassium  per tonne of crop residue fresh weight basis.
+K							Numeric, kg S per metric tonne crop product fresh weight + metric tonne crop residue fresh weight	Total elemental potassium (in kg) per 1 tonne of crop product fresh weight plus 1 tonne of crop residue. Note this does not appear to account for harvest index of the different crops.  
+S_Grain							Numeric, kg S per metric tonne grain fresh weight						Sulphur concentration on a kg of sulphur per tonne of grain fresh weight basis.
+S_Plant							Numeric, kg S per metric tonne crop residue fresh weight					Sulphur concentration on a kg of sulphur per tonne of crop residue fresh weight basis.
+S							Numeric, kg S per metric tonne crop product fresh weight + metric tonne crop residue fresh weightTotal sulphur (in kg) per 1 tonne of crop product fresh weight plus 1 tonne of crop residue. Note this does not appear to account for harvest index of the different crops.  
+Legume							Numeric, 1 or 0											Binomial indicator of whether the crop is a legume (1) or not a legume (0).						
+Primary_reference_of_dataset				Character											Primary reference from which the data came from
+Reference_where_data_were_collated			Character											Reference by which the data were collated for use in this dataset
+Website_of_source_of_collated_data			Character											Website of the reference by which the data were collated for use in this dataset
+
+##Data were manually taken from the original csv file with some reference information added (the 3 right most columns). 
+#For questions ask: Cameron Ludemann (cameron.ludemann@wur.nl) or Martin van Ittersum (martin.vanittersum@wur.nl)
+
+This metadata file aligns to: https://www.wur.nl/en/Value-Creation-Cooperation/WDCC/Data-Management-WDCC/Finishing/Publishing-your-dataset-in-a-repository.htm
+
+Nathan Wanner said these values are on a nutrient concentration on a fresh weight basis. 

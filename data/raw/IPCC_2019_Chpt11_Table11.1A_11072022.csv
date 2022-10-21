@@ -1,0 +1,16 @@
+World_region_IPCC,Crop,NAGT_kg_N_per_kg_DM,NAGT_uncertain_%,NBGT_kg_N_per_kg_DM,NBGT_uncertain_%,RAGT_Unitless,RST_Unitless,RST_uncertain_%,DRY_Proportion,Author_Last_name,Source_title_Various,Pub_year_Years,Pub_page_Number,DOI_DOI
+World,Other,0.008,0.75,0.009,0.75,1,0.22,NA,0.85,IPCC,Chapter_11,2019,11.7,https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/4_Volume4/19R_V4_Ch11_Soils_N2O_CO2.pdf
+World,Generic grains,0.006,0.75,0.009,0.75,1.3,0.22,0.16,0.88,IPCC,Chapter_11,2019,11.7,https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/4_Volume4/19R_V4_Ch11_Soils_N2O_CO2.pdf
+World,Winter wheat,0.006,0.75,0.009,0.75,1.3,0.23,0.41,0.89,IPCC,Chapter_11,2019,11.7,https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/4_Volume4/19R_V4_Ch11_Soils_N2O_CO2.pdf
+World,Spring wheat,0.006,0.75,0.009,0.75,1.3,0.28,0.26,0.89,IPCC,Chapter_11,2019,11.7,https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/4_Volume4/19R_V4_Ch11_Soils_N2O_CO2.pdf
+World,Barley,0.007,0.75,0.014,0.75,1.2,0.22,0.33,0.89,IPCC,Chapter_11,2019,11.7,https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/4_Volume4/19R_V4_Ch11_Soils_N2O_CO2.pdf
+World,Oats,0.007,0.75,0.008,0.75,1.3,0.25,1.2,0.89,IPCC,Chapter_11,2019,11.7,https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/4_Volume4/19R_V4_Ch11_Soils_N2O_CO2.pdf
+World,Maize,0.006,0.75,0.007,0.75,1,0.22,0.26,0.87,IPCC,Chapter_11,2019,11.7,https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/4_Volume4/19R_V4_Ch11_Soils_N2O_CO2.pdf
+World,Rye,0.005,0.75,0.011,0.75,1.6,NA,NA,0.88,IPCC,Chapter_11,2019,11.7,https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/4_Volume4/19R_V4_Ch11_Soils_N2O_CO2.pdf
+World,Rice,0.007,0.75,NA,NA,1.4,0.16,0.35,0.89,IPCC,Chapter_11,2019,11.7,https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/4_Volume4/19R_V4_Ch11_Soils_N2O_CO2.pdf
+World,Millet,0.007,0.75,NA,NA,1.4,NA,NA,0.9,IPCC,Chapter_11,2019,11.7,https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/4_Volume4/19R_V4_Ch11_Soils_N2O_CO2.pdf
+World,Sorghum,0.007,0.75,0.006,0.75,1.4,NA,NA,0.89,IPCC,Chapter_11,2019,11.7,https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/4_Volume4/19R_V4_Ch11_Soils_N2O_CO2.pdf
+World,Beans and Pulses,0.008,0.75,0.008,0.75,2.1,0.19,0.45,0.91,IPCC,Chapter_11,2019,11.7,https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/4_Volume4/19R_V4_Ch11_Soils_N2O_CO2.pdf
+World,Soybeans,0.008,0.75,0.008,0.75,2.1,0.19,0.45,0.91,IPCC,Chapter_11,2019,11.7,https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/4_Volume4/19R_V4_Ch11_Soils_N2O_CO2.pdf
+World,Potatoes and tubers,0.019,0.75,0.014,0.75,0.4,0.2,0.5,0.22,IPCC,Chapter_11,2019,11.7,https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/4_Volume4/19R_V4_Ch11_Soils_N2O_CO2.pdf
+World,Peanuts,0.016,0.75,NA,NA,1,NA,NA,0.94,IPCC,Chapter_11,2019,11.7,https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/4_Volume4/19R_V4_Ch11_Soils_N2O_CO2.pdf

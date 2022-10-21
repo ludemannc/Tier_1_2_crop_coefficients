@@ -1,0 +1,25 @@
+Metadata					
+#File type:	CSV				
+#File name:	FAO_2022_item_codes.csv				
+#File size:	42KB				
+#Data are from: 	FAOSTAT (2022)				
+#Year of publication: 	2022				
+#Name of publication or database:  	FAOSTAT (2022) 	Under 'Definitions and Standards' >Item Group section of the FAOSTAT Crops and livestock products domain:  https://www.fao.org/faostat/en/#data/QCL.		
+#DOI: 	NA				
+#Website:	https://www.fao.org/faostat/en/#data/QCL				
+#Data contained in file:					
+"#""Missing code""""=NA"""					
+		
+Description: 					
+Column header		Units		Description
+Item Group Code		Characters	Numeric item group code
+Item Group		Characters	Name of item group that groups items together
+Item Code		Numeric		Numeric item code
+Item			Character	Item name
+Factor			Numeric		Factor	
+HS Code			Character	Harmonized System Code
+HS07 Code		Character	Harmonized System Code 2007
+HS12 Code		Character	Harmonized System Code 2012
+CPC Code		Character	Central Product Classification for goods and services promulgated by the United Nations Statistical Commission.
+					
+Data were sent as a csv file format from Nathan Wanner (UN FAO Statistics Division) to Cameron Ludemann (Wageningen University &Research) on the 16/9/2022. Meta-data were added by Cameron Ludemann. 					

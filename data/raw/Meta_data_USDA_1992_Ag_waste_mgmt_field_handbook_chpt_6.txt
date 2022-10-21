@@ -1,0 +1,40 @@
+Metadata
+#File type:CSV
+"#File name:"USDA_1992_Ag_waste_mgmt_field_handbook_chpt_6.csv"
+#File size: 62KB
+#Data are from: USDA (1992) Agricultural Waste Management Field Handbook, Chapter 6 Role of Plants in Waste Management: https://directives.sc.egov.usda.gov/OpenNonWebContent.aspx?content=6621.wba#:~:text=Plants%20absorb%20the%20nutrients%20in,of%20today's%20water%20quality%20concerns. and https://books.google.nl/books/about/Agricultural_Waste_Management_Field_Hand.html?id=1yE2PwAACAAJ&redir_esc=y
+#Last name of first author:USDA
+#Year of publication: 1992
+#Name of publication or database:  Agricultural Waste Management Field Handbook, Chapter 6 Role of Plants in Waste Management
+#Relevant page numbers or tables:Table 6-6
+#DOI: 
+#Website: https://directives.sc.egov.usda.gov/OpenNonWebContent.aspx?content=6621.wba#:~:text=Plants%20absorb%20the%20nutrients%20in,of%20today's%20water%20quality%20concerns.
+#Data contained in file:
+#"Missing code""=NA"
+
+#Column description: 
+Column header						Units							Description
+Region							Character						Region/country these data relates to
+Original_crop_category					Character						The original aggregate crop category used by USDA in this publication in Table 6-6.
+Original_crop						Character						The original crop category used by USDA in this publication in Table 6-6.
+Crop_component						Character						The crop component (either as 'Crop_products' or 'Crop_residues') information added by Cameron Ludemann to this dataset.
+Dry_wt_lb_bushel					Character, pounds per bushel				Typical dry weight of the crop product in pounds per bushel.
+Typical_yield_per_acre_plant_part			Character, bushels or tons of yield per acre		Typical yield of plant component in bushels (bu) or US short tons (T), or lb (pounds) per acre.
+N_pc_DM							Numeric, nitrogen percentage of dry matter		The percentage of dry matter as nitrogen.	
+P_pc_DM							Numeric, elemental phosphorus percentage of dry matter	The percentage of dry matter as elemental phosphorus.
+K_pc_DM							Numeric, elemental potassium percentage of dry matter	The percentage of dry matter as elemental potassium.
+Ca_pc_DM						Numeric, calcium percentage of dry matter		The percentage of dry matter as calcium.
+Mg_pc_DM						Numeric, magnesium percentage of dry matter		The percentage of dry matter as magnesium.
+S_pc_DM							Numeric, sulphur percentage of dry matter		The percentage of dry matter as sulphur.
+Cu_pc_DM						Numeric, copper percentage of dry matter		The percentage of dry matter as copper.
+Mn_pc_DM						Numeric, manganese percentage of dry matter		The percentage of dry matter as manganese.
+Zn_pc_DM						Numeric, zinc percentage of dry matter			The percentage of dry matter as zinc.
+Primary_reference_of_dataset				Character						Primary reference from which the data came from
+Reference_where_data_were_collated			Character						Reference by which the data were collated for use in this dataset
+Website_of_source_of_collated_data			Character						Website of the reference by which the data were collated for use in this dataset
+
+##Data were manually taken from pdf tables of results and inputted to an excel where they were converted 
+to a format suitable for a csv file. 
+#For questions ask: Cameron Ludemann (cameron.ludemann@wur.nl) or Martin van Ittersum (martin.vanittersum@wur.nl)
+
+This metadata file aligns to: https://www.wur.nl/en/Value-Creation-Cooperation/WDCC/Data-Management-WDCC/Finishing/Publishing-your-dataset-in-a-repository.htm

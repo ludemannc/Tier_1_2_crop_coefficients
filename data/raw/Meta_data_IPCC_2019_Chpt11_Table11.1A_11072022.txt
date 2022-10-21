@@ -1,0 +1,36 @@
+Metadata
+#File type:CSV
+#File name:"IPCC_2019_Chpt11_Table11.1A_23062020.csv"
+#File size: 3KB
+#Data are from IPCC (2019) Chapter 11, pg 11.7. 
+#Last name of first author:IPCC
+#Year of publication: 2019
+#Name of publication or database: Chapter 11-N2O EMISSIONS FROM MANAGED SOILS, AND CO2 EMISSIONS FROM LIME AND UREA APPLICATION
+#Relevant page numbers or tables:PAGE 11.7, Table 11.1A
+#DOI: 
+#Website:https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/4_Volume4/19R_V4_Ch11_Soils_N2O_CO2.pdf
+#Data contained in file:
+#"Missing code"=NA
+#Column description: 
+Column header				Units				Description
+World_region_IPCC			Country or region of the world	World region according to IPCC
+Crop					Crop				Crop type
+NAGT_kg_N_per_kg_DM			kg_N_per_kg_DM	 		N content of above-ground residues: IPCC (2019) Chapter 11 Table 11.1A 
+NAGT_uncertain_%			%				N content of above-ground residues uncertainty: NAG(T) plus or minus uncertainty expressed as 95% confidence intervals (see Table 5.5C IPCC (2019) Chpt 5 Cropland as it has better explanation than Table 11.1A).
+NBGT_kg_N_per_kg_DM			kg_N_per_kg_DM			N content of below-ground residues: IPCC (2019) Chapter 11 Table 11.1A 
+NBGT_uncertain_%			%				N content of below-ground residues uncertainty: NBG(T) plus or minus uncertainty expressed as 95% confidence intervals (see Table 5.5C IPCC (2019) Chpt 5 Cropland as it has better explanation than Table 11.1A).
+RAGT_Unitless				Unitless			Ratio of above ground residue dry matter to harvested yield: IPCC (2019) Chapter 11 Table 11.1A 
+RST_Unitless				Unitless			Ratio of below ground biomass to above-ground biomass: IPCC (2019) Chapter 11 Table 11.1A 
+RST_uncertain_%				%				Ratio of below ground biomass to above-ground biomass uncertainty: RS(T) plus or minus uncertainty expressed as 95% confidence intervals. 
+DRY_Proportion				Proportion			Dry matter fraction of harvested product : IPCC (2019) Chapter 11 Table 11.1A 
+Author_Last_name			Last_name			The first author/organisation that wrote/developed this source of data. Use et al if more than one author.  
+Source_title_Various			Various				Title of the journal/book/ website or database ("source") this came from. 
+Pub_year_Years				Years				The year of publication/version of the source of data. 
+Pub_page_Number				Number				The main page these data came from in the source of data.
+DOI_DOI					DOI				Digital object identifier
+
+#Data were manually taken from pdf tables of results and inputted to an excel where they were converted 
+to a format suitable for a csv file. 
+#For questions ask: Cameron Ludemann (cameron.ludemann@wur.nl) or Martin van Ittersum (martin.vanittersum@wur.nl)
+
+This metadata file aligns to: https://www.wur.nl/en/Value-Creation-Cooperation/WDCC/Data-Management-WDCC/Finishing/Publishing-your-dataset-in-a-repository.htm

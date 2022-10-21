@@ -1,0 +1,31 @@
+Metadata
+#File type:CSV
+#File name:"Lassaletta_et_al_2014Supp_Mat_1_24062020A.csv"
+#File size: 21KB
+#Data are from Lassaletta(2014) Biogeochemistry, PAGE Supplementary material S1. 
+#Last name of first author:Lassaletta
+#Year of publication: 2014
+#Name of publication or database: Biogeochemistry
+#Relevant page numbers or tables:PAGE Supplementary material S1.
+#DOI: https://doi.org/10.1007/s10533-013-9923-4
+#Website:https://link.springer.com/article/10.1007/s10533-013-9923-4#Sec18
+#Data contained in file:
+#"Missing code"="*" where the "*" indicates a nutrient content was estimated "by analogy to similar items"
+
+#Column description: 
+Column header				Units						Description
+FAO_CODES				Number denoting crop classification		See:Indicative Crop Classification Version 1.0 (ICC) http://www.fao.org/fileadmin/templates/ess/documents/world_census_of_agriculture/appendix3_r7.pdf
+ITEM					Crop name + component description if applicable	See:Indicative Crop Classification Version 1.0 (ICC) http://www.fao.org/fileadmin/templates/ess/documents/world_census_of_agriculture/appendix3_r7.pdf
+N_content_pc				Percentage of fresh weight as nitrogen         	Nitrogen content of item (original FAO data-from https://www.fao.org/3/x9892e/x9892e00.pdf- were in protein percentages which appear to have been converted to nitrogen  percentage using factor of 6.25-at least this ws the case for wheat and barley)
+Reference				Last name and date of reference			Last name and date of reference. 
+
+
+#Methodology: The original data was in a xlsx file on the publishers website, so to preserve the data in a reusable format I 
+converted it to a csv file after deleting the first and last rows (which included info on the reference and 
+a description of the "*" symbol respectively). I also ensured the column headers had no spaces in between words by adding "_" symbols
+between words. 
+
+
+#For questions ask: Cameron Ludemann (cameron.ludemann@wur.nl) or Martin van Ittersum (martin.vanittersum@wur.nl)
+
+This metadata file aligns to: https://www.wur.nl/en/Value-Creation-Cooperation/WDCC/Data-Management-WDCC/Finishing/Publishing-your-dataset-in-a-repository.htm

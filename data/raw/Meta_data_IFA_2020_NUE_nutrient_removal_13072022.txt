@@ -1,0 +1,40 @@
+Metadata
+#File type:CSV
+"#File name:"IFA_2020_NUE_nutrient_removal_13072022.csv"
+#File size: 28KB
+#Data are from IFA (2020, May) from IFA NUE model and nutrient removal coefficients table at: https://api.ifastat.org/reports/download/12965
+#Year of publication: 2020
+#Name of publication or database:  IFA (2020, May) from IFA NUE model and nutrient removal coefficients table at: https://api.ifastat.org/reports/download/12965
+#DOI: 
+#Website:https://api.ifastat.org/reports/download/12965
+
+#Data contained in file:
+#"Missing code""=NA"
+
+Description: 
+Column header						Units									Description
+Reference_where_data_were_collated			Character								Reference by which the data were collated for use in this dataset
+Website_of_source_of_collated_data			Character								Website of the reference by which the data were collated for use in this dataset
+Primary_reference_of_dataset				Character								Indicates the primary reference where data were originally taken from. 
+Crop_FAO						Character								Crop name as defined by the Food and Agriculture Organization of the United Nations			
+Crop_IFA						Character								Crop name as defined by the International Fertilizer Association	
+Crop_family						Character								Crop family name as aligned to those listed in the Crop_families and Crop_family_numbers columns. 
+Crop_family_number					Numeric, integer							Crop family number as aligned to those listed in the Crop_families and Crop_family_numbers columns. 							
+Crop_product_N_concentration_kg_N_t			Numeric, kg nitrogen per tonne crop product				Nitrogen concentration of crop product
+Biological_Fixation_kg_N _t                             Numeric, kg nitrogen fixed per tonne crop product			Nitrogen fixation by crop
+Recycled_N_kg_N_t					Numeric, kg nitrogen recycled per tonne crop product			Nitrogen recycled per tonne of crop product		
+Crop_product_kg_P2O5_t					Numeric, kg P2O5 per tonne crop product					P2O5 concentration of crop product
+Crop_product_kg_K2O_t					Numeric, kg K2O per tonne crop product					K2O concentration of crop product	
+Recycled_P2O5_kg_P2O5_t  				Numeric, kg P2O5 recycled per tonne crop product			P2O5 recycled per tonne of crop product
+Recycled_K2O_kg_K2O_t   				Numeric, kg K2O recycled per tonne crop product				K2O recycled per tonne of crop product
+test							Character								Indicates whether a validation test was performed on the data with a * indicating there was and no data indicating there was no validation test			
+test_1							Character								Indicates what was tested in the validation of data. These tests included comparison with typical protein concentrations of the crop product.
+Estimate						Character								Indicates the protein equivalent value used in the validation test. 
+Note							Character								Indicates any additional notes for validating the data.							
+Crop_families						Character								Indicates the different crop family categories used by the IFA. 
+Crop_family_numbers					Character								Indicates the numbers of the different crop families used by the IFA. 
+
+##Data were manually taken from the original 'NUE_tracking_3.38.xlsm' excel file in the 'Crop' worksheet and these data were converted into a csv file.  
+#For questions ask: Cameron Ludemann (cameron.ludemann@wur.nl) or Martin van Ittersum (martin.vanittersum@wur.nl)
+
+This metadata file aligns to: https://www.wur.nl/en/Value-Creation-Cooperation/WDCC/Data-Management-WDCC/Finishing/Publishing-your-dataset-in-a-repository.htm

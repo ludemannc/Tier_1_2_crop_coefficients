@@ -1,0 +1,29 @@
+Metadata
+#File type:CSV
+#File name:"EU_N_Panel_2016_Annex_1_A1_N_animal_feed.csv"
+#File size: 20KB
+#Data are from EU Nitrogen Expert Panel (2016) Nitrogen Use Efficiency (NUE) – Guidance document
+for assessing NUE at farm level. Wageningen University, Alterra, PO Box 47, NL-6700 Wageningen,
+Netherlands.
+#Last name of first author:EU Nitrogen Expert Panel
+#Year of publication: 2016
+#Name of publication or database: Nitrogen Use Efficiency (NUE) – Guidance document for assessing NUE at farm level.
+#Relevant page numbers or tables:Annex 1 A1, pg 36
+#DOI: 
+#Website:http://www.eunep.com/wp-content/uploads/2019/09/NUE-Guidance-Document.pdf
+#Data contained in file:
+#"Missing code"=NA
+#Column description: 
+Column header				Units						Description
+Region                  		Character					Country or region of the world the data is applicable to.
+Primary_reference_of_dataset		Character					The primary reference where these data came from.
+Reference_where_data_were_collated	Character					The reference by which the data were collated. 
+Website_of_source_of_collated_data	Character					The website of the reference by which the data were collated. 
+Material				Character					The type of material for which nitrogen concentration estimate is made. 
+Default_N_content_kg_N_Mg_fresh_weight	Numeric (kg nitrogen per megagram fresh weight)	The concentration of nitrogen in the material. 
+
+##Data were manually taken from pdf tables of results and inputted to an excel where they were converted 
+to a format suitable for a csv file. 
+#For questions ask: Cameron Ludemann (cameron.ludemann@wur.nl) or Martin van Ittersum (martin.vanittersum@wur.nl)
+
+This metadata file aligns to: https://www.wur.nl/en/Value-Creation-Cooperation/WDCC/Data-Management-WDCC/Finishing/Publishing-your-dataset-in-a-repository.htm

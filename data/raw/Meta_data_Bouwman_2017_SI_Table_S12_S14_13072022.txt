@@ -1,0 +1,29 @@
+Metadata
+#File type:CSV
+"#File name:"Bouwman_2017_SI_Table_S12_S14_13072022.csv"
+#File size: 16KB
+#Data are from Bouwman et al (2017) Nature Scientific Reports, Lessons from temporal and spatial patterns in global use of N and P fertilizer on cropland, 7(40366) https://www.nature.com/articles/srep40366
+#Year of publication: 2017
+#Name of publication or database:  Bouwman et al (2017) Nature Scientific Reports, Lessons from temporal and spatial patterns in global use of N and P fertilizer on cropland, 7(40366) https://www.nature.com/articles/srep40366
+#DOI: https://doi.org/10.1038/srep40366
+#Website:https://static-content.springer.com/esm/art%3A10.1038%2Fsrep40366/MediaObjects/41598_2017_BFsrep40366_MOESM320_ESM.pdf
+#Data contained in file:
+#"Missing code""=NA"
+
+#Worksheet  description: 
+Column header						Units									Description
+Reference_where_data_were_collated			Character								Reference by which the data were collated for use in this dataset
+Website_of_source_of_collated_data			Character								Website of the reference by which the data were collated for use in this dataset
+Crop_number						Numeric 								Value for sequential unique number of row for each crop	
+Crop_component						Character								Indicates whether the nutrient concentration data is for a component that is Crop_products or Crop_residues
+Crop_group_1						Numeric, integer							Number aligns to Crop_group_name_1 whereby 1=Upland crops, 2=Legumes, 3=Rice.
+Crop_group_2						Numeric, integer							Number aligns to Crop_group_name_2 whereby 1=Temperate cereals, 2=Rice, 3=Maize, 4=Tropical cereals, 5=Pulses, 6=Roots and tuber crops, 7=Oil crops and 8=Other crops. These are the same categories as used for the Crop_residue 'Crop' information.					
+Crop_component_N_concentration_kg_N_kg_DM		Numeric									Nitrogen concentration of crop component in kg nitrogen per kg dry matter.								
+Crop_component_P_concentration_kg_elemental_P_kg_DM	Numeric									Elemental phosphorus concentration of crop component in kg elemental phosphorus per kg dry matter.
+Crop_group_name_1					Character								Name of crop category based on number categorisation in Crop_group_1.
+Crop_group_name_2					Character								Name of crop category based on number categorisation in Crop_group_2.								
+
+##Data were manually taken from the original  supplmentary material pdf in Table S12 and S14 (using adobe converter from pdf to excel) and converted to one combined csv file.  
+#For questions ask: Cameron Ludemann (cameron.ludemann@wur.nl) or Martin van Ittersum (martin.vanittersum@wur.nl)
+
+This metadata file aligns to: https://www.wur.nl/en/Value-Creation-Cooperation/WDCC/Data-Management-WDCC/Finishing/Publishing-your-dataset-in-a-repository.htm

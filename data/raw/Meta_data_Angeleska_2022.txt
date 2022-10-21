@@ -1,0 +1,52 @@
+Metadata
+#File type:CSV
+"#File name:"Angeleska_2022.csv"
+#File size: 77KB
+#Data are from: Angeleska et al (2022) 
+#Year of publication: 2022
+#Name of publication or database: Angeleska et al (2022) Radionuclide contamination and nutritional evaluation of the
+wheat mostly used in the Republic of North Macedonia Agro-knowledge Journal  23 (2) 67-75 DOI 10.7251/AGREN2202067A 
+#DOI: DOI 10.7251/AGREN2202067A 
+#Website: https://repository.ukim.mk/handle/20.500.12188/21391
+#Data contained in file:
+#"Missing code""=NA"
+
+Description: 
+Column header						Units									Description
+Year							Numeric									Year by which the wheat samples were made. Note that the sowing date of these wheat may be the previous year(s).
+Original_country					Character								Indicated the country these data relate to*
+Original_state					        Character								Indicated the state these data relate to*
+Sample_site						Character								Indicated original sample site these data relate to*
+Original_region						Character								Indicated the region these data relate to*
+Reference_where_data_were_collated			Character								Reference by which the data were collated for use in this dataset
+Website_of_source_of_collated_data			Character								Website of the reference by which the data were collated for use in this dataset
+Primary_reference_of_dataset				Character								Indicates the primary reference where data were originally taken from. 
+Original_crop						Character								Original crop name used in report.
+Original_crop_component					Character								Crop component information added by Cameron Ludemann (as either Crop_products or Crop_residues)
+variable						Character								Indicates the variable by which the value relates to**.
+value							Numeric									Numeric value associated with the variable.
+Table_number						Numeric									Indicates the table number from this reference where the data came from.
+
+*Note that this study took wheat samples from the North Macedonian city of Skopje. But according to Angeleska et al (2021) North Macedonia is self-sufficient in wheat production so the measures made in this article should be presentative of what was grown in 2019.
+Angeleska et al (2021) Ekonomika Poljoprivrede https://scindeks.ceon.rs/Article.aspx?artid=0352-34622103675A available at: https://www.researchgate.net/publication/354896769_Analysis_of_wheat_production_in_the_Republic_of_North_Macedonia_from_2016-2019
+
+**variables were as follows: 
+variable						Units									Description
+Protein_pc						Numeric, percentage of dry matter as protein				Mean percentage of dry matter as protein.
+Protein_pc_sd						Numeric, standard deviation of percentage of dry matter as protein	Standard deviation of percentage of dry matter as protein.
+N_pc							Numeric, percentage of dry matter as nitrogen				Mean percentage of dry matter as nitrogen.
+N_pc_sd							Numeric, standard deviation of percentage of dry matter as nitrogen	Standard deviation of percentage of dry matter as nitrogen.
+Nitrogen_to_protein_factor				Numeric, value to convert nitrogen percentage to protein percentage	A numeric factor which when multiplied by the nitrogen percentage gives you the protein percentage.
+Fat_pc							Numeric, percentage of dry matter as fat				Mean percentage of dry matter as fat.
+Fat_pc_sd						Numeric, standard deviation of percentage of dry matter as fat 		Standard deviation of percentage of dry matter as fat.
+Water_pc						Numeric, percentage of dry matter as water				Mean percentage of dry matter as water.
+Water_pc_sd						Numeric, standard deviation of percentage of dry matter as water 	Standard deviation of percentage of dry matter as water.
+Ash_pc							Numeric, percentage of dry matter as Ash				Mean percentage of dry matter as Ash.
+Ash_pc_sd						Numeric, standard deviation of percentage of dry matter as Ash		Standard deviation of percentage of dry matter as Ash.
+Cellulose_pc						Numeric, percentage of dry matter as Cellulose 				Mean percentage of dry matter as Cellulose.
+Cellulose_pc_sd						Numeric, standard deviation of percentage of dry matter as Cellulose 	Standard deviation of percentage of dry matter as Cellulose.
+
+##Data were manually taken from the original pdf and converted to one combined excel file for conversion into a csv file.  
+#For questions ask: Cameron Ludemann (cameron.ludemann@wur.nl) or Martin van Ittersum (martin.vanittersum@wur.nl)
+
+This metadata file aligns to: https://www.wur.nl/en/Value-Creation-Cooperation/WDCC/Data-Management-WDCC/Finishing/Publishing-your-dataset-in-a-repository.htm

@@ -1,0 +1,28 @@
+Metadata
+#File type:CSV
+"#File name:"FAO_Dec_2020_nutrient_budget_coefficients.csv"
+#File size: 37KB
+#Data are from: FAO(2020) FAOSTAT Domain Soil Nutrient Budget Metadata, release December 2020 https://fenixservices.fao.org/faostat/static/documents/ESB/ESB_e.pdf
+#Last name of first author:FAO
+#Year of publication: 2020
+#Name of publication or database: FAOSTAT Domain Soil Nutrient Budget Metadata
+#Relevant page numbers or tables:tables of page 2 and 3
+#DOI: 
+#Website: https://fenixservices.fao.org/faostat/static/documents/ESB/ESB_e.pdf
+#Data contained in file:
+#"Missing code""=NA"
+#Column description: 
+Column header						Units							Description
+Item_code						Numeric							Food and Agriculture Organisation Item numeric code related to crop type
+Item							Character						Food and Agriculture Organisation Item character code related to crop type
+Variable						Character						Variable that the data in the Value column relates to, where 'N_fixed_metric_t_fixed_per_metric_tonne_crop_product' is the quantity of nitrogen fixed by the crop (in metric tonnes of nitrogen per metric tonne of crop product) and 'N_removal_metric_t_N_removed_per_metric_t_crop_product' is the quantity of nitrogen in the crop product expressed as metric tonnes of nitrogen per metric tonne of crop product (fresh weight).  
+Value							Numeric, value						Value that relates to the variable column of information.
+Primary_reference_of_dataset				Character						Primary reference from which the data came from
+Reference_where_data_were_collated			Character						Reference by which the data were collated for use in this dataset
+Website_of_source_of_collated_data			Character						Website of the reference by which the data were collated for use in this dataset
+
+##Data were manually taken from pdf tables of results and inputted to an excel where they were converted 
+to a format suitable for a csv file. 
+#For questions ask: Cameron Ludemann (cameron.ludemann@wur.nl) or Martin van Ittersum (martin.vanittersum@wur.nl)
+
+This metadata file aligns to: https://www.wur.nl/en/Value-Creation-Cooperation/WDCC/Data-Management-WDCC/Finishing/Publishing-your-dataset-in-a-repository.htm

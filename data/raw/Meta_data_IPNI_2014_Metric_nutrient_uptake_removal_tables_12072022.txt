@@ -1,0 +1,28 @@
+Metadata
+#File type:CSV
+"#File name:"IPNI_2012_Metric_nutrient_uptake_removal_tables_12072022.csv"
+#File size: 22KB
+#Data are from IPNI (2014) IPNI Estimates of Nutrient Uptake and Removal, available at: http://www.ipni.net/ipniweb/portal.nsf/0/CBDC9962624CDFCD85257AC60050BBD2/$FILE/Metric%204_1%20&%204_5%200115.pdf 
+#Last name of first author:IPNI
+#Year of publication: 2014
+#Name of publication or database: IPNI (2014) IPNI Estimates of Nutrient Uptake and Removal, available at: http://www.ipni.net/ipniweb/portal.nsf/0/CBDC9962624CDFCD85257AC60050BBD2/$FILE/Metric%204_1%20&%204_5%200115.pdf 
+#DOI: 
+#Website:http://www.ipni.net/ipniweb/portal.nsf/0/CBDC9962624CDFCD85257AC60050BBD2/$FILE/Metric%204_1%20&%204_5%200115.pdf
+#Data contained in file:
+#"Missing code""=NA"
+
+#Column description: 
+Column header						Units									Description
+Crop							Character								Crop type and component if applicable. If DM is mentioned in crop name it means values are for the dry matter of the crop at crop harvest time. Otherwise moisture content is standard marketing convention or at the stated moisture content. 
+Nitrogen_concentration_kg_metric_tonne			Numeric kg nitrogen per metric tonne of crop type/component		Kilograms of nitrogen per metric tonne of the crop type/component. If DM is mentioned in crop name it means values are for the dry matter of the crop at crop harvest time. Otherwise moisture content is standard marketing convention or at the stated moisture content. 
+P2O5_concentration_kg_metric_tonne			Numeric kg P2O5 per metric tonne of crop type/component			Kilograms of P2O5 per metric tonne of the crop type/component. If DM is mentioned in crop name it means values are for the dry matter of the crop at crop harvest time. Otherwise moisture content is standard marketing convention or at the stated moisture content. 
+K2O_concentration_kg_metric_tonne			Numeric kg K2O per metric tonne of crop type/component			Kilograms of K2O per metric tonne of the crop type/component. If DM is mentioned in crop name it means values are for the dry matter of the crop at crop harvest time. Otherwise moisture content is standard marketing convention or at the stated moisture content. 
+S_concentration_kg_metric_tonne				Numeric kg elemental sulphur per metric tonne of crop type/component	Kilograms of elemental sulphur per metric tonne of the crop type/component. If DM is mentioned in crop name it means values are for the dry matter of the crop at crop harvest time. Otherwise moisture content is standard marketing convention or at the stated moisture content. 
+Reference_where_data_were_collated			Character								Reference by which the data were collated for use in this dataset
+Website_of_source_of_collated_data			Character								Website of the reference by which the data were collated for use in this dataset
+
+##Data were manually taken from pdf tables of results and inputted to an excel where they were converted 
+to a format suitable for a csv file. 
+#For questions ask: Cameron Ludemann (cameron.ludemann@wur.nl) or Martin van Ittersum (martin.vanittersum@wur.nl)
+
+This metadata file aligns to: https://www.wur.nl/en/Value-Creation-Cooperation/WDCC/Data-Management-WDCC/Finishing/Publishing-your-dataset-in-a-repository.htm

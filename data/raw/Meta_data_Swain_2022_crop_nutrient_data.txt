@@ -1,0 +1,50 @@
+Metadata
+#File type:CSV
+"#File name:"Swain_2022_crop_nutrient_data.csv"
+#File size: 246KB
+#Data are from: Swain et al (2022)  
+#Year of publication: 2022
+#Name of publication or database:  Swain, B., Rahman, H., Jones, C., Teufel, N. and Prasad KVSK. 2022. Nutritional content of different feed and fodder resources in different agroclimatic
+zones of Odisha. ILRI Project Report. Nairobi, Kenya: ILRI. https://hdl.handle.net/10568/120507
+#DOI: 
+#Website: https://hdl.handle.net/10568/120507
+#Data contained in file:
+#"Missing code""=NA"
+
+Description: 
+Column header						Units									Description
+Reference_where_data_were_collated			Character								Reference by which the data were collated for use in this dataset
+Website_of_source_of_collated_data			Character								Website of the reference by which the data were collated for use in this dataset
+Primary_reference_of_dataset				Character								Indicates the primary reference where data were originally taken from. 
+Original_country					Character								Indicates country these data relate to.
+Original_state						Character								Indicates state in India where these data relate to.
+Original_region						Character								Indicated the Country_state where these data relate to*.
+Original_crop						Character								Original crop name used in report.
+Original_crop_component					Character								Crop component information added by Cameron Ludemann (as either Crop_products or Crop_residues)
+variable						Character								Indicates the variable by which the value relates to**.
+value							Numeric									Numeric value associated with the variable.
+Table_number						Numric									Indicates the table number from this reference where the data came from.
+
+*Note that Cameron Ludemann contacted two of the authors of this dataset (Chris Jones and Braja Swain at GCIAR) to ask if the values shown in the report represent what is actually grown in Odisha (as it could include some imported feeds).
+Braja's reply was as follows:  "Yes, most of crops (green and dry forages) are grown in Odisha. Around 50% of concentrate feed is imported from Other states of India (i.e. Andhra Pradesh, Madhya Pradesh and other neighbour state)." 
+
+**variables were as follows: 
+variable						Units									Description
+No_samples						Integer									Number of samples by which the mean and standard deviation values are based on.	
+DM_pc							Percentage of fresh weight as dry matter				The mean percentage of fresh weight of item as dry matter.
+DM_pc_sd						Percentage of fresh weight as dry matter				The standard deviation of the percentage of fresh weight of item as dry matter.
+DM_pc_max						Percentage of fresh weight as dry matter				The maximum value of the percentage of fresh weight of item as dry matter.
+DM_pc_min						Percentage of fresh weight as dry matter				The minimum value of the percentage of fresh weight of item as dry matter.
+Protein_pc						Percentage of dry matter as protein					The mean percentage of dry matter as protein.
+Protein_pc_sd						Percentage of dry matter as protein					The standard deviation of the percentage of dry matter as protein.
+Protein_pc_max						Percentage of dry matter as protein					The maximum value of the percentage of dry matter as protein.
+Protein_pc_min						Percentage of dry matter as protein					The minimum value of the percentage of dry matter as protein.
+N_pc							Percentage of dry matter as nitrogen					The mean percentage of dry matter as nitrogen.(Based on 6.25 factor to convert protein to nitrogen a per ILRI: https://feedsdatabase.ilri.org/variables)
+N_pc_sd							Percentage of dry matter as nitrogen					The standard deviation of the percentage of dry matter as nitrogen.
+N_pc_max						Percentage of dry matter as nitrogen					The maximum value of the percentage of dry matter as nitrogen.
+N_pc_min						Percentage of dry matter as nitrogen					The minimum value of the percentage of dry matter as nitrogen.
+
+##Data were manually taken from the original pdf and converted to one combined excel file for conversion into a csv file.  
+#For questions ask: Cameron Ludemann (cameron.ludemann@wur.nl) or Martin van Ittersum (martin.vanittersum@wur.nl)
+
+This metadata file aligns to: https://www.wur.nl/en/Value-Creation-Cooperation/WDCC/Data-Management-WDCC/Finishing/Publishing-your-dataset-in-a-repository.htm

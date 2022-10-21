@@ -1,0 +1,32 @@
+Metadata
+#File type:csv
+#File name:"Conant_et_al_2013_Supp_Tble_raw_data22062020.csv"
+#File size: 2KB
+#Data are from Conant et al (2013) Global Biogeochemical Cycles, Auxillary Table 2. 
+#Last name of first author:Conant
+#Year of publication: 2013
+#Name of publication or database: Global Biochemical Cycles
+#Relevant page numbers or tables:Auxillary Table 2
+#DOI: https://doi.org/10.1002/gbc.20053
+#Website:https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/gbc.20053
+#Data contained in file:
+##"Missing code"=NA
+##Column description: 
+Column header				Units						Description
+World_region_Conant_(2013)		Country or region of the world			World region according to Conant et al (2013)
+Crop					Crop						Crop type
+Crop_residue_returned$Region		Proportion					This is the inverse of the proportion of crop residue exported
+Crop_residue_returned$Proportion	Proportion					This was based on fraction/proportion. 
+Units					Proportion					This was based on fraction/proportion. 
+Author					Last_name					The first author/organisation that wrote/developed this source of data. Use et al if more than one author.  
+Source_title				Various						Title of the journal/book/ website or database ("source") this came from. 
+Pub_year				Years						The year of publication/version of the source of data. 
+Pub_page				Number						The main page these data came from in the source of data.
+DOI					DOI						Digital object identifier
+
+#Data were manually taken from pdf tables of results and inputted to an excel where they were converted 
+to a format suitable for a csv file. 
+#For questions ask: Cameron Ludemann (cameron.ludemann@wur.nl) or Martin van Ittersum (martin.vanittersum@wur.nl)
+
+
+This metadata file aligns to: https://www.wur.nl/en/Value-Creation-Cooperation/WDCC/Data-Management-WDCC/Finishing/Publishing-your-dataset-in-a-repository.htm

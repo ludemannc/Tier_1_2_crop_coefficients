@@ -1,0 +1,39 @@
+Metadata
+#File type:csv
+#File name:"Nijhof_1987_26082022.csv"
+#File size: 29KB
+#Data are from Nijhof (1987)The concentrations of macro-elements 
+in economic products and residues of (sub) tropical field crops  pg 3-4 
+#Last name of first author:Nijhof
+#Year of publication: 1987
+#Name of publication or database: The concentrations of macro-elements 
+in economic products and residues of (sub) tropical field crops
+#Relevant page numbers or tables:pg 3-4
+#DOI: NA
+#Website:https://books.google.nl/books/about/The_Concentrations_of_Macro_elements_in.html?id=kXZKnQAACAAJ&redir_esc=y
+#Data contained in file:
+##Missing code=NA
+##Column description:
+ 
+Column header						Units					Description
+Reference_where_data_were_collated			Character				Reference by which the data were collated for use in this dataset
+Website_of_source_of_collated_data			Character				Website of the reference by which the data were collated for use in this dataset
+Primary_reference_of_dataset				Character				Indicates the primary reference where data were originally taken from.
+Original_crop						Character				Original crop name used in report.
+Original_crop_component					Character				Original crop component information from this reference.
+N_pc_min_90pc_CI					Numeric, % dry matter as nitrogen	Minimum value for nitrogen concentration of crop component. Note (as per pg 1-2 of Nijhof (1987)) 'the established ranges cover 90% [confidence interval, CI] of the values found, i.e. the upper and lower extremes were excluded'.				
+N_pc_max_90pc_CI					Numeric, % dry matter as nitrogen	Maximum value for nitrogen concentration of crop component. Note (as per pg 1-2 of Nijhof (1987)) 'the established ranges cover 90% [confidence interval, CI] of the values found, i.e. the upper and lower extremes were excluded'.	
+P_pc_min_90pc_CI					Numeric, % dry matter as elemental P	Minimum value for elemental phosphorus concentration of crop component. Note (as per pg 1-2 of Nijhof (1987)) 'the established ranges cover 90% [confidence interval, CI] of the values found, i.e. the upper and lower extremes were excluded'.				
+P_pc_max_90pc_CI					Numeric, % dry matter as elemental P	Maximum value for elemental phosphorus concentration of crop component. Note (as per pg 1-2 of Nijhof (1987)) 'the established ranges cover 90% [confidence interval, CI] of the values found, i.e. the upper and lower extremes were excluded'.	
+K_pc_min_90pc_CI					Numeric, % dry matter as elemental K	Minimum value for elemental potassium concentration of crop component. Note (as per pg 1-2 of Nijhof (1987)) 'the established ranges cover 90% [confidence interval, CI] of the values found, i.e. the upper and lower extremes were excluded'.				
+K_pc_max_90pc_CI					Numeric, % dry matter as elemental K	Maximum value for elemental potassium concentration of crop component. Note (as per pg 1-2 of Nijhof (1987)) 'the established ranges cover 90% [confidence interval, CI] of the values found, i.e. the upper and lower extremes were excluded'.	
+Author_last_name				      	Character				First author's last name.
+Source_title						Character				Title of the source of data.
+Pub_year						Numeric, integer			Year of publication for source of data
+Pub_page_numer						Character				Publication page number for source of data
+
+#Data were manually taken from pdf tables of results and inputted to an excel where they were converted 
+to a format suitable for a csv file. 
+#For questions ask: Cameron Ludemann (cameron.ludemann@wur.nl) or Martin van Ittersum (martin.vanittersum@wur.nl)
+
+This metadata file aligns to: https://www.wur.nl/en/Value-Creation-Cooperation/WDCC/Data-Management-WDCC/Finishing/Publishing-your-dataset-in-a-repository.htm

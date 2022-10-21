@@ -1,0 +1,150 @@
+Metadata					
+#File type:	CSV				
+#File name:	Kumssa_2022.csv				
+#File size:	2837KB				
+#Data are from: 	Kumssa et al (2022)				
+#Year of publication: 	2022				
+#Name of publication or database:  	Kumssa et al (2022) Cereal grain mineral micronutrient and soil chemistry data from GeoNutrition surveys in Ethiopia and Malawi. Scientific Data 1 pp443 Doi: 10.1038/s41597-022-01500-5				
+#DOI: 	10.1038/s41597-022-01500-5				
+#Website:	https://doi.org/10.1038/s41597-022-01500-5				
+#Data contained in file:					
+"#""Missing code""""=NA"""					
+					
+"Below lists the column headers and their description. ""Description_1_Element"" indicates which element was tested and for what component (plant grain or soil), ""Description_2_Fraction""  describes what fraction was tested  (for plants this is Crop_products and for soil samples this shows what fraction of the nutrient was tested), ""Description_3_Extraction"" describes what nutrient extraction method was used and ""File"" indicates the name of the file-in the supplementary material section of the article- which this meta-data information came from. "					
+"Note that ""Crop_ICP_Run_Se"" was only available for Malawi data. "					
+Description: 					
+Column header	Units	Description_1_Element	Description_2_Fraction	Description_3_Extraction	File
+Original_region	Character	Indicated the region these data relate to*			
+Reference_where_data_were_collated	Character	Reference by which the data were collated for use in this dataset			
+Website_of_source_of_collated_data	Character	Website of the reference by which the data were collated for use in this dataset			
+Primary_reference_of_dataset	Character	Indicates the primary reference where data were originally taken from. 			
+Original_crop	Character	Original crop name used in report.			
+Original_crop_component	Character	Crop component information added by Cameron Ludemann (as either Crop_products or Crop_residues)			
+FundingSource	Character	BMGF = Bill & Melinda Gates Foundation (Sampling carried out in November 2018 - February 2019); GCRF = Global Challenges Research Fund Sampling carried out in November 2017 - February 2018)			ETH_Notes.csv
+ID	Character	Sample identification number 			ETH_Notes.csv
+Crop_ICP_Run	Character	The ICP-MS (Inductively Coupled Plasma Mass Spectrometry) analytical run from which the LOD was calculated. Please use the run number to find out the crop elemental limits of detection (LOD)			ETH_Notes.csv
+Crop_ICP_Run_Se	Character	The ICPMS (Inductively Coupled Plasma Mass Spectrometry) analytical run from which the LOD for Se was calculated. Please use the run number to find out the crop Se limits of detection (LOD)			MWI_Notes.csv
+Latitude	Character	"Latitude of the sampled field (Geographic Coordinate System), in decimal degrees, WGS84 (EPSG:4326)"			ETH_Notes.csv
+Longitude	Character	"Longitude of the sampled field (Geographic Coordinate System),  in decimal degrees, WGS84 (EPSG:4326)"			ETH_Notes.csv
+Altitude	Character	Altitude of the sampled field (meters above sea level)			ETH_Notes.csv
+LocationPrecision	Character	Geospatial location accuracy in meters			ETH_Notes.csv
+SamplingStart	Character	The start date and time of cereal grain and soil field sampling			ETH_Notes.csv
+SamplingEnd	Character	The end date and time of cereal grain and soil field sampling			ETH_Notes.csv
+Crop	Character	Species of the sampled staple cereal crop			ETH_Notes.csv
+GrainSource	Character	"Source of the sampled grain (standing crop, field stack, or store)"			ETH_Notes.csv
+Site	Character	Main or closer pair			ETH_Notes.csv
+Ag_grain	Milligrams per kilogram of dry matter	Ag concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+Al_grain	Milligrams per kilogram of dry matter	Al concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+As_grain	Milligrams per kilogram of dry matter	As concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+B_grain	Milligrams per kilogram of dry matter	B concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+Ba_grain	Milligrams per kilogram of dry matter	Ba concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+Be_grain	Milligrams per kilogram of dry matter	Be concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+Ca_grain	Milligrams per kilogram of dry matter	Ca concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+Cd_grain	Milligrams per kilogram of dry matter	Cd concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+Co_grain	Milligrams per kilogram of dry matter	Co concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+Cr_grain	Milligrams per kilogram of dry matter	Cr concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+Cs_grain	Milligrams per kilogram of dry matter	Cs concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+Cu_grain	Milligrams per kilogram of dry matter	Cu concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+Fe_grain	Milligrams per kilogram of dry matter	Fe concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+K_grain	Milligrams per kilogram of dry matter	K concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+Li_grain	Milligrams per kilogram of dry matter	Li concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+Mg_grain	Milligrams per kilogram of dry matter	Mg concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+Mn_grain	Milligrams per kilogram of dry matter	Mn concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+Mo_grain	Milligrams per kilogram of dry matter	Mo  concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+Ni_grain	Milligrams per kilogram of dry matter	Ni  concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+P_grain	Milligrams per kilogram of dry matter	P concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+Pb_grain	Milligrams per kilogram of dry matter	Pb concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+Rb_grain	Milligrams per kilogram of dry matter	Rb  concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+S_grain	Milligrams per kilogram of dry matter	S concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+Se_grain	Milligrams per kilogram of dry matter	Se concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+Sr_grain	Milligrams per kilogram of dry matter	Sr concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+Tl_grain	Milligrams per kilogram of dry matter	Tl concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+U_grain	Milligrams per kilogram of dry matter	U concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+V_grain	Milligrams per kilogram of dry matter	V concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+Zn_grain	Milligrams per kilogram of dry matter	Zn concentration plant	Crop_products	"Microwave digested in a Multiwave Pro with a 41HVT56 rotor and pressure-activated venting vessels made of modified polytetrafluoroethylene (56-ml ‘SMART VENT’, Anton Paar)."	ETH_CropElements: 41597_2022_1500_MOESM8_ESM
+Al_Oxa	mg kg-1 DM	Al concentration soil		Oxalate extraction	ETH_SoilProperties.csv: 
+Al_Sol_Ca	mg kg-1 DM	Al concentration soil	Soluble	0.01 M Ca(NO3)2 	ETH_SoilProperties.csv: 
+Al_Tot_Aqu	mg kg-1 DM	Al concentration soil	Total	Aqua regia	ETH_SoilProperties.csv: 
+As_Tot_Aqu	mg kg-1 DM	As concentration soil	Total	Aqua regia	ETH_SoilProperties.csv: 
+Ba_Sol_Ca	mg kg-1 DM	Ba concentration soil	Soluble	0.01 M Ca(NO3)2 	ETH_SoilProperties.csv: 
+C_inorg	%	C concentration soil	Inorganic C		ETH_SoilProperties.csv: 
+C_org	%	C concentration soil	Organic C		ETH_SoilProperties.csv: 
+C_tot	%	C concentration soil	Total C		ETH_SoilProperties.csv: 
+Ca_CEC	cmolc kg-1	Ca concentration soil	Exchangable 	cobalt(III) hexamine 	ETH_SoilProperties.csv: 
+Ca_Tot_Aqu	mg kg-1 DM	Ca concentration soil	Total	Aqua regia	ETH_SoilProperties.csv: 
+Cd_DTPA	mg kg-1 DM	Cd concentration soil	Potentially available	DTPA	ETH_SoilProperties.csv: 
+Cd_Sol_Ca	mg kg-1 DM	Cd concentration soil	Soluble	0.01 M Ca(NO3)2 	ETH_SoilProperties.csv: 
+Cd_Tot_Aqu	mg kg-1 DM	Cd concentration soil	Total	Aqua regia	ETH_SoilProperties.csv: 
+Co_CaCl	mg kg-1 DM	Co concentration soil	Soluble 	0.01 M CaCl2	ETH_SoilProperties.csv: 
+Co_DTPA	mg kg-1 DM	Co concentration soil	Potentially available	DTPA	ETH_SoilProperties.csv: 
+Co_Sol_Ca	mg kg-1 DM	Co concentration soil	Soluble	0.01 M Ca(NO3)2 	ETH_SoilProperties.csv: 
+Co_Tot_Aqu	mg kg-1 DM	Co concentration soil	Total	Aqua regia	ETH_SoilProperties.csv: 
+Cr_Tot_Aqu	mg kg-1 DM	Cr concentration soil	Total	Aqua regia	ETH_SoilProperties.csv: 
+Cu_CaCl	mg kg-1 DM	Cu concentration soil	Soluble 	0.01 M CaCl2	ETH_SoilProperties.csv: 
+Cu_DTPA	mg kg-1 DM	Cu concentration soil	Potentially available	DTPA	ETH_SoilProperties.csv: 
+Cu_Sol_Ca	mg kg-1 DM	Cu concentration soil	Soluble	0.01 M Ca(NO3)2 	ETH_SoilProperties.csv: 
+Cu_Tot_Aqu	mg kg-1 DM	Cu concentration soil	Total	Aqua regia	ETH_SoilProperties.csv: 
+eCEC	cmolc kg-1	eCEC concentration soil	Effective cation exchange capacity	cobalt(III) hexamine 	ETH_SoilProperties.csv: 
+Fe_CaCl	mg kg-1 DM	Fe concentration soil	Soluble 	0.01 M CaCl2	ETH_SoilProperties.csv: 
+Fe_DTPA	mg kg-1 DM	Fe concentration soil	Potentially available	DTPA	ETH_SoilProperties.csv: 
+Fe_Oxa	mg kg-1 DM	Fe concentration soil		Oxalate 	ETH_SoilProperties.csv: 
+Fe_Sol_Ca	mg kg-1 DM	Fe concentration soil	Soluble	0.01 M Ca(NO3)2 	ETH_SoilProperties.csv: 
+Fe_Tot_Aqu	mg kg-1 DM	Fe concentration soil	Total	Aqua regia	ETH_SoilProperties.csv: 
+K_CaCl	mg kg-1 DM	K concentration soil	Soluble 	0.01 M CaCl2	ETH_SoilProperties.csv: 
+K_CEC	cmolc kg-1	K concentration soil	Exchangable 	cobalt(III) hexamine 	ETH_SoilProperties.csv: 
+K_Sol_Ca	mg kg-1 DM	K concentration soil	Soluble	0.01 M Ca(NO3)2 	ETH_SoilProperties.csv: 
+K_Tot_Aqu	mg kg-1 DM	K concentration soil	Total	Aqua regia	ETH_SoilProperties.csv: 
+Mg_CaCl	mg kg-1 DM	Mg concentration soil	Soluble 	0.01 M CaCl2	ETH_SoilProperties.csv: 
+Mg_CEC	cmolc kg-1	Mg concentration soil	Exchangable 	cobalt(III) hexamine 	ETH_SoilProperties.csv: 
+Mg_Sol_Ca	mg kg-1 DM	Mg concentration soil	Soluble	0.01 M Ca(NO3)2 	ETH_SoilProperties.csv: 
+Mg_Tot_Aqu	mg kg-1 DM	Mg concentration soil	Total	Aqua regia	ETH_SoilProperties.csv: 
+Mn_CaCl	mg kg-1 DM	Mn concentration soil	Soluble 	0.01 M CaCl2	ETH_SoilProperties.csv: 
+Mn_DTPA	mg kg-1 DM	Mn concentration soil	Potentially available	DTPA	ETH_SoilProperties.csv: 
+Mn_Oxa	mg kg-1 DM	Mn concentration soil		Oxalate 	ETH_SoilProperties.csv: 
+Mn_Sol_Ca	mg kg-1 DM	Mn concentration soil	Soluble	0.01 M Ca(NO3)2 	ETH_SoilProperties.csv: 
+Mn_Tot_Aqu	mg kg-1 DM	Mn concentration soil	Total	Aqua regia	ETH_SoilProperties.csv: 
+Mo_CaCl	mg kg-1 DM	Mo concentration soil	Soluble 	0.01 M CaCl2	ETH_SoilProperties.csv: 
+Mo_Sol_Ca	mg kg-1 DM	Mo concentration soil	Soluble	0.01 M Ca(NO3)2 	ETH_SoilProperties.csv: 
+Mo_Tot_Aqu	mg kg-1 DM	Mo concentration soil	Total	Aqua regia	ETH_SoilProperties.csv: 
+N_tot	%	N concentration soil	Total N		ETH_SoilProperties.csv: 
+Na_CaCl	mg kg-1 DM	Na concentration soil	Soluble 	0.01 M CaCl2	ETH_SoilProperties.csv: 
+Na_CEC	cmolc kg-1	Na concentration soil	Exchangable 	cobalt(III) hexamine 	ETH_SoilProperties.csv: 
+Na_Sol_Ca	mg kg-1 DM	Na concentration soil	Soluble	0.01 M Ca(NO3)2 	ETH_SoilProperties.csv: 
+Na_Tot_Aqu	mg kg-1 DM	Na concentration soil	Total	Aqua regia	ETH_SoilProperties.csv: 
+Ni_CaCl	mg kg-1 DM	Ni concentration soil	Soluble 	0.01 M CaCl2	ETH_SoilProperties.csv: 
+Ni_DTPA	mg kg-1 DM	Ni concentration soil	Potentially available	DTPA	ETH_SoilProperties.csv: 
+Ni_Sol_Ca	mg kg-1 DM	Ni concentration soil	Soluble	0.01 M Ca(NO3)2 	ETH_SoilProperties.csv: 
+Ni_Tot_Aqu	mg kg-1 DM	Ni concentration soil	Total	Aqua regia	ETH_SoilProperties.csv: 
+NOPC	mg L-1	NO concentration soil	Dissolved organic C		ETH_SoilProperties.csv: 
+P_CaCl	mg kg-1 DM	P_ concentration soil	Soluble 	0.01 M CaCl2	ETH_SoilProperties.csv: 
+P_Olsen	mg kg-1 DM	P concentration soil		Olsen method	ETH_SoilProperties.csv: 
+P_Oxa	mg kg-1 DM	P concentration soil		Oxalate 	ETH_SoilProperties.csv: 
+P_Sol_Ca	mg kg-1 DM	P concentration soil	Soluble	0.01 M Ca(NO3)2 	ETH_SoilProperties.csv: 
+P_Tot_Aqu	mg kg-1 DM	P concentration soil	Total	Aqua regia	ETH_SoilProperties.csv: 
+Pb_DTPA	mg kg-1 DM	Pb concentration soil	Potentially available	DTPA	ETH_SoilProperties.csv: 
+Pb_Sol_Ca	mg kg-1 DM	Pb concentration soil	Soluble	0.01 M Ca(NO3)2 	ETH_SoilProperties.csv: 
+Pb_Tot_Aqu	mg kg-1 DM	Pb concentration soil	Total	Aqua regia	ETH_SoilProperties.csv: 
+PBI	no unit	PBI concentration soil	Phosphorus Buffering Index		ETH_SoilProperties.csv: 
+pH_CaNO	no unit	pH concentration soil	pH measured in 0.01 M Ca(NO3)2		ETH_SoilProperties.csv: 
+pH_w	no unit	pH concentration soil	pH measured in soil:water suspension		ETH_SoilProperties.csv: 
+S_Ads_Seq	mg kg-1 DM	S concentration soil	Adsorbed	Sequential (0.016 M KH2PO4)	ETH_SoilProperties.csv: 
+S_CaCl	mg kg-1 DM	S concentration soil	Soluble	0.01 M CaCl2	ETH_SoilProperties.csv: 
+S_Org_Seq	mg kg-1 DM	S concentration soil	Organic	Sequential (10% TMAH)	ETH_SoilProperties.csv: 
+S_Sol_Seq	mg kg-1 DM	S concentration soil	Soluble	Sequential (0.01 M KNO3)	ETH_SoilProperties.csv: 
+S_Tot_Aqu	mg kg-1 DM	S concentration soil	Total	Aqua regia	ETH_SoilProperties.csv: 
+Se_Ads_Seq	µg kg-1 DM	Se concentration soil	Adsorbed	Sequential (0.016 M KH2PO4)	ETH_SoilProperties.csv: 
+Se_CaCl	mg kg-1 DM	Se concentration soil	Soluble 	0.01 M CaCl2	ETH_SoilProperties.csv: 
+Se_Org_Seq	µg kg-1 DM	Se concentration soil	Organic	Sequential (10% TMAH)	ETH_SoilProperties.csv: 
+Se_Sol_Seq	µg kg-1 DM	Se concentration soil	Soluble	Sequential (0.01 M KNO3)	ETH_SoilProperties.csv: 
+Se_Tot_Aqu	mg kg-1 DM	Se concentration soil	Total	Aqua regia	ETH_SoilProperties.csv: 
+Ti_Tot_Aqu	mg kg-1 DM	Ti concentration soil	Total	Aqua regia	ETH_SoilProperties.csv: 
+U_Sol_Ca	mg kg-1 DM	U concentration soil	Soluble	0.01 M Ca(NO3)2 	ETH_SoilProperties.csv: 
+Zn_CaCl	mg kg-1 DM	Zn concentration soil	Soluble 	0.01 M CaCl2	ETH_SoilProperties.csv: 
+Zn_DTPA	mg kg-1 DM	Zn concentration soil	Potentially available	DTPA	ETH_SoilProperties.csv: 
+Zn_E	mg kg-1 DM	Zn concentration soil	Isotopically exchangeable	Isotopic dilution	ETH_SoilProperties.csv: 
+Zn_FIA	mole L-1	Zn concentration soil	Free ion activity	Predicted by geochemical  Windermere Humic Aqueous Model (WHAM)	ETH_SoilProperties.csv: 
+Zn_LogKd	log (L kg-1)	Zn concentration soil	Partition coefficient	Isotopic dilution	ETH_SoilProperties.csv: 
+Zn_Sol_Ca	mg kg-1 DM	Zn concentration soil	Soluble	0.01 M Ca(NO3)2 	ETH_SoilProperties.csv: 
+Zn_Tot_Aqu	mg kg-1 DM	Zn concentration soil	Total	Aqua regia	ETH_SoilProperties.csv: 
+					
+"*Note that this dataset shows data for the GPS location of the site where grain was measured, not just at the regional or country level. "					

@@ -1,0 +1,50 @@
+Metadata
+#File type:CSV
+"#File name:"Bessembinder_1995.csv"
+#File size: 33KB
+#Data are from: Bessembinder (1995)  
+#Year of publication: 1995
+#Name of publication or database:  Bessembinder, J (1995) Uncertainties in input-output coefficients for land use optimization studies: an illustration with fertilizer use efficiency. Netherlands Journal of Agricultural Science 43, 
+47-59 https://scholar.google.nl/scholar_url?url=https://library.wur.nl/ojs/index.php/njas/article/download/584/298&hl=en&sa=X&ei=r40IY7TmA4v8mgHYs4fIBA&scisig=AAGBfm2CZQpSGUIHpclSFF7HU7uWzlidxQ&oi=scholarr
+#DOI: 
+#Website: https://scholar.google.nl/scholar_url?url=https://library.wur.nl/ojs/index.php/njas/article/download/584/298&hl=en&sa=X&ei=r40IY7TmA4v8mgHYs4fIBA&scisig=AAGBfm2CZQpSGUIHpclSFF7HU7uWzlidxQ&oi=scholarr
+#Data contained in file:
+#"Missing code""=NA"
+
+Description: 
+Column header						Units									Description
+Original_region						Character								Indicated the region these data relate to*
+Reference_where_data_were_collated			Character								Reference by which the data were collated for use in this dataset
+Website_of_source_of_collated_data			Character								Website of the reference by which the data were collated for use in this dataset
+Primary_reference_of_dataset				Character								Indicates the primary reference where data were originally taken from. 
+Original_crop						Character								Original crop name used in report.
+Original_crop_component					Character								Crop component information added by Cameron Ludemann (as either Crop_products or Crop_residues)
+variable						Character								Indicates the variable by which the value relates to**.
+value							Numeric									Numeric value associated with the variable.
+Table_number						Numeric									Indicates the table number from this reference where the data came from.
+
+*Note Bessembinder searched for data relevant to Costa Rica. Most datasets had nutrient concentration data missing and only two datasets were found (see pg 52 of the article) as follows: 
+Dataset 1: Erenstein 1989 was collected from the Atlantic Zone of Costa Rica on 34 farms in 1987 on 6 soil types. 
+Dataset 2: Chin-Fo_Sieew 1994 was from the Atlantic Zone of Costa Rica from a fertilizer trial conducted in 1991 on a relative fertile and an infertile site. Gran yield and harvest index in this dataset may have been lower than dataaset 1 due to bird damage. 
+
+**variables were as follows: 
+variable						Units									Description
+N_pc							Numeric, percentage of dry matter as nitrogen				Mean percentage of dry matter as nitrogen.
+P_pc							Numeric, percentage of dry matter as elemental phosphorus		Mean percentage of dry matter as elemental phosphorus.
+K_pc							Numeric, percentage of dry matter as elemental potassium		Mean percentage of dry matter as elemental potassium.
+N_pc_sd							Numeric, percentage of dry matter as nitrogen				Standard deviation of percentage of dry matter as nitrogen.
+P_pc_sd							Numeric, percentage of dry matter as elemental phosphorus		Standard deviation of percentage of dry matter as elemental phosphorus.
+K_pc_sd 						Numeric, percentage of dry matter as elemental potassium		Standard deviation of percentage of dry matter as elemental potassium.
+N_pc_min						Numeric, percentage of dry matter as nitrogen				Minimum value of percentage of dry matter as nitrogen.
+P_pc_min						Numeric, percentage of dry matter as elemental phosphorus		Minimum value of percentage of dry matter as elemental phosphorus.
+K_pc_min 						Numeric, percentage of dry matter as elemental potassium		Minimum value of percentage of dry matter as elemental potassium.
+No_samples						Numeric, number of samples						Number of samples that went into the mean values.
+Yield_kg_DM_ha						Numeric, yield in kilograms of dry matter per hectare.			Mean grain (crop product) yield in kilograms of dry matter per hectare.
+Yield_kg_DM_ha_sd					Numeric, yield in kilograms of dry matter per hectare.			Standard deviation of grain (crop product) yield in kilograms of dry matter per hectare.
+HI							Numeric, unitless proportion.						Mean harvest index (as proportion).
+HI_sd							Numeric, unitless, proportion.						Standard deviation of harvest index (as proportion).
+
+##Data were manually taken from the original pdf and converted to one combined excel file for conversion into a csv file.  
+#For questions ask: Cameron Ludemann (cameron.ludemann@wur.nl) or Martin van Ittersum (martin.vanittersum@wur.nl)
+
+This metadata file aligns to: https://www.wur.nl/en/Value-Creation-Cooperation/WDCC/Data-Management-WDCC/Finishing/Publishing-your-dataset-in-a-repository.htm

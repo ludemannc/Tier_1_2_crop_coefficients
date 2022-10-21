@@ -1,0 +1,63 @@
+Metadata
+#File type:csv
+#File name:"Norton_2011.csv"
+#File size: 9KB
+#Data are from: Norton (2011) Grain Nutrient Concentrations – Report on a survey from 70 NVT wheat sites, International Plant Nutrition Institute, Australia p. 21 http://anz.ipni.net/ipniweb/region/anz.nsf/0/78FC941DDB64371485257AA00052C97A/$FILE/Grain%20Nutrient%20Concentrations.pdf
+#Last name of first author:Norton
+#Year of publication: 2011
+#Name of publication or database: Grain Nutrient Concentrations – Report on a survey from 70 NVT wheat sites
+#Relevant page numbers or tables:pg 3
+#DOI: NA
+#Website:http://anz.ipni.net/ipniweb/region/anz.nsf/0/78FC941DDB64371485257AA00052C97A/$FILE/Grain%20Nutrient%20Concentrations.pdf
+#Data contained in file:
+##Missing code=NA
+##Column description:
+ 
+Column header						Units						Description
+Original_region						Character					Original name of region data purported to represent.
+Original_state						Character					Original name of state data purported to represent.
+Original_site					        Character					Original name of site data purported to represent.
+Reference_where_data_were_collated			Character					Reference by which the data were collated for use in this dataset
+Website_of_source_of_collated_data			Character					Website of the reference by which the data were collated for use in this dataset
+Primary_reference_of_dataset				Character					Indicates the primary reference where data were originally taken from.
+Pub_page_Number						Numeric						Numeric value indicating page in reference where data were taken from.				
+Original_crop						Character					Original crop name used in report.
+Original_crop_component					Character					Original crop component information from this reference.
+Year_sowing						Character					Indicates years these mean values related to (year of sowing). Two years indicate mean values come from two sowing years.
+Number_years_data					Numeric						Indicates number of years data mean values relate to.
+Site_years						Numeric						Indicates number of site years each mean came from (eg 2 years * 2 sites =4 Site_years.
+Number_values						Numeric						Indicates number of replicates the mean values came from.
+N_pc							Numeric, %					Mean nitrogen concentration of crop as nitrogen as a percentage of dry matter.
+Nitrogen_to_protein_factor				Numeric						Factor use to convert nitrogen percentage to protein percentage.
+Protein_pc						Numeric, %					Mean protein concentration of crop as protein as a percentage of dry matter.
+P_mg_kg_DM						Numeric, milligrams per kg dry matter	        Mean of elemental phosphorus concentration of crop in milligrams per kilogram of dry matter. 
+K_mg_kg_DM						Numeric, milligrams per kg dry matter	        Mean of elemental potassium concentration of crop in milligrams per kilogram of dry matter. 		
+S_mg_kg_DM						Numeric, milligrams per kg dry matter	        Mean of elemental sulphur concentration of crop in milligrams per kilogram of dry matter. 
+Ca_mg_kg_DM						Numeric, milligrams per kg dry matter	        Mean of elemental calcium concentration of crop in milligrams per kilogram of dry matter.	
+Mg_mg_kg_DM						Numeric, milligrams per kg dry matter	        Mean of elemental magnesium concentration of crop in milligrams per kilogram of dry matter.	
+Na_mg_kg_DM						Numeric, milligrams per kg dry matter	        Mean of elemental sodium concentration of crop in milligrams per kilogram of dry matter.	
+Fe_mg_kg_DM						Numeric, milligrams per kg dry matter	        Mean of elemental iron concentration of crop in milligrams per kilogram of dry matter.	
+Mn_mg_kg_DM						Numeric, milligrams per kg dry matter	        Mean of elemental manganese concentration of crop in milligrams per kilogram of dry matter.	
+B_mg_kg_DM						Numeric, milligrams per kg dry matter	        Mean of elemental boron concentration of crop in milligrams per kilogram of dry matter.		
+Cu_mg_kg_DM						Numeric, milligrams per kg dry matter	        Mean of elemental copper concentration of crop in milligrams per kilogram of dry matter.		
+Zn_mg_kg_DM						Numeric, milligrams per kg dry matter	        Mean of elemental zinc concentration of crop in milligrams per kilogram of dry matter.		
+Al_mg_kg_DM						Numeric, milligrams per kg dry matter	        Mean of elemental aluminium concentration of crop in milligrams per kilogram of dry matter.
+N_mg_kg_DM_sd						Numeric, milligrams per kg dry matter	        Standard deviation of nitrogen concentration of crop in milligrams per kilogram of dry matter. 
+P_mg_kg_DM_sd  						Numeric, milligrams per kg dry matter	        Standard deviation of elemental phosphorus concentration of crop in milligrams per kilogram of dry matter. 
+K_mg_kg_DM_sd						Numeric, milligrams per kg dry matter	        Standard deviation of elemental potassium concentration of crop in milligrams per kilogram of dry matter. 		
+S_mg_kg_DM_sd						Numeric, milligrams per kg dry matter	        Standard deviation of elemental sulphur concentration of crop in milligrams per kilogram of dry matter. 
+Ca_mg_kg_DM_sd						Numeric, milligrams per kg dry matter	        Standard deviation of elemental calcium concentration of crop in milligrams per kilogram of dry matter.	
+Mg_mg_kg_DM_sd						Numeric, milligrams per kg dry matter	        Standard deviation of elemental magnesium concentration of crop in milligrams per kilogram of dry matter.	
+Na_mg_kg_DM_sd						Numeric, milligrams per kg dry matter	        Standard deviation of elemental sodium concentration of crop in milligrams per kilogram of dry matter.	
+Fe_mg_kg_DM_sd						Numeric, milligrams per kg dry matter	        Standard deviation of elemental iron concentration of crop in milligrams per kilogram of dry matter.	
+Mn_mg_kg_DM_sd						Numeric, milligrams per kg dry matter	        Standard deviation of elemental manganese concentration of crop in milligrams per kilogram of dry matter.	
+B_mg_kg_DM_sd						Numeric, milligrams per kg dry matter	        Standard deviation of elemental boron concentration of crop in milligrams per kilogram of dry matter.		
+Cu_mg_kg_DM_sd						Numeric, milligrams per kg dry matter	        Standard deviation of elemental copper concentration of crop in milligrams per kilogram of dry matter.		
+Zn_mg_kg_DM_sd						Numeric, milligrams per kg dry matter	        Standard deviation of elemental zinc concentration of crop in milligrams per kilogram of dry matter.		
+Al_mg_kg_DM_sd						Numeric, milligrams per kg dry matter	        Standard deviation of elemental aluminium concentration of crop in milligrams per kilogram of dry matter.
+
+#Data were manually taken from pdf tables of results and inputted to an excel where they were converted 
+to a format suitable for a csv file. 
+#For questions ask: Cameron Ludemann (cameron.ludemann@wur.nl) or Martin van Ittersum (martin.vanittersum@wur.nl)
+
+This metadata file aligns to: https://www.wur.nl/en/Value-Creation-Cooperation/WDCC/Data-Management-WDCC/Finishing/Publishing-your-dataset-in-a-repository.htm

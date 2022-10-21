@@ -1,0 +1,39 @@
+Metadata
+#File type:csv
+#File name:"Koopmans&Koppejan_1998_Annex_1.csv"
+#File size: 66KB
+#Data are from Koopmans and Koppejan (2008) Paper presented at the Regional Consultation on Modern Applications of Biomass Energy, 6-10 January 1997,
+Kuala Lumpur, Malaysia (see FAO, 1998) 
+FAO (1998), Proceedings of the Regional Expert Consultation on Modern Applications of Biomass Energy, FAO Regional Wood Energy Development Programme in Asia, Report No.36, Bangkok.
+#Last name of first author:Koopmans
+#Year of publication: 1998
+#Name of publication or database: Proceedings of the Regional Expert Consultation on Modern Applications of Biomass Energy
+#Relevant page numbers or tables:Annex 1
+#DOI: 
+#Website:http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.469.3270&rep=rep1&type=pdf
+#Data contained in file:
+##"Missing code"=NA
+##Column description: 
+Column header				Units						Description
+Region					Characters					Description of region to which these data relate.					
+Region_1				Characters					Secondary description of regions to which these data relate. 
+RWEDP_member_countries			Characters					A list of countries (in the RWEDP/Regional Wood Energy Development Programme in Asia) in which these data relate. 
+Crop					Characters					Crop name to which these data relate.			
+Component				Characters					Component of crop to which these data relate. 	
+Crop_component				Characters					Crop name and crop component combined.
+Primary_reference_of_dataset		Characters					Primary sources of data from which the data came from.These references were cited by Koopmans & Koppejan (1998) in their collation table. 
+Reference_where_data_were_collated	Characters					Details of the Koopmans & Koppejan (1998) conference paper from which the collation table of data was available to get data for this dataset.
+Website_of_source_of_collated_data	Characters					Website of the Koopmans & Koppejan (1998) conference paper 
+Residue_to_product_ratio		Numeric						A residue to product ratio number for the various crops. The ratio was crop component divided by the crop product.
+Moisture_content_pc			Numeric	percentage of fresh weight		Moisture concentration of crop component.
+Carbon_pc				Numeric	percentage of fresh weight		Carbon concentration of crop component.	
+Nitrogen_pc				Numeric	percentage of fresh weight		Nitrogen concentration of crop component.
+Harvest_index				Numeric	unitless				Harvest index interpolated from residue to product ratio. The equation for harvest index was 1/(1+Residue to product ratio)
+
+
+#Data were manually taken from pdf tables of results and inputted to an excel where they were converted 
+to a format suitable for a csv file. 
+#For questions ask: Cameron Ludemann (cameron.ludemann@wur.nl)
+
+
+This metadata file aligns to: https://www.wur.nl/en/Value-Creation-Cooperation/WDCC/Data-Management-WDCC/Finishing/Publishing-your-dataset-in-a-repository.htm

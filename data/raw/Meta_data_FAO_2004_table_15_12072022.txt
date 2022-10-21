@@ -1,0 +1,34 @@
+Metadata
+#File type:CSV
+"#File name:""FAO_2004_table_15_12072022.csv"""
+#File size: 7KB
+#Data are from FAO(2004) Scaling soil nutrient balances: Enabling mesolevel applications for African realities Table 15: https://www.fao.org/3/y5749e/y5749e00.htm#Contents
+#Last name of first author:FAO
+#Year of publication: 2004
+#Name of publication or database: Scaling soil nutrient balances: Enabling mesolevel applications for African realities
+#Relevant page numbers or tables:Table 15
+#DOI: 
+#Website:https://www.fao.org/3/y5749e/y5749e00.htm#Contents
+#Data contained in file:
+"#""Missing code""=NA"
+#Column description: 
+"Column header						Units							Description"
+"Crops							Character						Names of crop categories"
+"Crop_product_concentration_N_kg_N_tonne		(Numeric) kg of nitrogen per tonne crop product		Nitrogen concentration of crop product"
+"Crop_product_elemental_P_concentration_kg_P_tonne	(Numeric) kg of phosphorus per tonne crop product	Elemental phosphorus concentration of crop product"
+"Crop_product_elemental_K_concentration_kg_K_tonne	(Numeric) kg of potassium per tonne crop product	Elemental potassium concentration of crop product"
+"Crop_residue_concentration_N_kg_N_tonne		(Numeric) kg of nitrogen per tonne crop residue		Nitrogen concentration of crop residue"
+"Crop_residue_elemental_P_concentration_kg_P_tonne	(Numeric) kg of phosphorus per tonne crop residue	Elemental phosphorus concentration of crop residue"
+"Crop_residue_elemental_K_concentration_kg_K_tonne	(Numeric) kg of potassium per tonne crop residue	Elemental potassium concentration of crop residue"
+"Crop_residue_proportion_removed_pc_Ghana		(Numeric) percentage 					percentage of crop residue removed for Ghana"
+"Crop_residue_proportion_removed_pc_Kenya		(Numeric) percentage 					percentage of crop residue removed for Kenya"
+"Crop_residue_proportion_removed_pc_Mali	       	(Numeric) percentage 					percentage of crop residue removed for Mali"
+"Reference						Character						Reference information for where these data were collated as a publication"
+
+
+
+##Data were manually taken from pdf tables of results and inputted to an excel where they were converted 
+to a format suitable for a csv file. 
+#For questions ask: Cameron Ludemann (cameron.ludemann@wur.nl) or Martin van Ittersum (martin.vanittersum@wur.nl)
+
+This metadata file aligns to: https://www.wur.nl/en/Value-Creation-Cooperation/WDCC/Data-Management-WDCC/Finishing/Publishing-your-dataset-in-a-repository.htm

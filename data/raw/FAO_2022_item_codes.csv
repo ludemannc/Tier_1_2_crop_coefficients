@@ -1,0 +1,561 @@
+Item Group Code,Item Group,Item Code,Item,Factor,HS Code,HS07 Code,HS12 Code,CPC Code
+QA,Live Animals,1756,Live Animals,1,,,,F1756
+QL,Livestock primary,1777,"Hides and skins, primary",1,,,,F1777
+1806,Beef and Buffalo Meat,947,"Meat, buffalo",1,,"020110, 020120, 020130, 020210, 020220, 020230","020110, 020120, 020130, 020210, 020220, 020230",21112
+1806,Beef and Buffalo Meat,867,"Meat, cattle",1,,"020110, 020120, 020210, 020220","020110, 020120, 020210, 020220",21111.01
+1811,Butter and Ghee,983,"Butter and ghee, sheep milk",1,,"040510, 040520, 040590","040510, 040520, 040590",22249.01
+1811,Butter and Ghee,952,"Butter, buffalo milk",1,,"040510, 040520","040510, 040520",22242.01
+1811,Butter and Ghee,886,"Butter, cow milk",1,,"040510, 040520","040510, 040520",22241.01
+1811,Butter and Ghee,1022,"Butter, goat milk",1,,"040510, 040520, 040590","040510, 040520, 040590",22249.02
+1811,Butter and Ghee,953,"Ghee, buffalo milk",1,,40590,40590,22242.02
+1811,Butter and Ghee,887,"Ghee, butteroil of cow milk",1,,40590,40590,22241.02
+1746,Cattle and Buffaloes,946,Buffaloes,1,,"010210, 010290","010231, 010239",2112
+1746,Cattle and Buffaloes,866,Cattle,1,,"010210, 010290","010221, 010229",2111
+1717,"Cereals, Total",44,Barley,1,,100300,"100310, 100390",115
+1717,"Cereals, Total",89,Buckwheat,1,,100810,100810,1192
+1717,"Cereals, Total",101,Canary seed,1,,100830,100830,1195
+1717,"Cereals, Total",108,Cereals nes,1,,100890,100890,1199.9
+1717,"Cereals, Total",94,Fonio,1,,100890,100840,1193
+1717,"Cereals, Total",103,"Grain, mixed",1,,100890,100890,1199.02
+1717,"Cereals, Total",56,Maize,1,,"100510, 100590","100510, 100590",112
+1717,"Cereals, Total",79,Millet,1,,100820,"100821, 100829",118
+1717,"Cereals, Total",75,Oats,1,,100400,"100410, 100490",117
+1717,"Cereals, Total",92,Quinoa,1,,100890,100850,1194
+1717,"Cereals, Total",27,"Rice, paddy",1,,100610,100610,113
+1717,"Cereals, Total",71,Rye,1,,100200,"100210, 100290",116
+1717,"Cereals, Total",83,Sorghum,1,,100700,"100710, 100790",114
+1717,"Cereals, Total",97,Triticale,1,,100890,100860,1191
+1717,"Cereals, Total",15,Wheat,1,,"100110, 100190","100111, 100119, 100191, 100199",111
+1745,Cheese (All Kinds),955,"Cheese, buffalo milk",1,,"040610, 040620, 040630, 040640, 040690","040610, 040620, 040630, 040640, 040690",22252
+1745,Cheese (All Kinds),1021,"Cheese, goat milk",1,,"040610, 040620, 040630, 040640, 040690","040610, 040620, 040630, 040640, 040690",22254
+1745,Cheese (All Kinds),984,"Cheese, sheep milk",1,,"040610, 040620, 040630, 040640, 040690","040610, 040620, 040630, 040640, 040690",22253
+1745,Cheese (All Kinds),904,"Cheese, skimmed cow milk",1,,"040610, 040620, 040630, 040640, 040690","040610, 040620, 040630, 040640, 040690",22251.02
+1745,Cheese (All Kinds),901,"Cheese, whole cow milk",1,,"040610, 040620, 040630, 040640, 040690","040610, 040620, 040630, 040640, 040690",22251.01
+1804,"Citrus Fruit, Total",512,"Fruit, citrus nes",1,,80590,80590,1329
+1804,"Citrus Fruit, Total",507,Grapefruit (inc. pomelos),1,,80540,80540,1321
+1804,"Citrus Fruit, Total",497,Lemons and limes,1,,80550,80550,1322
+1804,"Citrus Fruit, Total",490,Oranges,1,,80510,80510,1323
+1804,"Citrus Fruit, Total",495,"Tangerines, mandarins, clementines, satsumas",1,,80520,80520,1324
+1714,Crops Primary,800,Agave fibres nes,1,,530500,530500,1929.06
+1714,Crops Primary,221,"Almonds, with shell",1,,80211,80211,1371
+1714,Crops Primary,711,"Anise, badian, fennel, coriander",1,,"090910, 090920, 090930, 090940, 090950","090921, 090922, 090931, 090932, 090961, 090962",1654
+1714,Crops Primary,515,Apples,1,,80810,80810,1341
+1714,Crops Primary,526,Apricots,1,,80910,80910,1343
+1714,Crops Primary,226,Areca nuts,1,,80290,80280,1379.01
+1714,Crops Primary,366,Artichokes,1,,70990,70991,1216
+1714,Crops Primary,367,Asparagus,1,,70920,70920,1211
+1714,Crops Primary,572,Avocados,1,,80440,80440,1311
+1714,Crops Primary,203,Bambara beans,1,,71339,71334,1708
+1714,Crops Primary,486,Bananas,1,,80300,80390,1312
+1714,Crops Primary,44,Barley,1,,100300,"100310, 100390",115
+1714,Crops Primary,782,"Bastfibres, other",1,,"530310, 530390","530310, 530390",1922.02
+1714,Crops Primary,176,"Beans, dry",1,,"071331, 071332, 071333, 071339","071331, 071332, 071333, 071339",1701
+1714,Crops Primary,414,"Beans, green",1,,70820,70820,1241.9
+1714,Crops Primary,558,Berries nes,1,,"081020, 081040","081020, 081040",1355.9
+1714,Crops Primary,552,Blueberries,1,,81040,81040,1355.01
+1714,Crops Primary,216,"Brazil nuts, with shell",1,,80121,80121,1377
+1714,Crops Primary,181,"Broad beans, horse beans, dry",1,,71350,71350,1702
+1714,Crops Primary,89,Buckwheat,1,,100810,100810,1192
+1714,Crops Primary,358,Cabbages and other brassicas,1,,"070420, 070490","070420, 070490",1212
+1714,Crops Primary,101,Canary seed,1,,100830,100830,1195
+1714,Crops Primary,461,Carobs,1,,121299,121292,1356
+1714,Crops Primary,426,Carrots and turnips,1,,70610,70610,1251
+1714,Crops Primary,217,"Cashew nuts, with shell",1,,80131,80131,1372
+1714,Crops Primary,591,Cashewapple,1,,81090,81090,1359.02
+1714,Crops Primary,125,Cassava,1,,71410,71410,1520.01
+1714,Crops Primary,265,Castor oil seed,1,,120799,120730,1447
+1714,Crops Primary,393,Cauliflowers and broccoli,1,,70410,70410,1213
+1714,Crops Primary,108,Cereals nes,1,,100890,100890,1199.9
+1714,Crops Primary,531,Cherries,1,,80920,80929,1344.02
+1714,Crops Primary,530,"Cherries, sour",1,,80920,80921,1344.01
+1714,Crops Primary,220,Chestnut,1,,80240,"080241, 080242",1373
+1714,Crops Primary,191,Chick peas,1,,71320,71320,1703
+1714,Crops Primary,459,Chicory roots,1,,121299,121294,1691
+1714,Crops Primary,689,"Chillies and peppers, dry",1,,90420,"090421, 090422",1652
+1714,Crops Primary,401,"Chillies and peppers, green",1,,70960,70960,1231
+1714,Crops Primary,693,Cinnamon (cannella),1,,"090611, 090619, 090620","090611, 090619, 090620",1655
+1714,Crops Primary,698,Cloves,1,,90700,"090710, 090720",1656
+1714,Crops Primary,661,"Cocoa, beans",1,,180100,180100,1640
+1714,Crops Primary,249,Coconuts,1,,80119,"080112, 080119",1460
+1714,Crops Primary,656,"Coffee, green",1,,90111,90111,1610
+1714,Crops Primary,195,"Cow peas, dry",1,,71339,71335,1706
+1714,Crops Primary,554,Cranberries,1,,81040,81040,1355.02
+1714,Crops Primary,397,Cucumbers and gherkins,1,,70700,70700,1232
+1714,Crops Primary,550,Currants,1,,81090,81030,1351.01
+1714,Crops Primary,577,Dates,1,,80410,80410,1314
+1714,Crops Primary,399,Eggplants (aubergines),1,,70930,70930,1233
+1714,Crops Primary,821,Fibre crops nes,1,,530500,530500,1929.9
+1714,Crops Primary,569,Figs,1,,80420,80420,1315
+1714,Crops Primary,773,Flax fibre and tow,1,,"530121, 530129","530121, 530129",26190.01
+1714,Crops Primary,94,Fonio,1,,100890,100840,1193
+1714,Crops Primary,512,"Fruit, citrus nes",1,,80590,80590,1329
+1714,Crops Primary,619,"Fruit, fresh nes",1,,81090,81090,1359.9
+1714,Crops Primary,542,"Fruit, pome nes",1,,81090,81090,1349.1
+1714,Crops Primary,541,"Fruit, stone nes",1,,81090,81090,1349.2
+1714,Crops Primary,603,"Fruit, tropical fresh nes",1,,"080450, 081060, 081090","080450, 081060, 081090",1319
+1714,Crops Primary,406,Garlic,1,,70320,70320,1252
+1714,Crops Primary,720,Ginger,1,,91010,"091011, 091012",1657
+1714,Crops Primary,549,Gooseberries,1,,81090,81030,1351.02
+1714,Crops Primary,103,"Grain, mixed",1,,100890,100890,1199.02
+1714,Crops Primary,507,Grapefruit (inc. pomelos),1,,80540,80540,1321
+1714,Crops Primary,560,Grapes,1,,80610,80610,1330
+1714,Crops Primary,242,"Groundnuts, with shell",1,,"120210, 120220","120230, 120241",142
+1714,Crops Primary,839,"Gums, natural",1,,400130,400130,3211
+1714,Crops Primary,225,"Hazelnuts, with shell",1,,80221,80221,1374
+1714,Crops Primary,777,Hemp tow waste,1,,"530210, 530290","530210, 530290",1929.02
+1714,Crops Primary,336,Hempseed,1,,120799,120799,1449.02
+1714,Crops Primary,677,Hops,1,,"121010, 121020","121010, 121020",1659
+1714,Crops Primary,277,Jojoba seed,1,,120799,120799,1499.03
+1714,Crops Primary,780,Jute,1,,"530310, 530390","530310, 530390",1922.01
+1714,Crops Primary,310,Kapok fruit,1,,120799,120799,1499.05
+1714,Crops Primary,263,Karite nuts (sheanuts),1,,120799,120799,1499.01
+1714,Crops Primary,592,Kiwi fruit,1,,81050,81050,1352
+1714,Crops Primary,224,Kola nuts,1,,80290,80270,1379.02
+1714,Crops Primary,407,"Leeks, other alliaceous vegetables",1,,70390,70390,1254
+1714,Crops Primary,497,Lemons and limes,1,,80550,80550,1322
+1714,Crops Primary,201,Lentils,1,,71340,71340,1704
+1714,Crops Primary,372,Lettuce and chicory,1,,"070511, 070519, 070521, 070529","070511, 070519, 070521, 070529",1214
+1714,Crops Primary,333,Linseed,1,,120400,120400,1441
+1714,Crops Primary,210,Lupins,1,,121490,121490,1709.02
+1714,Crops Primary,56,Maize,1,,"100510, 100590","100510, 100590",112
+1714,Crops Primary,446,"Maize, green",1,,70990,70999,1290.01
+1714,Crops Primary,571,"Mangoes, mangosteens, guavas",1,,80450,80450,1316
+1714,Crops Primary,809,Manila fibre (abaca),1,,530500,530500,1929.07
+1714,Crops Primary,671,Maté,1,,90300,90300,1630
+1714,Crops Primary,568,"Melons, other (inc.cantaloupes)",1,,80719,80719,1229
+1714,Crops Primary,299,Melonseed,1,,120799,120770,1449.01
+1714,Crops Primary,79,Millet,1,,100820,"100821, 100829",118
+1714,Crops Primary,449,Mushrooms and truffles,1,,"070951, 070959","070951, 070959",1270
+1714,Crops Primary,292,Mustard seed,1,,120750,120750,1442
+1714,Crops Primary,702,"Nutmeg, mace and cardamoms",1,,"090810, 090820, 090830","090811, 090812, 090821, 090822, 090831, 090832",1653
+1714,Crops Primary,234,Nuts nes,1,,"080260, 080290","080261, 080262, 080290",1379.9
+1714,Crops Primary,75,Oats,1,,100400,"100410, 100490",117
+1714,Crops Primary,254,Oil palm fruit,1,,120799,120710,1491.01
+1714,Crops Primary,339,Oilseeds nes,1,,120799,120799,1449.9
+1714,Crops Primary,430,Okra,1,,70990,70999,1239.01
+1714,Crops Primary,260,Olives,1,,70990,70992,1450
+1714,Crops Primary,403,"Onions, dry",1,,70310,70310,1253.02
+1714,Crops Primary,402,"Onions, shallots, green",1,,70310,70310,1253.01
+1714,Crops Primary,490,Oranges,1,,80510,80510,1323
+1714,Crops Primary,600,Papayas,1,,80720,80720,1317
+1714,Crops Primary,534,Peaches and nectarines,1,,80930,80930,1345
+1714,Crops Primary,521,Pears,1,,80820,80830,1342.01
+1714,Crops Primary,187,"Peas, dry",1,,71310,71310,1705
+1714,Crops Primary,417,"Peas, green",1,,70810,70810,1242
+1714,Crops Primary,687,Pepper (piper spp.),1,,"090411, 090412","090411, 090412",1651
+1714,Crops Primary,748,Peppermint,1,,121190,121190,1930.01
+1714,Crops Primary,587,Persimmons,1,,81090,81070,1359.01
+1714,Crops Primary,197,Pigeon peas,1,,71390,71360,1707
+1714,Crops Primary,574,Pineapples,1,,80430,80430,1318
+1714,Crops Primary,223,Pistachios,1,,80250,"080251, 080252",1375
+1714,Crops Primary,489,Plantains and others,1,,80300,80310,1313
+1714,Crops Primary,536,Plums and sloes,1,,80940,80940,1346
+1714,Crops Primary,296,Poppy seed,1,,120791,120791,1448
+1714,Crops Primary,116,Potatoes,1,,"070110, 070190","070110, 070190",1510
+1714,Crops Primary,211,Pulses nes,1,,71390,71390,1709.9
+1714,Crops Primary,394,"Pumpkins, squash and gourds",1,,70990,70993,1235
+1714,Crops Primary,754,"Pyrethrum, dried",1,,121190,121190,1930.02
+1714,Crops Primary,523,Quinces,1,,80820,80840,1342.02
+1714,Crops Primary,92,Quinoa,1,,100890,100850,1194
+1714,Crops Primary,788,Ramie,1,,530500,530500,1929.04
+1714,Crops Primary,270,Rapeseed,1,,"120510, 120590","120510, 120590",1443
+1714,Crops Primary,547,Raspberries,1,,81020,81020,1353.01
+1714,Crops Primary,27,"Rice, paddy",1,,100610,100610,113
+1714,Crops Primary,149,Roots and tubers nes,1,,71490,71490,1599.1
+1714,Crops Primary,836,"Rubber, natural",1,,400110,400110,1950.01
+1714,Crops Primary,71,Rye,1,,100200,"100210, 100290",116
+1714,Crops Primary,280,Safflower seed,1,,120799,120760,1446
+1714,Crops Primary,328,Seed cotton,1,,520100,520100,1921.01
+1714,Crops Primary,289,Sesame seed,1,,120740,120740,1444
+1714,Crops Primary,789,Sisal,1,,530500,530500,1929.05
+1714,Crops Primary,83,Sorghum,1,,100700,"100710, 100790",114
+1714,Crops Primary,236,Soybeans,1,,120100,"120110, 120190",141
+1714,Crops Primary,723,Spices nes,1,,"091020, 091030, 091091, 091099","091020, 091030, 091091, 091099",1699
+1714,Crops Primary,373,Spinach,1,,70970,70970,1215
+1714,Crops Primary,544,Strawberries,1,,81010,81010,1354
+1714,Crops Primary,423,String beans,1,,70820,70820,1241.01
+1714,Crops Primary,157,Sugar beet,1,,121291,121291,1801
+1714,Crops Primary,156,Sugar cane,1,,121299,121293,1802
+1714,Crops Primary,161,Sugar crops nes,1,,121299,121299,1809
+1714,Crops Primary,267,Sunflower seed,1,,120600,120600,1445
+1714,Crops Primary,122,Sweet potatoes,1,,71420,71420,1530
+1714,Crops Primary,305,Tallowtree seed,1,,120799,120799,1499.04
+1714,Crops Primary,495,"Tangerines, mandarins, clementines, satsumas",1,,80520,80520,1324
+1714,Crops Primary,136,Taro (cocoyam),1,,71490,71440,1550
+1714,Crops Primary,667,Tea,1,,"090210, 090220, 090230, 090240","090210, 090220, 090230, 090240",1620
+1714,Crops Primary,826,"Tobacco, unmanufactured",1,,"240110, 240120, 240130","240110, 240120, 240130",1970
+1714,Crops Primary,388,Tomatoes,1,,70200,70200,1234
+1714,Crops Primary,97,Triticale,1,,100890,100860,1191
+1714,Crops Primary,275,Tung nuts,1,,120799,120799,1499.02
+1714,Crops Primary,692,Vanilla,1,,90500,"090510, 090520",1658
+1714,Crops Primary,463,"Vegetables, fresh nes",1,,"070690, 070940, 070990","070690, 070940, 070999",1290.9
+1714,Crops Primary,420,"Vegetables, leguminous nes",1,,70890,70890,1243
+1714,Crops Primary,205,Vetches,1,,121490,121490,1709.01
+1714,Crops Primary,222,"Walnuts, with shell",1,,80231,80231,1376
+1714,Crops Primary,567,Watermelons,1,,80711,80711,1221
+1714,Crops Primary,15,Wheat,1,,"100110, 100190","100111, 100119, 100191, 100199",111
+1714,Crops Primary,137,Yams,1,,71490,71430,1540
+1714,Crops Primary,135,Yautia (cocoyam),1,,71490,71450,1591
+QD,Crops Processed,51,Beer of barley,1,,220300,220300,24310.01
+QD,Crops Processed,767,Cotton lint,1,,520100,520100,1921.02
+QD,Crops Processed,329,Cottonseed,1,,120720,"120721, 120729",143
+QD,Crops Processed,778,Kapok fibre,1,,530500,530500,1929.03
+QD,Crops Processed,311,Kapokseed in shell,1,,120799,120799,1499.06
+QD,Crops Processed,1242,"Margarine, short",1,,"151710, 151790","151710, 151790",21700.02
+QD,Crops Processed,165,Molasses,1,,"170310, 170390","170310, 170390",23540
+QD,Crops Processed,252,"Oil, coconut (copra)",1,,"151311, 151319","151311, 151319",2166
+QD,Crops Processed,331,"Oil, cottonseed",1,,"151221, 151229","151221, 151229",2168
+QD,Crops Processed,244,"Oil, groundnut",1,,"150810, 150890","150810, 150890",2162
+QD,Crops Processed,334,"Oil, linseed",1,,"151511, 151519","151511, 151519",21691.12
+QD,Crops Processed,60,"Oil, maize",1,,"151521, 151529","151521, 151529",21691.02
+QD,Crops Processed,261,"Oil, olive, virgin",1,,150910,150910,2167
+QD,Crops Processed,257,"Oil, palm",1,,"151110, 151190","151110, 151190",2165
+QD,Crops Processed,258,"Oil, palm kernel",1,,"151321, 151329","151321, 151329",21691.14
+QD,Crops Processed,271,"Oil, rapeseed",1,,"151411, 151419, 151491, 151499","151411, 151419, 151491, 151499",21641.01
+QD,Crops Processed,281,"Oil, safflower",1,,"151211, 151219","151211, 151219",21631.02
+QD,Crops Processed,290,"Oil, sesame",1,,151550,151550,21691.07
+QD,Crops Processed,237,"Oil, soybean",1,,"150710, 150790","150710, 150790",2161
+QD,Crops Processed,268,"Oil, sunflower",1,,"151211, 151219","151211, 151219",21631.01
+QD,Crops Processed,256,Palm kernels,1,,120999,120999,1491.02
+QD,Crops Processed,162,Sugar Raw Centrifugal,1,,"170111, 170112","170112, 170114",2351f
+QD,Crops Processed,564,Wine,1,,"220410, 220421, 220429","220410, 220421, 220429",24212.02
+1783,Eggs Primary,1062,"Eggs, hen, in shell",1,,40700,"040711, 040721, 040790",231
+1783,Eggs Primary,1091,"Eggs, other bird, in shell",1,,40700,"040719, 040729, 040790",232
+1816,Evaporat&Condensed Milk,896,"Milk, skimmed condensed",1,,40299,40299,22222.02
+1816,Evaporat&Condensed Milk,895,"Milk, skimmed evaporated",1,,40291,40291,22221.02
+1816,Evaporat&Condensed Milk,889,"Milk, whole condensed",1,,40299,40299,22222.01
+1816,Evaporat&Condensed Milk,894,"Milk, whole evaporated",1,,40291,40291,22221.01
+1816,Evaporat&Condensed Milk,890,"Whey, condensed",1,,40410,40410,22130.03
+1753,Fibre Crops Primary,800,Agave fibres nes,1,,530500,530500,1929.06
+1753,Fibre Crops Primary,782,"Bastfibres, other",1,,"530310, 530390","530310, 530390",1922.02
+1753,Fibre Crops Primary,767,Cotton lint,1,,520100,520100,1921.02
+1753,Fibre Crops Primary,821,Fibre crops nes,1,,530500,530500,1929.9
+1753,Fibre Crops Primary,773,Flax fibre and tow,1,,"530121, 530129","530121, 530129",26190.01
+1753,Fibre Crops Primary,777,Hemp tow waste,1,,"530210, 530290","530210, 530290",1929.02
+1753,Fibre Crops Primary,780,Jute,1,,"530310, 530390","530310, 530390",1922.01
+1753,Fibre Crops Primary,310,Kapok fruit,0.33,,120799,120799,1499.05
+1753,Fibre Crops Primary,809,Manila fibre (abaca),1,,530500,530500,1929.07
+1753,Fibre Crops Primary,788,Ramie,1,,530500,530500,1929.04
+1753,Fibre Crops Primary,789,Sisal,1,,530500,530500,1929.05
+1738,Fruit Primary,515,Apples,1,,80810,80810,1341
+1738,Fruit Primary,526,Apricots,1,,80910,80910,1343
+1738,Fruit Primary,572,Avocados,1,,80440,80440,1311
+1738,Fruit Primary,486,Bananas,1,,80300,80390,1312
+1738,Fruit Primary,558,Berries nes,1,,"081020, 081040","081020, 081040",1355.9
+1738,Fruit Primary,552,Blueberries,1,,81040,81040,1355.01
+1738,Fruit Primary,461,Carobs,1,,121299,121292,1356
+1738,Fruit Primary,591,Cashewapple,1,,81090,81090,1359.02
+1738,Fruit Primary,531,Cherries,1,,80920,80929,1344.02
+1738,Fruit Primary,530,"Cherries, sour",1,,80920,80921,1344.01
+1738,Fruit Primary,554,Cranberries,1,,81040,81040,1355.02
+1738,Fruit Primary,550,Currants,1,,81090,81030,1351.01
+1738,Fruit Primary,577,Dates,1,,80410,80410,1314
+1738,Fruit Primary,569,Figs,1,,80420,80420,1315
+1738,Fruit Primary,512,"Fruit, citrus nes",1,,80590,80590,1329
+1738,Fruit Primary,619,"Fruit, fresh nes",1,,81090,81090,1359.9
+1738,Fruit Primary,542,"Fruit, pome nes",1,,81090,81090,1349.1
+1738,Fruit Primary,541,"Fruit, stone nes",1,,81090,81090,1349.2
+1738,Fruit Primary,603,"Fruit, tropical fresh nes",1,,"080450, 081060, 081090","080450, 081060, 081090",1319
+1738,Fruit Primary,549,Gooseberries,1,,81090,81030,1351.02
+1738,Fruit Primary,507,Grapefruit (inc. pomelos),1,,80540,80540,1321
+1738,Fruit Primary,560,Grapes,1,,80610,80610,1330
+1738,Fruit Primary,592,Kiwi fruit,1,,81050,81050,1352
+1738,Fruit Primary,497,Lemons and limes,1,,80550,80550,1322
+1738,Fruit Primary,571,"Mangoes, mangosteens, guavas",1,,80450,80450,1316
+1738,Fruit Primary,568,"Melons, other (inc.cantaloupes)",1,,80719,80719,1229
+1738,Fruit Primary,490,Oranges,1,,80510,80510,1323
+1738,Fruit Primary,600,Papayas,1,,80720,80720,1317
+1738,Fruit Primary,534,Peaches and nectarines,1,,80930,80930,1345
+1738,Fruit Primary,521,Pears,1,,80820,80830,1342.01
+1738,Fruit Primary,587,Persimmons,1,,81090,81070,1359.01
+1738,Fruit Primary,574,Pineapples,1,,80430,80430,1318
+1738,Fruit Primary,489,Plantains and others,1,,80300,80310,1313
+1738,Fruit Primary,536,Plums and sloes,1,,80940,80940,1346
+1738,Fruit Primary,523,Quinces,1,,80820,80840,1342.02
+1738,Fruit Primary,547,Raspberries,1,,81020,81020,1353.01
+1738,Fruit Primary,544,Strawberries,1,,81010,81010,1354
+1738,Fruit Primary,495,"Tangerines, mandarins, clementines, satsumas",1,,80520,80520,1324
+1738,Fruit Primary,567,Watermelons,1,,80711,80711,1221
+1777,"Hides and skins, primary",957,"Hides, buffalo, fresh",1,,"410120, 410150, 410190","410120, 410150, 410190",2951.03
+1777,"Hides and skins, primary",919,"Hides, cattle, fresh",1,,"410120, 410150, 410190","410120, 410150, 410190",2951.01
+1777,"Hides and skins, primary",1025,"Skins, goat, fresh",1,,410390,410390,2954
+1777,"Hides and skins, primary",995,"Skins, sheep, fresh",1,,"410210, 410229","410210, 410229",2953
+1756,Live Animals,1107,Asses,1,,"010110, 010190",10130,2132
+QA,Live Animals,1107,Asses,1,,"010110, 010190",10130,2132
+QA,Live Animals,1181,Beehives,1,,10690,10641,2196
+1756,Live Animals,946,Buffaloes,1,,"010210, 010290","010231, 010239",2112
+QA,Live Animals,946,Buffaloes,1,,"010210, 010290","010231, 010239",2112
+1756,Live Animals,1157,"Camelids, other",1,,10619,10613,2121.02
+QA,Live Animals,1157,"Camelids, other",1,,10619,10613,2121.02
+1756,Live Animals,1126,Camels,1,,10619,10613,2121.01
+QA,Live Animals,1126,Camels,1,,10619,10613,2121.01
+1756,Live Animals,866,Cattle,1,,"010210, 010290","010221, 010229",2111
+QA,Live Animals,866,Cattle,1,,"010210, 010290","010221, 010229",2111
+QA,Live Animals,1746,Cattle and Buffaloes,1,,,,F1746
+1756,Live Animals,1057,Chickens,1,,"010511, 010519, 010594, 010599","010511, 010515, 010594, 010599",2151
+QA,Live Animals,1057,Chickens,1,,"010511, 010519, 010594, 010599","010511, 010515, 010594, 010599",2151
+1756,Live Animals,1068,Ducks,1,,"010519, 010599","010513, 010599",2154
+QA,Live Animals,1068,Ducks,1,,"010519, 010599","010513, 010599",2154
+1756,Live Animals,1072,Geese and guinea fowls,1,,"010519, 010599","010514, 010599",2153
+QA,Live Animals,1072,Geese and guinea fowls,1,,"010519, 010599","010514, 010599",2153
+1756,Live Animals,1016,Goats,1,,10420,10420,2123
+QA,Live Animals,1016,Goats,1,,10420,10420,2123
+1756,Live Animals,1096,Horses,1,,"010110, 010190","010121, 010129",2131
+QA,Live Animals,1096,Horses,1,,"010110, 010190","010121, 010129",2131
+1756,Live Animals,1110,Mules,1,,10190,10190,2133
+QA,Live Animals,1110,Mules,1,,10190,10190,2133
+1756,Live Animals,1083,"Pigeons, other birds",1,,"010631, 010632, 010639","010631, 010632, 010639",2194
+QA,Live Animals,1083,"Pigeons, other birds",1,,"010631, 010632, 010639","010631, 010632, 010639",2194
+1756,Live Animals,1034,Pigs,1,,"010310, 010391, 010392","010310, 010391, 010392",2140
+QA,Live Animals,1034,Pigs,1,,"010310, 010391, 010392","010310, 010391, 010392",2140
+QA,Live Animals,2029,Poultry Birds,1,,,,F2029
+1756,Live Animals,1140,Rabbits and hares,1,,10619,10614,2191
+QA,Live Animals,1140,Rabbits and hares,1,,10619,10614,2191
+1756,Live Animals,1150,"Rodents, other",1,,10619,10619,2192.01
+QA,Live Animals,1150,"Rodents, other",1,,10619,10619,2192.01
+1756,Live Animals,976,Sheep,1,,10410,10410,2122
+QA,Live Animals,976,Sheep,1,,10410,10410,2122
+QA,Live Animals,1749,Sheep and Goats,1,,,,F1749
+1756,Live Animals,1079,Turkeys,1,,"010512, 010599","010512, 010599",2152
+QA,Live Animals,1079,Turkeys,1,,"010512, 010599","010512, 010599",2152
+QL,Livestock primary,1806,Beef and Buffalo Meat,1,,,,F1806
+QL,Livestock primary,1183,Beeswax,1,,152190,152190,2960.01
+QL,Livestock primary,1783,Eggs Primary,1,,,,F1783
+QL,Livestock primary,1062,"Eggs, hen, in shell",1,,40700,"040711, 040721, 040790",231
+QL,Livestock primary,1091,"Eggs, other bird, in shell",1,,40700,"040719, 040729, 040790",232
+QL,Livestock primary,949,"Fat, buffaloes",1,,150200,150290,21513
+QL,Livestock primary,1129,"Fat, camels",1,,150600,150600,21519.02
+QL,Livestock primary,869,"Fat, cattle",1,,150200,150290,21512
+QL,Livestock primary,1019,"Fat, goats",1,,150200,150290,21515
+QL,Livestock primary,1037,"Fat, pigs",1,,20900,20910,21511.01
+QL,Livestock primary,979,"Fat, sheep",1,,150200,150290,21514
+QL,Livestock primary,957,"Hides, buffalo, fresh",1,,"410120, 410150, 410190","410120, 410150, 410190",2951.03
+QL,Livestock primary,919,"Hides, cattle, fresh",1,,"410120, 410150, 410190","410120, 410150, 410190",2951.01
+QL,Livestock primary,1182,"Honey, natural",1,,40900,40900,2910
+QL,Livestock primary,1166,Meat nes,1,,"020830, 020840, 020850, 020890","020830, 020840, 020850, 020890",21170.92
+QL,Livestock primary,1108,"Meat, ass",1,,20500,20500,21118.02
+QL,Livestock primary,1089,"Meat, bird nes",1,,20890,20890,21170.01
+QL,Livestock primary,947,"Meat, buffalo",1,,"020110, 020120, 020130, 020210, 020220, 020230","020110, 020120, 020130, 020210, 020220, 020230",21112
+QL,Livestock primary,1127,"Meat, camel",1,,20890,20860,21117.01
+QL,Livestock primary,867,"Meat, cattle",1,,"020110, 020120, 020210, 020220","020110, 020120, 020210, 020220",21111.01
+QL,Livestock primary,1058,"Meat, chicken",1,,"020711, 020712, 020713, 020714, 020732, 020733, 020735, 020736","020711, 020712, 020713, 020714, 020760",21121
+QL,Livestock primary,1069,"Meat, duck",1,,"020732, 020733, 020735, 020736","020741, 020742, 020744, 020745",21122
+QL,Livestock primary,1163,"Meat, game",1,,20890,20890,21170.02
+QL,Livestock primary,1017,"Meat, goat",1,,20450,20450,21116
+QL,Livestock primary,1073,"Meat, goose and guinea fowl",1,,"020732, 020733, 020735, 020736","020751, 020752, 020754, 020755",21123
+QL,Livestock primary,1097,"Meat, horse",1,,20500,20500,21118.01
+QL,Livestock primary,1111,"Meat, mule",1,,20500,20500,21118.03
+QL,Livestock primary,1158,"Meat, other camelids",1,,20890,20860,21117.02
+QL,Livestock primary,1151,"Meat, other rodents",1,,20890,20890,21119.01
+QL,Livestock primary,1035,"Meat, pig",1,,"020311, 020312, 020319, 020321, 020322, 020329","020311, 020312, 020319, 020321, 020322, 020329",21113.01
+QL,Livestock primary,1808,"Meat, Poultry",1,,,,F1808
+QL,Livestock primary,1141,"Meat, rabbit",1,,20810,20810,21114
+QL,Livestock primary,977,"Meat, sheep",1,,"020410, 020421, 020422, 020423, 020430, 020441, 020442, 020443","020410, 020421, 020422, 020423, 020430, 020441, 020442, 020443",21115
+QL,Livestock primary,1765,"Meat, Total",1,,,,F1765
+QL,Livestock primary,1080,"Meat, turkey",1,,"020724, 020725, 020726, 020727","020724, 020725, 020726, 020727",21124
+QL,Livestock primary,1780,"Milk, Total",1,,,,F1780
+QL,Livestock primary,951,"Milk, whole fresh buffalo",1,,"040120, 040130","040120, 040140, 040150",2212
+QL,Livestock primary,1130,"Milk, whole fresh camel",1,,"040120, 040130","040120, 040140, 040150",2293
+QL,Livestock primary,882,"Milk, whole fresh cow",1,,"040120, 040130","040120, 040140, 040150",2211
+QL,Livestock primary,1020,"Milk, whole fresh goat",1,,"040120, 040130","040120, 040140, 040150",2292
+QL,Livestock primary,982,"Milk, whole fresh sheep",1,,"040120, 040130","040120, 040140, 040150",2291
+QL,Livestock primary,948,"Offals, edible, buffaloes",1,,"020610, 020621, 020622, 020629, 050400","020610, 020621, 020622, 020629, 050400",21152
+QL,Livestock primary,1128,"Offals, edible, camels",1,,20890,20860,21159.02
+QL,Livestock primary,868,"Offals, edible, cattle",1,,"020610, 020621, 020622, 020629, 050400","020610, 020621, 020622, 020629, 050400",21151
+QL,Livestock primary,1018,"Offals, edible, goats",1,,"020680, 020690, 050400","020680, 020690, 050400",21156
+QL,Livestock primary,1098,"Offals, horses",1,,"020680, 020690","020680, 020690",21159.01
+QL,Livestock primary,1036,"Offals, pigs, edible",1,,"020630, 020641, 020649, 050400","020630, 020641, 020649, 050400",21153
+QL,Livestock primary,978,"Offals, sheep,edible",1,,"020680, 020690, 050400","020680, 020690, 050400",21155
+QL,Livestock primary,1083,"Pigeons, other birds",1,,"010631, 010632, 010639","010631, 010632, 010639",2194
+QL,Livestock primary,1807,Sheep and Goat Meat,1,,,,F1807
+QL,Livestock primary,1185,"Silk-worm cocoons, reelable",1,,500100,500100,2944
+QL,Livestock primary,1025,"Skins, goat, fresh",1,,410390,410390,2954
+QL,Livestock primary,995,"Skins, sheep, fresh",1,,"410210, 410229","410210, 410229",2953
+QL,Livestock primary,1176,"Snails, not sea",1,,30760,30760,2920
+QL,Livestock primary,987,"Wool, greasy",1,,"510111, 510119","510111, 510119",2941
+QP,Livestock processed,1811,Butter and Ghee,1,,,,F1811
+QP,Livestock processed,983,"Butter and ghee, sheep milk",1,,"040510, 040520, 040590","040510, 040520, 040590",22249.01
+QP,Livestock processed,952,"Butter, buffalo milk",1,,"040510, 040520","040510, 040520",22242.01
+QP,Livestock processed,886,"Butter, cow milk",1,,"040510, 040520","040510, 040520",22241.01
+QP,Livestock processed,1022,"Butter, goat milk",1,,"040510, 040520, 040590","040510, 040520, 040590",22249.02
+QP,Livestock processed,1745,Cheese (All Kinds),1,,,,F1745
+QP,Livestock processed,955,"Cheese, buffalo milk",1,,"040610, 040620, 040630, 040640, 040690","040610, 040620, 040630, 040640, 040690",22252
+QP,Livestock processed,1021,"Cheese, goat milk",1,,"040610, 040620, 040630, 040640, 040690","040610, 040620, 040630, 040640, 040690",22254
+QP,Livestock processed,984,"Cheese, sheep milk",1,,"040610, 040620, 040630, 040640, 040690","040610, 040620, 040630, 040640, 040690",22253
+QP,Livestock processed,904,"Cheese, skimmed cow milk",1,,"040610, 040620, 040630, 040640, 040690","040610, 040620, 040630, 040640, 040690",22251.02
+QP,Livestock processed,901,"Cheese, whole cow milk",1,,"040610, 040620, 040630, 040640, 040690","040610, 040620, 040630, 040640, 040690",22251.01
+QP,Livestock processed,885,Cream fresh,1,,"040120, 040130","040120, 040140, 040150",22120
+QP,Livestock processed,1816,Evaporat&Condensed Milk,1,,,,F1816
+QP,Livestock processed,953,"Ghee, buffalo milk",1,,40590,40590,22242.02
+QP,Livestock processed,887,"Ghee, butteroil of cow milk",1,,40590,40590,22241.02
+QP,Livestock processed,1043,Lard,1,,150100,"150110, 150120",21521
+QP,Livestock processed,899,"Milk, dry buttermilk",1,,40390,40390,22230.04
+QP,Livestock processed,896,"Milk, skimmed condensed",1,,40299,40299,22222.02
+QP,Livestock processed,888,"Milk, skimmed cow",1,,"040110, 040120","040110, 040120",22110.02
+QP,Livestock processed,898,"Milk, skimmed dried",1,,40210,40210,22212
+QP,Livestock processed,895,"Milk, skimmed evaporated",1,,40291,40291,22221.02
+QP,Livestock processed,889,"Milk, whole condensed",1,,40299,40299,22222.01
+QP,Livestock processed,897,"Milk, whole dried",1,,"040221, 040229","040221, 040229",22211
+QP,Livestock processed,894,"Milk, whole evaporated",1,,40291,40291,22221.01
+QP,Livestock processed,1186,"Silk, raw",1,,500200,500200,26110
+QP,Livestock processed,1809,"Skim Milk&Buttermilk,Dry",1,,,,F1809
+QP,Livestock processed,1225,Tallow,1,,150200,150210,21523
+QP,Livestock processed,890,"Whey, condensed",1,,40410,40410,22130.03
+QP,Livestock processed,900,"Whey, dry",1,,40410,40410,22130.02
+QP,Livestock processed,891,Yoghurt,1,,40310,40310,22230.01
+1808,"Meat, Poultry",1089,"Meat, bird nes",1,,20890,20890,21170.01
+1808,"Meat, Poultry",1058,"Meat, chicken",1,,"020711, 020712, 020713, 020714, 020732, 020733, 020735, 020736","020711, 020712, 020713, 020714, 020760",21121
+1808,"Meat, Poultry",1069,"Meat, duck",1,,"020732, 020733, 020735, 020736","020741, 020742, 020744, 020745",21122
+1808,"Meat, Poultry",1073,"Meat, goose and guinea fowl",1,,"020732, 020733, 020735, 020736","020751, 020752, 020754, 020755",21123
+1808,"Meat, Poultry",1080,"Meat, turkey",1,,"020724, 020725, 020726, 020727","020724, 020725, 020726, 020727",21124
+1765,"Meat, Total",1166,Meat nes,1,,"020830, 020840, 020850, 020890","020830, 020840, 020850, 020890",21170.92
+1765,"Meat, Total",1108,"Meat, ass",1,,20500,20500,21118.02
+1765,"Meat, Total",1089,"Meat, bird nes",1,,20890,20890,21170.01
+1765,"Meat, Total",947,"Meat, buffalo",1,,"020110, 020120, 020130, 020210, 020220, 020230","020110, 020120, 020130, 020210, 020220, 020230",21112
+1765,"Meat, Total",1127,"Meat, camel",1,,20890,20860,21117.01
+1765,"Meat, Total",867,"Meat, cattle",1,,"020110, 020120, 020210, 020220","020110, 020120, 020210, 020220",21111.01
+1765,"Meat, Total",1058,"Meat, chicken",1,,"020711, 020712, 020713, 020714, 020732, 020733, 020735, 020736","020711, 020712, 020713, 020714, 020760",21121
+1765,"Meat, Total",1069,"Meat, duck",1,,"020732, 020733, 020735, 020736","020741, 020742, 020744, 020745",21122
+1765,"Meat, Total",1163,"Meat, game",1,,20890,20890,21170.02
+1765,"Meat, Total",1017,"Meat, goat",1,,20450,20450,21116
+1765,"Meat, Total",1073,"Meat, goose and guinea fowl",1,,"020732, 020733, 020735, 020736","020751, 020752, 020754, 020755",21123
+1765,"Meat, Total",1097,"Meat, horse",1,,20500,20500,21118.01
+1765,"Meat, Total",1111,"Meat, mule",1,,20500,20500,21118.03
+1765,"Meat, Total",1158,"Meat, other camelids",1,,20890,20860,21117.02
+1765,"Meat, Total",1151,"Meat, other rodents",1,,20890,20890,21119.01
+1765,"Meat, Total",1035,"Meat, pig",1,,"020311, 020312, 020319, 020321, 020322, 020329","020311, 020312, 020319, 020321, 020322, 020329",21113.01
+1765,"Meat, Total",1141,"Meat, rabbit",1,,20810,20810,21114
+1765,"Meat, Total",977,"Meat, sheep",1,,"020410, 020421, 020422, 020423, 020430, 020441, 020442, 020443","020410, 020421, 020422, 020423, 020430, 020441, 020442, 020443",21115
+1765,"Meat, Total",1080,"Meat, turkey",1,,"020724, 020725, 020726, 020727","020724, 020725, 020726, 020727",21124
+1765,"Meat, Total",1083,"Pigeons, other birds",1,,"010631, 010632, 010639","010631, 010632, 010639",2194
+1765,"Meat, Total",1176,"Snails, not sea",1,,30760,30760,2920
+1780,"Milk, Total",951,"Milk, whole fresh buffalo",1,,"040120, 040130","040120, 040140, 040150",2212
+1780,"Milk, Total",1130,"Milk, whole fresh camel",1,,"040120, 040130","040120, 040140, 040150",2293
+1780,"Milk, Total",882,"Milk, whole fresh cow",1,,"040120, 040130","040120, 040140, 040150",2211
+1780,"Milk, Total",1020,"Milk, whole fresh goat",1,,"040120, 040130","040120, 040140, 040150",2292
+1780,"Milk, Total",982,"Milk, whole fresh sheep",1,,"040120, 040130","040120, 040140, 040150",2291
+1730,Oilcrops Primary,265,Castor oil seed,1,,120799,120730,1447
+1730,Oilcrops Primary,249,Coconuts,1,,80119,"080112, 080119",1460
+1730,Oilcrops Primary,242,"Groundnuts, with shell",1,,"120210, 120220","120230, 120241",142
+1730,Oilcrops Primary,336,Hempseed,1,,120799,120799,1449.02
+1730,Oilcrops Primary,277,Jojoba seed,1,,120799,120799,1499.03
+1730,Oilcrops Primary,310,Kapok fruit,1,,120799,120799,1499.05
+1730,Oilcrops Primary,263,Karite nuts (sheanuts),1,,120799,120799,1499.01
+1730,Oilcrops Primary,333,Linseed,1,,120400,120400,1441
+1730,Oilcrops Primary,299,Melonseed,1,,120799,120770,1449.01
+1730,Oilcrops Primary,292,Mustard seed,1,,120750,120750,1442
+1730,Oilcrops Primary,254,Oil palm fruit,1,,120799,120710,1491.01
+1730,Oilcrops Primary,339,Oilseeds nes,1,,120799,120799,1449.9
+1730,Oilcrops Primary,260,Olives,1,,70990,70992,1450
+1730,Oilcrops Primary,296,Poppy seed,1,,120791,120791,1448
+1730,Oilcrops Primary,270,Rapeseed,1,,"120510, 120590","120510, 120590",1443
+1730,Oilcrops Primary,280,Safflower seed,1,,120799,120760,1446
+1730,Oilcrops Primary,328,Seed cotton,1,,520100,520100,1921.01
+1730,Oilcrops Primary,289,Sesame seed,1,,120740,120740,1444
+1730,Oilcrops Primary,236,Soybeans,1,,120100,"120110, 120190",141
+1730,Oilcrops Primary,267,Sunflower seed,1,,120600,120600,1445
+1730,Oilcrops Primary,305,Tallowtree seed,1,,120799,120799,1499.04
+1730,Oilcrops Primary,275,Tung nuts,1,,120799,120799,1499.02
+1841,"Oilcrops, Cake Equivalent",249,Coconuts,0.08,,80119,"080112, 080119",1460
+1841,"Oilcrops, Cake Equivalent",242,"Groundnuts, with shell",0.38,,"120210, 120220","120230, 120241",142
+1841,"Oilcrops, Cake Equivalent",336,Hempseed,0.65,,120799,120799,1449.02
+1841,"Oilcrops, Cake Equivalent",310,Kapok fruit,0.3696,,120799,120799,1499.05
+1841,"Oilcrops, Cake Equivalent",333,Linseed,0.63,,120400,120400,1441
+1841,"Oilcrops, Cake Equivalent",299,Melonseed,0.6,,120799,120770,1449.01
+1841,"Oilcrops, Cake Equivalent",292,Mustard seed,0.58,,120750,120750,1442
+1841,"Oilcrops, Cake Equivalent",254,Oil palm fruit,0.0312,,120799,120710,1491.01
+1841,"Oilcrops, Cake Equivalent",339,Oilseeds nes,0.6,,120799,120799,1449.9
+1841,"Oilcrops, Cake Equivalent",296,Poppy seed,0.5,,120791,120791,1448
+1841,"Oilcrops, Cake Equivalent",270,Rapeseed,0.6,,"120510, 120590","120510, 120590",1443
+1841,"Oilcrops, Cake Equivalent",280,Safflower seed,0.63,,120799,120760,1446
+1841,"Oilcrops, Cake Equivalent",328,Seed cotton,0.3213,,520100,520100,1921.01
+1841,"Oilcrops, Cake Equivalent",289,Sesame seed,0.51,,120740,120740,1444
+1841,"Oilcrops, Cake Equivalent",236,Soybeans,0.79,,120100,"120110, 120190",141
+1841,"Oilcrops, Cake Equivalent",267,Sunflower seed,0.47,,120600,120600,1445
+1732,"Oilcrops, Oil Equivalent",265,Castor oil seed,0.4,,120799,120730,1447
+1732,"Oilcrops, Oil Equivalent",249,Coconuts,0.13,,80119,"080112, 080119",1460
+1732,"Oilcrops, Oil Equivalent",242,"Groundnuts, with shell",0.3,,"120210, 120220","120230, 120241",142
+1732,"Oilcrops, Oil Equivalent",336,Hempseed,0.24,,120799,120799,1449.02
+1732,"Oilcrops, Oil Equivalent",277,Jojoba seed,0.35,,120799,120799,1499.03
+1732,"Oilcrops, Oil Equivalent",310,Kapok fruit,0.0924,,120799,120799,1499.05
+1732,"Oilcrops, Oil Equivalent",263,Karite nuts (sheanuts),0.25,,120799,120799,1499.01
+1732,"Oilcrops, Oil Equivalent",333,Linseed,0.35,,120400,120400,1441
+1732,"Oilcrops, Oil Equivalent",299,Melonseed,0.3,,120799,120770,1449.01
+1732,"Oilcrops, Oil Equivalent",292,Mustard seed,0.36,,120750,120750,1442
+1732,"Oilcrops, Oil Equivalent",254,Oil palm fruit,0.2176,,120799,120710,1491.01
+1732,"Oilcrops, Oil Equivalent",339,Oilseeds nes,0.3,,120799,120799,1449.9
+1732,"Oilcrops, Oil Equivalent",260,Olives,0.22,,70990,70992,1450
+1732,"Oilcrops, Oil Equivalent",296,Poppy seed,0.45,,120791,120791,1448
+1732,"Oilcrops, Oil Equivalent",270,Rapeseed,0.38,,"120510, 120590","120510, 120590",1443
+1732,"Oilcrops, Oil Equivalent",280,Safflower seed,0.35,,120799,120760,1446
+1732,"Oilcrops, Oil Equivalent",328,Seed cotton,0.1008,,520100,520100,1921.01
+1732,"Oilcrops, Oil Equivalent",289,Sesame seed,0.43,,120740,120740,1444
+1732,"Oilcrops, Oil Equivalent",236,Soybeans,0.18,,120100,"120110, 120190",141
+1732,"Oilcrops, Oil Equivalent",267,Sunflower seed,0.41,,120600,120600,1445
+1732,"Oilcrops, Oil Equivalent",305,Tallowtree seed,0.3,,120799,120799,1499.04
+1732,"Oilcrops, Oil Equivalent",275,Tung nuts,0.16,,120799,120799,1499.02
+2029,Poultry Birds,1057,Chickens,1,,"010511, 010519, 010594, 010599","010511, 010515, 010594, 010599",2151
+2029,Poultry Birds,1068,Ducks,1,,"010519, 010599","010513, 010599",2154
+2029,Poultry Birds,1072,Geese and guinea fowls,1,,"010519, 010599","010514, 010599",2153
+2029,Poultry Birds,1083,"Pigeons, other birds",1,,"010631, 010632, 010639","010631, 010632, 010639",2194
+2029,Poultry Birds,1079,Turkeys,1,,"010512, 010599","010512, 010599",2152
+1726,"Pulses, Total",203,Bambara beans,1,,71339,71334,1708
+1726,"Pulses, Total",176,"Beans, dry",1,,"071331, 071332, 071333, 071339","071331, 071332, 071333, 071339",1701
+1726,"Pulses, Total",181,"Broad beans, horse beans, dry",1,,71350,71350,1702
+1726,"Pulses, Total",191,Chick peas,1,,71320,71320,1703
+1726,"Pulses, Total",195,"Cow peas, dry",1,,71339,71335,1706
+1726,"Pulses, Total",201,Lentils,1,,71340,71340,1704
+1726,"Pulses, Total",210,Lupins,1,,121490,121490,1709.02
+1726,"Pulses, Total",187,"Peas, dry",1,,71310,71310,1705
+1726,"Pulses, Total",197,Pigeon peas,1,,71390,71360,1707
+1726,"Pulses, Total",211,Pulses nes,1,,71390,71390,1709.9
+1726,"Pulses, Total",205,Vetches,1,,121490,121490,1709.01
+1720,"Roots and Tubers, Total",125,Cassava,1,,71410,71410,1520.01
+1720,"Roots and Tubers, Total",116,Potatoes,1,,"070110, 070190","070110, 070190",1510
+1720,"Roots and Tubers, Total",149,Roots and tubers nes,1,,71490,71490,1599.1
+1720,"Roots and Tubers, Total",122,Sweet potatoes,1,,71420,71420,1530
+1720,"Roots and Tubers, Total",136,Taro (cocoyam),1,,71490,71440,1550
+1720,"Roots and Tubers, Total",137,Yams,1,,71490,71430,1540
+1720,"Roots and Tubers, Total",135,Yautia (cocoyam),1,,71490,71450,1591
+1807,Sheep and Goat Meat,1017,"Meat, goat",1,,20450,20450,21116
+1807,Sheep and Goat Meat,977,"Meat, sheep",1,,"020410, 020421, 020422, 020423, 020430, 020441, 020442, 020443","020410, 020421, 020422, 020423, 020430, 020441, 020442, 020443",21115
+1749,Sheep and Goats,1016,Goats,1,,10420,10420,2123
+1749,Sheep and Goats,976,Sheep,1,,10410,10410,2122
+1809,"Skim Milk&Buttermilk,Dry",899,"Milk, dry buttermilk",1,,40390,40390,22230.04
+1809,"Skim Milk&Buttermilk,Dry",898,"Milk, skimmed dried",1,,40210,40210,22212
+1723,Sugar Crops Primary,157,Sugar beet,1,,121291,121291,1801
+1723,Sugar Crops Primary,156,Sugar cane,1,,121299,121293,1802
+1723,Sugar Crops Primary,161,Sugar crops nes,1,,121299,121299,1809
+1729,"Treenuts, Total",221,"Almonds, with shell",1,,80211,80211,1371
+1729,"Treenuts, Total",216,"Brazil nuts, with shell",1,,80121,80121,1377
+1729,"Treenuts, Total",217,"Cashew nuts, with shell",1,,80131,80131,1372
+1729,"Treenuts, Total",220,Chestnut,1,,80240,"080241, 080242",1373
+1729,"Treenuts, Total",225,"Hazelnuts, with shell",1,,80221,80221,1374
+1729,"Treenuts, Total",234,Nuts nes,1,,"080260, 080290","080261, 080262, 080290",1379.9
+1729,"Treenuts, Total",223,Pistachios,1,,80250,"080251, 080252",1375
+1729,"Treenuts, Total",222,"Walnuts, with shell",1,,80231,80231,1376
+1735,Vegetables Primary,366,Artichokes,1,,70990,70991,1216
+1735,Vegetables Primary,367,Asparagus,1,,70920,70920,1211
+1735,Vegetables Primary,414,"Beans, green",1,,70820,70820,1241.9
+1735,Vegetables Primary,358,Cabbages and other brassicas,1,,"070420, 070490","070420, 070490",1212
+1735,Vegetables Primary,426,Carrots and turnips,1,,70610,70610,1251
+1735,Vegetables Primary,378,Cassava leaves,1,,70990,70999,1219.01
+1735,Vegetables Primary,393,Cauliflowers and broccoli,1,,70410,70410,1213
+1735,Vegetables Primary,401,"Chillies and peppers, green",1,,70960,70960,1231
+1735,Vegetables Primary,397,Cucumbers and gherkins,1,,70700,70700,1232
+1735,Vegetables Primary,399,Eggplants (aubergines),1,,70930,70930,1233
+1735,Vegetables Primary,406,Garlic,1,,70320,70320,1252
+1735,Vegetables Primary,407,"Leeks, other alliaceous vegetables",1,,70390,70390,1254
+1735,Vegetables Primary,372,Lettuce and chicory,1,,"070511, 070519, 070521, 070529","070511, 070519, 070521, 070529",1214
+1735,Vegetables Primary,446,"Maize, green",1,,70990,70999,1290.01
+1735,Vegetables Primary,449,Mushrooms and truffles,1,,"070951, 070959","070951, 070959",1270
+1735,Vegetables Primary,430,Okra,1,,70990,70999,1239.01
+1735,Vegetables Primary,403,"Onions, dry",1,,70310,70310,1253.02
+1735,Vegetables Primary,402,"Onions, shallots, green",1,,70310,70310,1253.01
+1735,Vegetables Primary,417,"Peas, green",1,,70810,70810,1242
+1735,Vegetables Primary,394,"Pumpkins, squash and gourds",1,,70990,70993,1235
+1735,Vegetables Primary,373,Spinach,1,,70970,70970,1215
+1735,Vegetables Primary,423,String beans,1,,70820,70820,1241.01
+1735,Vegetables Primary,388,Tomatoes,1,,70200,70200,1234
+1735,Vegetables Primary,463,"Vegetables, fresh nes",1,,"070690, 070940, 070990","070690, 070940, 070999",1290.9
+1735,Vegetables Primary,420,"Vegetables, leguminous nes",1,,70890,70890,1243

@@ -1,0 +1,30 @@
+Metadata
+#File type:csv
+#File name:"FAO_2015_Annex_4.csv"
+#File size: 8KB
+#Data are from:FAO (2015) World programme for the census of agriculture 2020, FAO statistical development series 15, 
+Food and Agriculture Organization of the United Nations, Rome, Italy available at https://www.fao.org/3/i4913e/i4913e.pdf
+#Last name of first author:FAO
+#Year of publication: 2015
+#Name of publication or database: FAO (2015) World programme for the census of agriculture 2020, FAO statistical development series 15
+#Relevant page numbers or tables:Annex 4
+#DOI: NA
+#Website:https://www.fao.org/3/i4913e/i4913e.pdf
+
+#Data contained in file:
+##Missing code=NA
+##Column description:
+Column header						Units						Description
+Reference_where_data_were_collated			Character					Reference by which the data were collated for use in this dataset
+Website_of_source_of_collated_data			Character					Website of the reference by which the data were collated for use in this dataset
+Primary_reference_of_dataset				Character					Indicates the primary reference where data were originally taken from.
+Page_number						Character					Indicates page number(s) in reference.
+UN_crop_code_either_Group_Class_Subclass_Order		Character					Describes the Group, Class, Subclass or Order category number for each category. Use of one number indicates Group i.e. 1 = Cereals, use of three numbers indicates Class i.e. 1.01=Wheat, use of 5 numbers indicates Subclass i.e. 2.01.01 =Artichokes, and use of 7 numbers indicates Order i.e. 6.02.01.01 = Chillies and peppers (capsicum spp.).   
+Title							Character					Describes title of the Group, Class, Subclass or Order i.e. Cereals, Wheat.
+Crop_type_Temporary_Permanent				Character					Describes whether the Title is classified as a Temporary or Permanent crop where T= Temporary and P= Permanent.
+
+#Data were manually taken from pdf tables of results and inputted to an excel where they were converted 
+to a format suitable for a csv file. 
+#For questions ask: Cameron Ludemann (cameron.ludemann@wur.nl) or Martin van Ittersum (martin.vanittersum@wur.nl)
+
+This metadata file aligns to: https://www.wur.nl/en/Value-Creation-Cooperation/WDCC/Data-Management-WDCC/Finishing/Publishing-your-dataset-in-a-repository.htm

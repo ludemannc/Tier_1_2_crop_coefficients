@@ -1,0 +1,30 @@
+Metadata
+#File type:CSV
+"#File name:"Zhang_2021_source_data_fig_5_N_P_detailed_crops_16082022.csv"
+#File size: 236KB
+#Data are from Zhang et al (2021) Nature Food, Quantification of global and national nitrogen budgets for crop production 2,529-540
+Cameron Ludemann emailed Xin Zhang for more detailed data, and Tan Zou replied with data which included more detailed crop information for not only nitrogen concentrations, but for phosphorus as well. 
+#Year of publication: 2021
+#Name of publication or database:  Zhang et al (2021) Nature Food, Quantification of global and national nitrogen budgets for crop production 2,529-540, https://doi.org/10.1038/s43016-021-00318-5
+#DOI: https://doi.org/10.1038/s43016-021-00318-5
+#Website:https://www.nature.com/articles/s43016-021-00318-5
+#Data contained in file:
+#"Missing code""=NA"
+
+Description: 
+Column header						Units									Description
+Reference_where_data_were_collated			Character								Reference by which the data were collated for use in this dataset
+Website_of_source_of_collated_data			Character								Website of the reference by which the data were collated for use in this dataset
+Primary_reference_of_dataset				Character								Indicates the primary reference where data were originally taken from. 
+Crop							Character								Original crop name used by Zhang et al (2021) (note these may be different to how they were named in the original primary reference).		
+Crop_aggregate_category					Character								Original aggregate crop name used by Zhang et al (2021). 
+Nutrient						Character								Indicates whether the nutrient is nitrogen (N) or elemental phosphorus (P).
+Crop_nutrient_concentration_kg_nutrient			Numeric, kg nutrient							Indicates the kilograms of nutrient (nitrogen or elemental phosphorus) in the "Unit" of Crop.
+Unit							Character								Indicates whether the kilograms of nutrient is per kilogram of fresh weight (kg_nutrient_kg_fresh_weight), or per kilogram of dry matter (kg_nutrient_kg_dry matter). Note that for some references eg IPNI (2014) and Bodirsky (2012) it was not clear what units they were in and could be a mixture of kg/kg Dm and kg/kg fresh weight depending on the categoiy of crop. 		
+
+
+##Data were manually taken from the original (separate) excel files for nitrogen and phosphorus (sent by Tan Zou to Cameron Ludemann) and converted 
+to one combined excel file for conversion into a csv file.  
+#For questions ask: Cameron Ludemann (cameron.ludemann@wur.nl) or Martin van Ittersum (martin.vanittersum@wur.nl)
+
+This metadata file aligns to: https://www.wur.nl/en/Value-Creation-Cooperation/WDCC/Data-Management-WDCC/Finishing/Publishing-your-dataset-in-a-repository.htm

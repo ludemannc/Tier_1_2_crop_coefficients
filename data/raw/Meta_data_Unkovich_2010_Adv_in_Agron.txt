@@ -1,0 +1,57 @@
+Metadata
+#File type:CSV
+"#File name:"Unkovich_2010_Adv)in_Agron.csv"
+#File size: 194KB
+#Data are from: Unkovich et al (2010) A review of biological yield and harvest index in Australian field crops, Advances in Agronomy, DOI: 10.1016/S0065-2113(10)05005-4
+#Last name of first author:Unkovich
+#Year of publication: 2010
+#Name of publication or database:  Advances in Agronomy
+#Relevant page numbers or tables:Table 1,2,5 and 9.
+#DOI: 10.1016/S0065-2113(10)05005-4
+#Website: https://www.sciencedirect.com/science/article/abs/pii/S0065211310050054?via%3Dihub
+#Data contained in file:
+#"Missing code""=NA"
+
+#Column description: 
+Column header						Units								Description
+Region							Character							Region/country these data relates to
+Original_crop						Character							The original crop category used in publication.
+Crop_scientific_name					Character							The binomial nomenclature for the crop used in the publication.
+Crop_component						Character							The crop component (either as 'Crop_products' or 'Crop_residues') information added by Cameron Ludemann to this dataset.
+Variable						Character							Variable description as it relates to Units and Value columns.See variable description below.
+Units							Character							A description of the units of the Variable and Value column.
+Value							Numeric								Numeric values related to the Variable and Unit columns. 
+Primary_reference_of_dataset				Character							Original reference where the data came from (as referred to in this publication).
+Reference_where_data_were_collated			Character							Reference by which the data were collated for use in this dataset
+Website_of_source_of_collated_data			Character							Website of the reference by which the data were collated for use in this dataset
+
+
+Variable description: 				Description:
+Percentage_dry_matter_as_carbohydrates =	Percentage of dry matter as carbohydrates.
+Percentage_dry_matter_as_protein=		Percentage of dry matter as protein.
+Nitrogen_to_protein_factor=			The nitrogen to protein factor for converting nitrogen percentage to protein percentage. This value (Jones factor of 6.25 across all crop) was added by Cameron Ludemann to allow interpolation of nitrogen percentage of dry matter.								
+Percentage_dry_matter_as_nitrogen=		The percentage of dry matter as nitrogen (based on percentage of dry matter as protein divided by the Nitogen_to_protein_factor).
+Percentage_dry_matter_as_lipid=			Percentage of dry matter as lipids.
+Percentage_dry_matter_as_ash=   		Percentage of dry matter as ash.
+Biomass_productivity_g_per_g=			Biomass productivity in milligrams per gram. For more information see Sinclair and de Wit (1975) Science 189, 565-567 available at: https://edepot.wur.nl/198120.
+Nitrogen_requirement_of_crop_mg_per_g =		Nitrogen requirement of crop in milligrams per gram. For more information see Sinclair and de Wit (1975) Science 189, 565-567 available at: https://edepot.wur.nl/198120.
+Moisture_percentage_crop_products=		Moisture percentage of crop products.
+Mean_Above_ground_biomass_kg_DM_ha=		Mean above ground biomass in kilograms of dry matter per hectare.
+n_Above_ground_biomass_kg_DM_ha=		Number of values used to estimate mean value for above ground biomass in Table 5.
+Minimum_Above_ground_biomass_kg_DM_ha=		Minimum value for above ground biomass in kilograms of dry matter per hectare.
+Maximum_Above_ground_biomass_kg_DM_ha=		Maximum value for above ground biomass in kilograms of dry matter per hectare.
+Mean_Grain_yield_kg_DM_ha=			Mean value of grain (crop product) yield in kilograms of dry matter per hectare.
+n_Grain_yield_kg_DM_ha=				Number of values used to estimate mean value of grain yield in Table 5.
+Minimum_Grain_yield_kg_DM_ha=			Minimum value of grain yield in kilograms of dry matter per hectare.
+Maximum_Grain_yield_kg_DM_ha=			Maximum value of grain yield in kilograms of dry matter per hectare.
+Mean_Harvest_index=				Mean harvest index as a proportion. 
+n_Harvest_index=				Number of values used to estimate mean value for harvest index in Table 5.
+Minimum_Harvest_index=				Minimum value of harvest index, as a proportion.
+Maximum_Harvest_index=				Maximum value of harvest index, as a proportion.
+Mean_HI=					Mean harvest as a proportion. 
+
+##Data were manually taken from pdf tables of results and inputted to an excel where they were converted 
+to a format suitable for a csv file. 
+#For questions ask: Cameron Ludemann (cameron.ludemann@wur.nl) or Martin van Ittersum (martin.vanittersum@wur.nl)
+
+This metadata file aligns to: https://www.wur.nl/en/Value-Creation-Cooperation/WDCC/Data-Management-WDCC/Finishing/Publishing-your-dataset-in-a-repository.htm
