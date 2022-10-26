@@ -405,7 +405,7 @@ Lassaletta_2014<- melt(Lassaletta_2014,
 Zhang_2021$Original_crop <- gsub("'","",Zhang_2021$Original_crop)
 Zhang_2021$Original_crop_component <- gsub("'","",Zhang_2021$Original_crop_component)
 Zhang_2021$Crop_aggregate_category <- gsub("'","",Zhang_2021$Crop_aggregate_category)
-
+ 
 #Create variable column with N_pc instead of kg_nutrient_kg_DM and N_pc_fresh instead of kg_nutrient_kg_fresh for the different nutrients etc.
 #Create column with unit and nutrient information
 Zhang_2021$Nutrient_Unit <- paste(Zhang_2021$Nutrient, Zhang_2021$Unit)

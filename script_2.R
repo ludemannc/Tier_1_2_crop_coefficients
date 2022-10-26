@@ -294,7 +294,7 @@ Meta_data_World_nutrient_coefficients_for_UN_FAO$Units <- c("Character",
                                                             "Elemental potassium as a percentage of dry matter of crop product")
 
 #Save file as csv file.----
-write.csv(Tier_1_and_2_nutrient_coefficients,"data/standardised/Tier_1_and_2_nutrient_coefficients.csv", row.names = FALSE)
-write.csv(Meta_data_Tier_1_and_2_nutrient_coefficients, "data/standardised/Meta_data_Tier_1_and_2_nutrient_coefficients.csv")
-write.csv(World_nutrient_coefficients_for_UN_FAO,"data/standardised/World_nutrient_coefficients_for_UN_FAO.csv", row.names = FALSE)
-write.csv(Meta_data_World_nutrient_coefficients_for_UN_FAO, "data/standardised/Meta_data_World_nutrient_coefficients_for_UN_FAO.csv")
+write.csv(Tier_1_and_2_nutrient_coefficients,"data/standardised/Tier_1_and_2_crop_coefficients.csv", row.names = FALSE)
+write.csv(Meta_data_Tier_1_and_2_nutrient_coefficients, "data/standardised/Meta_data_Tier_1_and_2_crop_coefficients.csv")
+write.csv(World_nutrient_coefficients_for_UN_FAO,"data/standardised/World_crop_coefficients_for_UN_FAO.csv", row.names = FALSE)
+write.csv(Meta_data_World_nutrient_coefficients_for_UN_FAO, "data/standardised/Meta_data_World_crop_coefficients_for_UN_FAO.csv")
