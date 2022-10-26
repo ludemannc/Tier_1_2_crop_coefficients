@@ -4,7 +4,7 @@
 # with FAO crop production data to estimate total nutrient removal at the global and country level. 
     
 #This script was written in R version 4.1.0 with a 64-bit computer.
- 
+getwd()
 #Libraries----
 library(readr)
 library(dplyr)
