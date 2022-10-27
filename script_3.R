@@ -144,5 +144,4 @@ lapply(names(plots1),
        function(x)ggsave(path = "./results/", 
                          filename=paste(x,"_selected_crops.jpg",sep=""), 
                          plot=plots1[[x]],width=15,height=5))
-
 #Note, some sources had multiple values because they had multiple estimates per region. 
