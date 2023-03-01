@@ -484,7 +484,6 @@
 2,"France","France","FRA","Apples",515,1714,"Crop_products",18,NA,NA,0.185,NA,NA,NA,0.0333,NA,NA,NA,0.333,NA,NA
 2,"Greece","Greece","GRC","Apples",515,1714,"Crop_products",18,NA,NA,0.185,NA,NA,NA,0.0333,NA,NA,NA,0.333,NA,NA
 2,"Hungary","Hungary","HUN","Apples",515,1714,"Crop_products",18,NA,NA,0.185,NA,NA,NA,0.0333,NA,NA,NA,0.333,NA,NA
-2,"India","India","IND","Apples",515,1714,"Crop_products",18,NA,0.33,0.066,0.498,NA,0.0594,0.01188,0.08964,NA,0.594,0.1188,0.8964,NA
 2,"Ireland","Ireland","IRL","Apples",515,1714,"Crop_products",18,NA,NA,0.185,NA,NA,NA,0.0333,NA,NA,NA,0.333,NA,NA
 2,"Italy","Italy","ITA","Apples",515,1714,"Crop_products",18,NA,NA,0.185,NA,NA,NA,0.0333,NA,NA,NA,0.333,NA,NA
 2,"Latvia","Latvia","LVA","Apples",515,1714,"Crop_products",18,NA,NA,0.185,NA,NA,NA,0.0333,NA,NA,NA,0.333,NA,NA
@@ -503,7 +502,6 @@
 2,"United States","United States","USA","Apples",515,1714,"Crop_products",18,NA,0.13,0.0188,0.15885,0.04,0.0234,0.003384,0.028593,0.0072,0.234,0.03384,0.28593,0.072
 2,"United States Minor Outlying Islands","United States Minor Outlying Islands","UMI","Apples",515,1714,"Crop_products",18,NA,0.13,0.0188,0.15885,0.04,0.0234,0.003384,0.028593,0.0072,0.234,0.03384,0.28593,0.072
 2,"Virgin Islands, U.S.","Virgin Islands, U.S.","VIR","Apples",515,1714,"Crop_products",18,NA,0.13,0.0188,0.15885,0.04,0.0234,0.003384,0.028593,0.0072,0.234,0.03384,0.28593,0.072
-2,"India","India","IND","Bananas",486,1714,"Crop_products",25.7,NA,0.56,0.0572,1.6849,NA,0.14392,0.0147004,0.4330193,NA,1.4392,0.147004,4.330193,NA
 2,"United States","United States","USA","Bananas",486,1714,"Crop_products",25.7,NA,0.19,0.02,0.54,NA,0.04883,0.00514,0.13878,NA,0.4883,0.0514,1.3878,NA
 2,"United States Minor Outlying Islands","United States Minor Outlying Islands","UMI","Bananas",486,1714,"Crop_products",25.7,NA,0.19,0.02,0.54,NA,0.04883,0.00514,0.13878,NA,0.4883,0.0514,1.3878,NA
 2,"Virgin Islands, U.S.","Virgin Islands, U.S.","VIR","Bananas",486,1714,"Crop_products",25.7,NA,0.19,0.02,0.54,NA,0.04883,0.00514,0.13878,NA,0.4883,0.0514,1.3878,NA
@@ -579,7 +577,6 @@
 2,"United States Minor Outlying Islands","United States Minor Outlying Islands","UMI","Buckwheat",89,1714,"Crop_residues",NA,NA,0.78,0.05,2.26,0.01,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Virgin Islands, U.S.","Virgin Islands, U.S.","VIR","Buckwheat",89,1714,"Crop_residues",NA,NA,0.78,0.05,2.26,0.01,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Canada","Canada","CAN","Cabbages and other brassicas",358,1714,"Crop_products",NA,NA,0.29,0.0352,0.2407,0.1,NA,NA,NA,NA,NA,NA,NA,NA
-2,"India","India","IND","Cabbages and other brassicas",358,1714,"Crop_products",NA,NA,0.35,0.0572,0.3486,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"United States","United States","USA","Cabbages and other brassicas",358,1714,"Crop_products",NA,NA,0.31,0.0376,0.25535,0.105,NA,NA,NA,NA,NA,NA,NA,NA
 2,"United States Minor Outlying Islands","United States Minor Outlying Islands","UMI","Cabbages and other brassicas",358,1714,"Crop_products",NA,NA,0.31,0.0376,0.25535,0.105,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Virgin Islands, U.S.","Virgin Islands, U.S.","VIR","Cabbages and other brassicas",358,1714,"Crop_products",NA,NA,0.31,0.0376,0.25535,0.105,NA,NA,NA,NA,NA,NA,NA,NA
@@ -587,7 +584,6 @@
 2,"United States","United States","USA","Carrots and turnips",426,1714,"Crop_products",NA,NA,1.1,0.2158,1.7933,0.02,NA,NA,NA,NA,NA,NA,NA,NA
 2,"United States Minor Outlying Islands","United States Minor Outlying Islands","UMI","Carrots and turnips",426,1714,"Crop_products",NA,NA,1.1,0.2158,1.7933,0.02,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Virgin Islands, U.S.","Virgin Islands, U.S.","VIR","Carrots and turnips",426,1714,"Crop_products",NA,NA,1.1,0.2158,1.7933,0.02,NA,NA,NA,NA,NA,NA,NA,NA
-2,"India","India","IND","Cassava",125,1714,"Crop_products",32.6,NA,0.5,0.1012,0.5644,0.1,0.163,0.0329912,0.1839944,0.0326,1.63,0.329912,1.839944,0.326
 2,"United States","United States","USA","Cassava",125,1714,"Crop_products",32.6,NA,0.4,0.13,0.63,NA,0.1304,0.04238,0.20538,NA,1.304,0.4238,2.0538,NA
 2,"United States Minor Outlying Islands","United States Minor Outlying Islands","UMI","Cassava",125,1714,"Crop_products",32.6,NA,0.4,0.13,0.63,NA,0.1304,0.04238,0.20538,NA,1.304,0.4238,2.0538,NA
 2,"Virgin Islands, U.S.","Virgin Islands, U.S.","VIR","Cassava",125,1714,"Crop_products",32.6,NA,0.4,0.13,0.63,NA,0.1304,0.04238,0.20538,NA,1.304,0.4238,2.0538,NA
@@ -610,8 +606,6 @@
 2,"Thailand","Thailand","THA","Cassava",125,1714,"Crop_residues",85,0.800404503666667,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Timor-Leste","Timor-Leste","TLS","Cassava",125,1714,"Crop_residues",85,0.800404503666667,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Vietnam","Vietnam","VNM","Cassava",125,1714,"Crop_residues",85,0.800404503666667,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-2,"India","India","IND","Castor oil seed",265,1714,"Crop_products",NA,NA,4,0.396,1.328,NA,NA,NA,NA,NA,NA,NA,NA,NA
-2,"India","India","IND","Cauliflowers and broccoli",393,1714,"Crop_products",NA,NA,0.4,0.088,0.332,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Austria","Austria","AUT","Cereals nes",108,1714,"Crop_products",86,0.510204082,NA,0.3559,NA,NA,NA,0.306074,NA,NA,NA,3.06074,NA,NA
 2,"Belgium","Belgium","BEL","Cereals nes",108,1714,"Crop_products",86,0.510204082,NA,0.3559,NA,NA,NA,0.306074,NA,NA,NA,3.06074,NA,NA
 2,"Bulgaria","Bulgaria","BGR","Cereals nes",108,1714,"Crop_products",86,0.510204082,NA,0.3559,NA,NA,NA,0.306074,NA,NA,NA,3.06074,NA,NA
@@ -641,7 +635,6 @@
 2,"Sweden","Sweden","SWE","Cereals nes",108,1714,"Crop_products",86,0.510204082,NA,0.3559,NA,NA,NA,0.306074,NA,NA,NA,3.06074,NA,NA
 2,"United Kingdom","United Kingdom","GBR","Cereals nes",108,1714,"Crop_products",86,0.510204082,NA,0.3559,NA,NA,NA,0.306074,NA,NA,NA,3.06074,NA,NA
 2,"Australia","Australia","AUS","Chick peas",191,1714,"Crop_products",86,0.37,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-2,"India","India","IND","Chick peas",191,1714,"Crop_products",86,NA,8.18666666666667,1.0516,4.92466666666667,2.515,7.04053333333333,0.904376,4.23521333333333,2.1629,70.4053333333333,9.04376,42.3521333333333,21.629
 2,"Canada","Canada","CAN","Chillies and peppers, green",401,1714,"Crop_products",NA,NA,0.68,0.1144,0.8964,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"United States","United States","USA","Chillies and peppers, green",401,1714,"Crop_products",NA,NA,0.54,0.1172,0.6932,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"United States Minor Outlying Islands","United States Minor Outlying Islands","UMI","Chillies and peppers, green",401,1714,"Crop_products",NA,NA,0.54,0.1172,0.6932,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -748,8 +741,6 @@
 2,"United States","United States","USA","Flax fibre and tow",773,1714,"Crop_residues",NA,NA,1.24,0.11,1.75,0.27,NA,NA,NA,NA,NA,NA,NA,NA
 2,"United States Minor Outlying Islands","United States Minor Outlying Islands","UMI","Flax fibre and tow",773,1714,"Crop_residues",NA,NA,1.24,0.11,1.75,0.27,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Virgin Islands, U.S.","Virgin Islands, U.S.","VIR","Flax fibre and tow",773,1714,"Crop_residues",NA,NA,1.24,0.11,1.75,0.27,NA,NA,NA,NA,NA,NA,NA,NA
-2,"India","India","IND","Fruit, citrus nes",512,1714,"Crop_products",10.3,NA,0.9,0.088,0.9711,NA,0.0927,0.009064,0.1000233,NA,0.927,0.09064,1.000233,NA
-2,"India","India","IND","Fruit, fresh nes",619,1714,"Crop_products",13.1,NA,0.16,0.0264,0.1743,NA,0.02096,0.0034584,0.0228333,NA,0.2096,0.034584,0.228333,NA
 2,"Austria","Austria","AUT","Grapes",560,1714,"Crop_products",15,NA,NA,0.22,NA,NA,NA,0.033,NA,NA,NA,0.33,NA,NA
 2,"Belgium","Belgium","BEL","Grapes",560,1714,"Crop_products",15,NA,NA,0.22,NA,NA,NA,0.033,NA,NA,NA,0.33,NA,NA
 2,"Bulgaria","Bulgaria","BGR","Grapes",560,1714,"Crop_products",15,NA,NA,0.22,NA,NA,NA,0.033,NA,NA,NA,0.33,NA,NA
@@ -762,7 +753,6 @@
 2,"France","France","FRA","Grapes",560,1714,"Crop_products",15,NA,NA,0.22,NA,NA,NA,0.033,NA,NA,NA,0.33,NA,NA
 2,"Greece","Greece","GRC","Grapes",560,1714,"Crop_products",15,NA,NA,0.22,NA,NA,NA,0.033,NA,NA,NA,0.33,NA,NA
 2,"Hungary","Hungary","HUN","Grapes",560,1714,"Crop_products",15,NA,NA,0.22,NA,NA,NA,0.033,NA,NA,NA,0.33,NA,NA
-2,"India","India","IND","Grapes",560,1714,"Crop_products",15,NA,0.39,0.0264,0.5146,NA,0.0585,0.00396,0.07719,NA,0.585,0.0396,0.7719,NA
 2,"Ireland","Ireland","IRL","Grapes",560,1714,"Crop_products",15,NA,NA,0.22,NA,NA,NA,0.033,NA,NA,NA,0.33,NA,NA
 2,"Italy","Italy","ITA","Grapes",560,1714,"Crop_products",15,NA,NA,0.22,NA,NA,NA,0.033,NA,NA,NA,0.33,NA,NA
 2,"Latvia","Latvia","LVA","Grapes",560,1714,"Crop_products",15,NA,NA,0.22,NA,NA,NA,0.033,NA,NA,NA,0.33,NA,NA
@@ -783,7 +773,7 @@
 2,"Virgin Islands, U.S.","Virgin Islands, U.S.","VIR","Grapes",560,1714,"Crop_products",15,NA,0.28,0.1,0.5,NA,0.042,0.015,0.075,NA,0.42,0.15,0.75,NA
 2,"Australia","Australia","AUS","Groundnuts, with shell",242,1714,"Crop_products",68.9,0.33,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Canada","Canada","CAN","Groundnuts, with shell",242,1714,"Crop_products",68.9,NA,3.5,0.242,0.7304,0.25,2.4115,0.166738,0.5032456,0.17225,24.115,1.66738,5.032456,1.7225
-2,"India","India","IND","Groundnuts, with shell",242,1714,"Crop_products",43.7,NA,4.505,0.8624,2.4983,1.33,2.297545,0.5941936,1.7213287,0.91637,22.97545,5.941936,17.213287,9.1637
+2,"India","India","IND","Groundnuts, with shell",242,1714,"Crop_products",18.5,NA,3.2,NA,NA,NA,0.592,NA,NA,NA,5.92,NA,NA,NA
 2,"United States","United States","USA","Groundnuts, with shell",242,1714,"Crop_products",68.9,NA,3.55,0.206,0.6152,0.245,2.44595,0.141934,0.4238728,0.168805,24.4595,1.41934,4.238728,1.68805
 2,"United States Minor Outlying Islands","United States Minor Outlying Islands","UMI","Groundnuts, with shell",242,1714,"Crop_products",68.9,NA,3.55,0.206,0.6152,0.245,2.44595,0.141934,0.4238728,0.168805,24.4595,1.41934,4.238728,1.68805
 2,"Virgin Islands, U.S.","Virgin Islands, U.S.","VIR","Groundnuts, with shell",242,1714,"Crop_products",68.9,NA,3.55,0.206,0.6152,0.245,2.44595,0.141934,0.4238728,0.168805,24.4595,1.41934,4.238728,1.68805
@@ -815,7 +805,6 @@
 2,"Cambodia","Cambodia","KHM","Jute",780,1714,"Crop_residues",NA,0.357621984,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"China","China","CHN","Jute",780,1714,"Crop_residues",NA,0.357621984,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Hong Kong","Hong Kong","HKG","Jute",780,1714,"Crop_residues",NA,0.357621984,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-2,"India","India","IND","Jute",780,1714,"Crop_residues",NA,NA,3.52,0.8932,5.2456,0.8,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Indonesia","Indonesia","IDN","Jute",780,1714,"Crop_residues",NA,0.357621984,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Japan","Japan","JPN","Jute",780,1714,"Crop_residues",NA,0.357621984,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Korea, Democratic People's Republic of","Korea, Democratic People's Republic of","PRK","Jute",780,1714,"Crop_residues",NA,0.357621984,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -832,12 +821,9 @@
 2,"Timor-Leste","Timor-Leste","TLS","Jute",780,1714,"Crop_residues",NA,0.357621984,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Vietnam","Vietnam","VNM","Jute",780,1714,"Crop_residues",NA,0.357621984,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Australia","Australia","AUS","Lentils",201,1714,"Crop_products",86,0.33,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-2,"India","India","IND","Lentils",201,1714,"Crop_products",86,NA,5.7,0.6556,1.7928,0.2,4.902,0.563816,1.541808,0.172,49.02,5.63816,15.41808,1.72
-2,"India","India","IND","Lettuce and chicory",372,1714,"Crop_products",NA,NA,7,1.144,5.0713,0.93,NA,NA,NA,NA,NA,NA,NA,NA
 2,"United States","United States","USA","Lettuce and chicory",372,1714,"Crop_products",NA,NA,0.23,0.08,0.46,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"United States Minor Outlying Islands","United States Minor Outlying Islands","UMI","Lettuce and chicory",372,1714,"Crop_products",NA,NA,0.23,0.08,0.46,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Virgin Islands, U.S.","Virgin Islands, U.S.","VIR","Lettuce and chicory",372,1714,"Crop_products",NA,NA,0.23,0.08,0.46,NA,NA,NA,NA,NA,NA,NA,NA,NA
-2,"India","India","IND","Linseed",333,1714,"Crop_products",NA,NA,6,0.8184,4.482,1.31,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Australia","Australia","AUS","Lupins",210,1714,"Crop_products",88,0.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Australia","Australia","AUS","Maize",56,1714,"Crop_products",86.5,0.52,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Austria","Austria","AUT","Maize",56,1714,"Crop_products",86,0.502512563,NA,0.238,NA,NA,NA,0.20468,NA,NA,NA,2.0468,NA,NA
@@ -859,7 +845,7 @@
 2,"Greece","Greece","GRC","Maize",56,1714,"Crop_products",86,0.502512563,NA,0.238,NA,NA,NA,0.20468,NA,NA,NA,2.0468,NA,NA
 2,"Hong Kong","Hong Kong","HKG","Maize",56,1714,"Crop_products",92.29,0.702612645,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Hungary","Hungary","HUN","Maize",56,1714,"Crop_products",86,0.502512563,NA,0.238,NA,NA,NA,0.20468,NA,NA,NA,2.0468,NA,NA
-2,"India","India","IND","Maize",56,1714,"Crop_products",83.426875,NA,2.4694,0.594,2.7224,NA,2.0835019225,0.522207675,2.39336393,NA,20.835019225,5.22207675,23.9336393,NA
+2,"India","India","IND","Maize",56,1714,"Crop_products",78.94,NA,1.9488,NA,NA,NA,1.53838272,NA,NA,NA,15.3838272,NA,NA,NA
 2,"Indonesia","Indonesia","IDN","Maize",56,1714,"Crop_products",92.29,0.702612645,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Ireland","Ireland","IRL","Maize",56,1714,"Crop_products",86,0.502512563,NA,0.238,NA,NA,NA,0.20468,NA,NA,NA,2.0468,NA,NA
 2,"Italy","Italy","ITA","Maize",56,1714,"Crop_products",86,0.502512563,NA,0.238,NA,NA,NA,0.20468,NA,NA,NA,2.0468,NA,NA
@@ -949,12 +935,10 @@
 2,"United States","United States","USA","Maize, green",446,1714,"Crop_products",20,NA,1.1,0.25,1.09,0.15,0.22,0.05,0.218,0.03,2.2,0.5,2.18,0.3
 2,"United States Minor Outlying Islands","United States Minor Outlying Islands","UMI","Maize, green",446,1714,"Crop_products",20,NA,1.1,0.25,1.09,0.15,0.22,0.05,0.218,0.03,2.2,0.5,2.18,0.3
 2,"Virgin Islands, U.S.","Virgin Islands, U.S.","VIR","Maize, green",446,1714,"Crop_products",20,NA,1.1,0.25,1.09,0.15,0.22,0.05,0.218,0.03,2.2,0.5,2.18,0.3
-2,"India","India","IND","Mangoes, mangosteens, guavas",571,1714,"Crop_products",NA,NA,0.6,0.11,0.6225,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"United States","United States","USA","Melons, other (inc.cantaloupes)",568,1714,"Crop_products",NA,NA,0.22,0.09,0.46,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"United States Minor Outlying Islands","United States Minor Outlying Islands","UMI","Melons, other (inc.cantaloupes)",568,1714,"Crop_products",NA,NA,0.22,0.09,0.46,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Virgin Islands, U.S.","Virgin Islands, U.S.","VIR","Melons, other (inc.cantaloupes)",568,1714,"Crop_products",NA,NA,0.22,0.09,0.46,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Ethiopia","Ethiopia","ETH","Millet",79,1714,"Crop_products",87.5,NA,NA,0.298663048078947,0.526848012552632,0.155294117552632,NA,0.261330167069079,0.460992010983553,0.135882352858553,NA,2.61330167069079,4.60992010983553,1.35882352858553
-2,"India","India","IND","Millet",79,1714,"Crop_products",87.5,NA,2.8,0.5918,3.81385,NA,2.45,0.517825,3.33711875,NA,24.5,5.17825,33.3711875,NA
 2,"Malawi","Malawi","MWI","Millet",79,1714,"Crop_products",87.5,NA,NA,0.341519596969697,0.539451615151515,0.231517639363636,NA,0.298829647348485,0.472020163257576,0.202577934443182,NA,2.98829647348485,4.72020163257576,2.02577934443182
 2,"Brunei","Brunei","BRN","Millet",79,1714,"Crop_residues",85,0.395344701,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Cambodia","Cambodia","KHM","Millet",79,1714,"Crop_residues",85,0.395344701,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -976,7 +960,6 @@
 2,"Thailand","Thailand","THA","Millet",79,1714,"Crop_residues",85,0.395344701,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Timor-Leste","Timor-Leste","TLS","Millet",79,1714,"Crop_residues",85,0.395344701,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Vietnam","Vietnam","VNM","Millet",79,1714,"Crop_residues",85,0.395344701,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-2,"India","India","IND","Mustard seed",292,1714,"Crop_products",NA,NA,6.45,0.9064,4.4322,0.95,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Australia","Australia","AUS","Oats",75,1714,"Crop_products",89,0.255,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Austria","Austria","AUT","Oats",75,1714,"Crop_products",86,0.480769231,NA,0.4392,NA,NA,NA,0.377712,NA,NA,NA,3.77712,NA,NA
 2,"Belgium","Belgium","BEL","Oats",75,1714,"Crop_products",86,0.480769231,NA,0.4392,NA,NA,NA,0.377712,NA,NA,NA,3.77712,NA,NA
@@ -1061,14 +1044,12 @@
 2,"Sweden","Sweden","SWE","Olives",260,1714,"Crop_products",35,NA,NA,0.104,NA,NA,NA,0.0364,NA,NA,NA,0.364,NA,NA
 2,"United Kingdom","United Kingdom","GBR","Olives",260,1714,"Crop_products",35,NA,NA,0.104,NA,NA,NA,0.0364,NA,NA,NA,0.364,NA,NA
 2,"Canada","Canada","CAN","Onions, shallots, green",402,1714,"Crop_products",NA,NA,0.27,0.0528,0.1992,0.11,NA,NA,NA,NA,NA,NA,NA,NA
-2,"India","India","IND","Onions, shallots, green",402,1714,"Crop_products",NA,NA,0.27,0.0572,0.3237,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"United States","United States","USA","Onions, shallots, green",402,1714,"Crop_products",NA,NA,0.285,0.0564,0.2096,0.115,NA,NA,NA,NA,NA,NA,NA,NA
 2,"United States Minor Outlying Islands","United States Minor Outlying Islands","UMI","Onions, shallots, green",402,1714,"Crop_products",NA,NA,0.285,0.0564,0.2096,0.115,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Virgin Islands, U.S.","Virgin Islands, U.S.","VIR","Onions, shallots, green",402,1714,"Crop_products",NA,NA,0.285,0.0564,0.2096,0.115,NA,NA,NA,NA,NA,NA,NA,NA
 2,"United States","United States","USA","Oranges",490,1714,"Crop_products",NA,NA,0.2,0.02,0.21,0.02,NA,NA,NA,NA,NA,NA,NA,NA
 2,"United States Minor Outlying Islands","United States Minor Outlying Islands","UMI","Oranges",490,1714,"Crop_products",NA,NA,0.2,0.02,0.21,0.02,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Virgin Islands, U.S.","Virgin Islands, U.S.","VIR","Oranges",490,1714,"Crop_products",NA,NA,0.2,0.02,0.21,0.02,NA,NA,NA,NA,NA,NA,NA,NA
-2,"India","India","IND","Papayas",600,1714,"Crop_products",NA,NA,0.28,0.0352,0.1826,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Austria","Austria","AUT","Peaches and nectarines",534,1714,"Crop_products",18,NA,NA,0.185,NA,NA,NA,0.0333,NA,NA,NA,0.333,NA,NA
 2,"Belgium","Belgium","BEL","Peaches and nectarines",534,1714,"Crop_products",18,NA,NA,0.185,NA,NA,NA,0.0333,NA,NA,NA,0.333,NA,NA
 2,"Bulgaria","Bulgaria","BGR","Peaches and nectarines",534,1714,"Crop_products",18,NA,NA,0.185,NA,NA,NA,0.0333,NA,NA,NA,0.333,NA,NA
@@ -1140,7 +1121,6 @@
 2,"Cambodia","Cambodia","KHM","Pigeon peas",197,1714,"Crop_products",NA,0.166666667,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"China","China","CHN","Pigeon peas",197,1714,"Crop_products",NA,0.166666667,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Hong Kong","Hong Kong","HKG","Pigeon peas",197,1714,"Crop_products",NA,0.166666667,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-2,"India","India","IND","Pigeon peas",197,1714,"Crop_products",NA,NA,7.08,0.6732,1.328,1.25,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Indonesia","Indonesia","IDN","Pigeon peas",197,1714,"Crop_products",NA,0.166666667,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Japan","Japan","JPN","Pigeon peas",197,1714,"Crop_products",NA,0.166666667,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Korea, Democratic People's Republic of","Korea, Democratic People's Republic of","PRK","Pigeon peas",197,1714,"Crop_products",NA,0.166666667,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1156,7 +1136,6 @@
 2,"Thailand","Thailand","THA","Pigeon peas",197,1714,"Crop_products",NA,0.166666667,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Timor-Leste","Timor-Leste","TLS","Pigeon peas",197,1714,"Crop_products",NA,0.166666667,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Vietnam","Vietnam","VNM","Pigeon peas",197,1714,"Crop_products",NA,0.166666667,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-2,"India","India","IND","Pineapples",574,1714,"Crop_products",NA,NA,0.18,0.022,0.5146,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"United States","United States","USA","Pineapples",574,1714,"Crop_products",NA,NA,0.43,0.35,1.68,0.04,NA,NA,NA,NA,NA,NA,NA,NA
 2,"United States Minor Outlying Islands","United States Minor Outlying Islands","UMI","Pineapples",574,1714,"Crop_products",NA,NA,0.43,0.35,1.68,0.04,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Virgin Islands, U.S.","Virgin Islands, U.S.","VIR","Pineapples",574,1714,"Crop_products",NA,NA,0.43,0.35,1.68,0.04,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1172,7 +1151,6 @@
 2,"France","France","FRA","Potatoes",116,1714,"Crop_products",20,NA,NA,0.2375,NA,NA,NA,0.0475,NA,NA,NA,0.475,NA,NA
 2,"Greece","Greece","GRC","Potatoes",116,1714,"Crop_products",20,NA,NA,0.2375,NA,NA,NA,0.0475,NA,NA,NA,0.475,NA,NA
 2,"Hungary","Hungary","HUN","Potatoes",116,1714,"Crop_products",20,NA,NA,0.2375,NA,NA,NA,0.0475,NA,NA,NA,0.475,NA,NA
-2,"India","India","IND","Potatoes",116,1714,"Crop_products",21.0666666666667,NA,0.33,0.0396,0.5146,0.18,0.06952,0.0083424,0.108409066666667,0.03792,0.6952,0.083424,1.08409066666667,0.3792
 2,"Ireland","Ireland","IRL","Potatoes",116,1714,"Crop_products",20,NA,NA,0.2375,NA,NA,NA,0.0475,NA,NA,NA,0.475,NA,NA
 2,"Italy","Italy","ITA","Potatoes",116,1714,"Crop_products",20,NA,NA,0.2375,NA,NA,NA,0.0475,NA,NA,NA,0.475,NA,NA
 2,"Latvia","Latvia","LVA","Potatoes",116,1714,"Crop_products",20,NA,NA,0.2375,NA,NA,NA,0.0475,NA,NA,NA,0.475,NA,NA
@@ -1271,7 +1249,6 @@
 2,"France","France","FRA","Rice, paddy",27,1714,"Crop_products",87,0.396825397,NA,0.2072,NA,NA,NA,0.180264,NA,NA,NA,1.80264,NA,NA
 2,"Greece","Greece","GRC","Rice, paddy",27,1714,"Crop_products",87,0.396825397,NA,0.2072,NA,NA,NA,0.180264,NA,NA,NA,1.80264,NA,NA
 2,"Hungary","Hungary","HUN","Rice, paddy",27,1714,"Crop_products",87,0.396825397,NA,0.2072,NA,NA,NA,0.180264,NA,NA,NA,1.80264,NA,NA
-2,"India","India","IND","Rice, paddy",27,1714,"Crop_products",85.75,NA,2,0.484,2.49,0.3,1.715,0.41503,2.135175,0.25725,17.15,4.1503,21.35175,2.5725
 2,"Ireland","Ireland","IRL","Rice, paddy",27,1714,"Crop_products",87,0.396825397,NA,0.2072,NA,NA,NA,0.180264,NA,NA,NA,1.80264,NA,NA
 2,"Italy","Italy","ITA","Rice, paddy",27,1714,"Crop_products",87,0.396825397,NA,0.2072,NA,NA,NA,0.180264,NA,NA,NA,1.80264,NA,NA
 2,"Latvia","Latvia","LVA","Rice, paddy",27,1714,"Crop_products",87,0.396825397,NA,0.2072,NA,NA,NA,0.180264,NA,NA,NA,1.80264,NA,NA
@@ -1368,12 +1345,10 @@
 2,"United States Minor Outlying Islands","United States Minor Outlying Islands","UMI","Rye",71,1714,"Crop_residues",85,NA,0.475,0.1128,0.6521,0.095,0.40375,0.09588,0.554285,0.08075,4.0375,0.9588,5.54285,0.8075
 2,"Vietnam","Vietnam","VNM","Rye",71,1714,"Crop_residues",85,0.395344701,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Virgin Islands, U.S.","Virgin Islands, U.S.","VIR","Rye",71,1714,"Crop_residues",85,NA,0.475,0.1128,0.6521,0.095,0.40375,0.09588,0.554285,0.08075,4.0375,0.9588,5.54285,0.8075
-2,"India","India","IND","Safflower seed",280,1714,"Crop_products",NA,NA,3.88,0.3696,1.826,NA,NA,NA,NA,NA,NA,NA,NA,NA
-2,"India","India","IND","Sesame seed",289,1714,"Crop_products",94,NA,5.17,1.0076,5.312,1.58,4.8598,0.947144,4.99328,1.4852,48.598,9.47144,49.9328,14.852
 2,"Australia","Australia","AUS","Sorghum",83,1714,"Crop_products",86.5,0.455,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Canada","Canada","CAN","Sorghum",83,1714,"Crop_products",67.398,0.25,1.49,0.3256,0.3735,0.15,1.0042302,0.219447888,0.25173153,0.101097,10.042302,2.19447888,2.5173153,1.01097
 2,"Ethiopia","Ethiopia","ETH","Sorghum",83,1714,"Crop_products",67.398,NA,NA,0.31211934602963,0.445805569511111,0.133576229777778,NA,0.21036219683705,0.300464037739099,0.0900277073456267,NA,2.1036219683705,3.00464037739099,0.900277073456267
-2,"India","India","IND","Sorghum",83,1714,"Crop_products",52.8215,NA,1.7532,0.3388,2.1165,NA,0.90956594,0.228344424,1.42647867,NA,9.0956594,2.28344424,14.2647867,NA
+2,"India","India","IND","Sorghum",83,1714,"Crop_products",38.245,NA,1.8664,NA,NA,NA,0.71380468,NA,NA,NA,7.1380468,NA,NA,NA
 2,"Malawi","Malawi","MWI","Sorghum",83,1714,"Crop_products",67.398,NA,NA,0.349265125641026,0.454876227350427,0.198156951615385,NA,0.235397709379538,0.306577479709641,0.133553822249737,NA,2.35397709379538,3.06577479709641,1.33553822249737
 2,"United States","United States","USA","Sorghum",83,1714,"Crop_products",67.398,0.455,1.49,0.281133333333333,0.668416666666667,0.128333333333333,1.0042302,0.189478244,0.450499465,0.0864941,10.042302,1.89478244,4.50499465,0.864941
 2,"United States Minor Outlying Islands","United States Minor Outlying Islands","UMI","Sorghum",83,1714,"Crop_products",67.398,0.455,1.49,0.281133333333333,0.668416666666667,0.128333333333333,1.0042302,0.189478244,0.450499465,0.0864941,10.042302,1.89478244,4.50499465,0.864941
@@ -1415,7 +1390,6 @@
 2,"France","France","FRA","Soybeans",236,1714,"Crop_products",86,0.5,NA,0.5842,NA,NA,NA,0.502412,NA,NA,NA,5.02412,NA,NA
 2,"Greece","Greece","GRC","Soybeans",236,1714,"Crop_products",86,0.5,NA,0.5842,NA,NA,NA,0.502412,NA,NA,NA,5.02412,NA,NA
 2,"Hungary","Hungary","HUN","Soybeans",236,1714,"Crop_products",86,0.5,NA,0.5842,NA,NA,NA,0.502412,NA,NA,NA,5.02412,NA,NA
-2,"India","India","IND","Soybeans",236,1714,"Crop_products",86.75,NA,7.07,1.3596,4.7891,0.76,6.133225,1.179453,4.15454425,0.6593,61.33225,11.79453,41.5454425,6.593
 2,"Ireland","Ireland","IRL","Soybeans",236,1714,"Crop_products",86,0.5,NA,0.5842,NA,NA,NA,0.502412,NA,NA,NA,5.02412,NA,NA
 2,"Italy","Italy","ITA","Soybeans",236,1714,"Crop_products",86,0.5,NA,0.5842,NA,NA,NA,0.502412,NA,NA,NA,5.02412,NA,NA
 2,"Latvia","Latvia","LVA","Soybeans",236,1714,"Crop_products",86,0.5,NA,0.5842,NA,NA,NA,0.502412,NA,NA,NA,5.02412,NA,NA
@@ -1473,7 +1447,6 @@
 2,"France","France","FRA","Sugar beet",157,1714,"Crop_products",20,NA,NA,0.1742,NA,NA,NA,0.03484,NA,NA,NA,0.3484,NA,NA
 2,"Greece","Greece","GRC","Sugar beet",157,1714,"Crop_products",20,NA,NA,0.1742,NA,NA,NA,0.03484,NA,NA,NA,0.3484,NA,NA
 2,"Hungary","Hungary","HUN","Sugar beet",157,1714,"Crop_products",20,NA,NA,0.1742,NA,NA,NA,0.03484,NA,NA,NA,0.3484,NA,NA
-2,"India","India","IND","Sugar beet",157,1714,"Crop_products",23,NA,0.44,0.088,0.5561,NA,0.1012,0.02024,0.127903,NA,1.012,0.2024,1.27903,NA
 2,"Ireland","Ireland","IRL","Sugar beet",157,1714,"Crop_products",20,NA,NA,0.1742,NA,NA,NA,0.03484,NA,NA,NA,0.3484,NA,NA
 2,"Italy","Italy","ITA","Sugar beet",157,1714,"Crop_products",20,NA,NA,0.1742,NA,NA,NA,0.03484,NA,NA,NA,0.3484,NA,NA
 2,"Latvia","Latvia","LVA","Sugar beet",157,1714,"Crop_products",20,NA,NA,0.1742,NA,NA,NA,0.03484,NA,NA,NA,0.3484,NA,NA
@@ -1531,7 +1504,6 @@
 2,"France","France","FRA","Sunflower seed",267,1714,"Crop_products",86,0.288184438,NA,0.5806,NA,NA,NA,0.499316,NA,NA,NA,4.99316,NA,NA
 2,"Greece","Greece","GRC","Sunflower seed",267,1714,"Crop_products",86,0.288184438,NA,0.5806,NA,NA,NA,0.499316,NA,NA,NA,4.99316,NA,NA
 2,"Hungary","Hungary","HUN","Sunflower seed",267,1714,"Crop_products",86,0.288184438,NA,0.5806,NA,NA,NA,0.499316,NA,NA,NA,4.99316,NA,NA
-2,"India","India","IND","Sunflower seed",267,1714,"Crop_products",89.6666666666667,NA,6.33,0.8404,10.458,2.67,5.6759,0.753558666666667,9.37734,2.3941,56.759,7.53558666666667,93.7734,23.941
 2,"Ireland","Ireland","IRL","Sunflower seed",267,1714,"Crop_products",86,0.288184438,NA,0.5806,NA,NA,NA,0.499316,NA,NA,NA,4.99316,NA,NA
 2,"Italy","Italy","ITA","Sunflower seed",267,1714,"Crop_products",86,0.288184438,NA,0.5806,NA,NA,NA,0.499316,NA,NA,NA,4.99316,NA,NA
 2,"Latvia","Latvia","LVA","Sunflower seed",267,1714,"Crop_products",86,0.288184438,NA,0.5806,NA,NA,NA,0.499316,NA,NA,NA,4.99316,NA,NA
@@ -1592,7 +1564,6 @@
 2,"United States Minor Outlying Islands","United States Minor Outlying Islands","UMI","Tobacco, unmanufactured",826,1714,"Crop_residues",NA,NA,1.14,0.1364,2.3489,0.19,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Virgin Islands, U.S.","Virgin Islands, U.S.","VIR","Tobacco, unmanufactured",826,1714,"Crop_residues",NA,NA,1.14,0.1364,2.3489,0.19,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Canada","Canada","CAN","Tomatoes",388,1714,"Crop_products",NA,NA,0.27,0.0396,0.2988,0.03,NA,NA,NA,NA,NA,NA,NA,NA
-2,"India","India","IND","Tomatoes",388,1714,"Crop_products",NA,NA,0.28,0.0572,0.3154,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"United States","United States","USA","Tomatoes",388,1714,"Crop_products",NA,NA,0.285,0.0398,0.3144,0.035,NA,NA,NA,NA,NA,NA,NA,NA
 2,"United States Minor Outlying Islands","United States Minor Outlying Islands","UMI","Tomatoes",388,1714,"Crop_products",NA,NA,0.285,0.0398,0.3144,0.035,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Virgin Islands, U.S.","Virgin Islands, U.S.","VIR","Tomatoes",388,1714,"Crop_products",NA,NA,0.285,0.0398,0.3144,0.035,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1643,7 +1614,6 @@
 2,"France","France","FRA","Wheat",15,1714,"Crop_products",86,0.496630577333333,NA,0.3679,NA,NA,NA,0.316394,NA,NA,NA,3.16394,NA,NA
 2,"Greece","Greece","GRC","Wheat",15,1714,"Crop_products",86,0.496630577333333,NA,0.3679,NA,NA,NA,0.316394,NA,NA,NA,3.16394,NA,NA
 2,"Hungary","Hungary","HUN","Wheat",15,1714,"Crop_products",86,0.496630577333333,NA,0.3679,NA,NA,NA,0.316394,NA,NA,NA,3.16394,NA,NA
-2,"India","India","IND","Wheat",15,1714,"Crop_products",87.5714285714286,NA,2.5,0.396,2.739,0.47,2.18928571428571,0.346782857142857,2.39858142857143,0.411585714285714,21.8928571428571,3.46782857142857,23.9858142857143,4.11585714285714
 2,"Ireland","Ireland","IRL","Wheat",15,1714,"Crop_products",86,0.496630577333333,NA,0.3679,NA,NA,NA,0.316394,NA,NA,NA,3.16394,NA,NA
 2,"Italy","Italy","ITA","Wheat",15,1714,"Crop_products",86,0.496630577333333,NA,0.3679,NA,NA,NA,0.316394,NA,NA,NA,3.16394,NA,NA
 2,"Latvia","Latvia","LVA","Wheat",15,1714,"Crop_products",86,0.496630577333333,NA,0.3679,NA,NA,NA,0.316394,NA,NA,NA,3.16394,NA,NA
@@ -1692,7 +1662,6 @@
 2,"India","India","IND",NA,58,NA,"Crop_products",85.18,NA,2.2336,NA,NA,NA,1.90258048,NA,NA,NA,19.0258048,NA,NA,NA
 2,"India","India","IND",NA,81,NA,"Crop_products",94.44,NA,1.24,NA,NA,NA,1.171056,NA,NA,NA,11.71056,NA,NA,NA
 2,"India","India","IND",NA,111,NA,"Crop_products",87.5,NA,2.1584,NA,NA,NA,1.8886,NA,NA,NA,18.886,NA,NA,NA
-2,"India","India","IND",NA,167,NA,"Crop_products",NA,NA,0.21,0.0528,0.2822,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"India","India","IND",NA,212,NA,"Crop_products",89.47,NA,2.6048,NA,NA,NA,2.33051456,NA,NA,NA,23.3051456,NA,NA,NA
 2,"India","India","IND",NA,213,NA,"Crop_products",75.292,NA,2.55328,NA,NA,NA,1.9224155776,NA,NA,NA,19.224155776,NA,NA,NA
 2,"India","India","IND",NA,213,NA,"Crop_residues",87.555,NA,1.6368,NA,NA,NA,1.43310024,NA,NA,NA,14.3310024,NA,NA,NA
@@ -1724,7 +1693,6 @@
 2,"United States","United States","USA",NA,436,NA,"Crop_products",NA,NA,0.17,0.09,0.45,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"United States Minor Outlying Islands","United States Minor Outlying Islands","UMI",NA,436,NA,"Crop_products",NA,NA,0.17,0.09,0.45,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Virgin Islands, U.S.","Virgin Islands, U.S.","VIR",NA,436,NA,"Crop_products",NA,NA,0.17,0.09,0.45,NA,NA,NA,NA,NA,NA,NA,NA,NA
-2,"India","India","IND",NA,462,NA,"Crop_products",NA,NA,0.39,0.0748,0.5478,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"India","India","IND",NA,639,NA,"Crop_products",30.4228571428571,NA,2.1472,NA,NA,NA,0.653239588571429,NA,NA,NA,6.53239588571429,NA,NA,NA
 2,"United States","United States","USA",NA,639,NA,"Crop_products",30.4228571428571,NA,1.64047619047619,0.356190476190476,1.717,0.273333333333333,0.499079727891157,0.108363319727891,0.522360457142857,0.0831558095238095,4.99079727891156,1.08363319727891,5.22360457142857,0.831558095238095
 2,"United States Minor Outlying Islands","United States Minor Outlying Islands","UMI",NA,639,NA,"Crop_products",30.4228571428571,NA,1.64047619047619,0.356190476190476,1.717,0.273333333333333,0.499079727891157,0.108363319727891,0.522360457142857,0.0831558095238095,4.99079727891156,1.08363319727891,5.22360457142857,0.831558095238095
@@ -1756,7 +1724,6 @@
 2,"Virgin Islands, U.S.","Virgin Islands, U.S.","VIR",NA,643,NA,"Crop_residues",90.19,NA,2.01,0.198,1.6683,0.21,1.812819,0.1785762,1.50463977,0.189399,18.12819,1.785762,15.0463977,1.89399
 2,"India","India","IND",NA,652,NA,"Crop_products",12.07,NA,3.5536,NA,NA,NA,0.42891952,NA,NA,NA,4.2891952,NA,NA,NA
 2,"Canada","Canada","CAN",NA,767,NA,"Crop_products",92,NA,2.42,0.4224,0.9877,0.19,2.2264,0.388608,0.908684,0.1748,22.264,3.88608,9.08684,1.748
-2,"India","India","IND",NA,767,NA,"Crop_products",92,NA,4.32,1.2892,4.4239,NA,3.9744,1.186064,4.069988,NA,39.744,11.86064,40.69988,NA
 2,"United States","United States","USA",NA,767,NA,"Crop_products",92,NA,2.545,0.5012,0.90885,0.195,2.3414,0.461104,0.836142,0.1794,23.414,4.61104,8.36142,1.794
 2,"United States Minor Outlying Islands","United States Minor Outlying Islands","UMI",NA,767,NA,"Crop_products",92,NA,2.545,0.5012,0.90885,0.195,2.3414,0.461104,0.836142,0.1794,23.414,4.61104,8.36142,1.794
 2,"Virgin Islands, U.S.","Virgin Islands, U.S.","VIR",NA,767,NA,"Crop_products",92,NA,2.545,0.5012,0.90885,0.195,2.3414,0.461104,0.836142,0.1794,23.414,4.61104,8.36142,1.794
@@ -1852,7 +1819,6 @@
 2,"United Kingdom","United Kingdom","GBR",NA,1972,NA,"Crop_products",30,NA,NA,0.2142,NA,NA,NA,0.06426,NA,NA,NA,0.6426,NA,NA
 2,"India","India","IND",NA,2549,NA,"Crop_products",91.78,NA,2.6784,NA,NA,NA,2.45823552,NA,NA,NA,24.5823552,NA,NA,NA
 2,"India","India","IND",NA,2549,NA,"Crop_residues",84.865,NA,1.58,NA,NA,NA,1.340867,NA,NA,NA,13.40867,NA,NA,NA
-2,"India","India","IND",NA,5715,NA,"Crop_products",NA,NA,0.67,0.0748,0.5561,NA,NA,NA,NA,NA,NA,NA,NA,NA
 2,"Austria","Austria","AUT",NA,NA,NA,"Crop_products",23.3333333333333,NA,NA,0.2562,NA,NA,NA,0.05978,NA,NA,NA,0.5978,NA,NA
 2,"Belgium","Belgium","BEL",NA,NA,NA,"Crop_products",23.3333333333333,NA,NA,0.2562,NA,NA,NA,0.05978,NA,NA,NA,0.5978,NA,NA
 2,"Bulgaria","Bulgaria","BGR",NA,NA,NA,"Crop_products",23.3333333333333,NA,NA,0.2562,NA,NA,NA,0.05978,NA,NA,NA,0.5978,NA,NA
@@ -1865,7 +1831,7 @@
 2,"France","France","FRA",NA,NA,NA,"Crop_products",23.3333333333333,NA,NA,0.2562,NA,NA,NA,0.05978,NA,NA,NA,0.5978,NA,NA
 2,"Greece","Greece","GRC",NA,NA,NA,"Crop_products",23.3333333333333,NA,NA,0.2562,NA,NA,NA,0.05978,NA,NA,NA,0.5978,NA,NA
 2,"Hungary","Hungary","HUN",NA,NA,NA,"Crop_products",23.3333333333333,NA,NA,0.2562,NA,NA,NA,0.05978,NA,NA,NA,0.5978,NA,NA
-2,"India","India","IND",NA,NA,NA,"Crop_products",46.4846666666667,NA,1.79133333333333,0.0792,0.5229,NA,0.859599077777778,0.035284392,0.232957179,NA,8.59599077777778,0.35284392,2.32957179,NA
+2,"India","India","IND",NA,NA,NA,"Crop_products",48.4183333333333,NA,3.18266666666667,NA,NA,NA,1.54099415555556,NA,NA,NA,15.4099415555556,NA,NA,NA
 2,"Ireland","Ireland","IRL",NA,NA,NA,"Crop_products",23.3333333333333,NA,NA,0.2562,NA,NA,NA,0.05978,NA,NA,NA,0.5978,NA,NA
 2,"Italy","Italy","ITA",NA,NA,NA,"Crop_products",23.3333333333333,NA,NA,0.2562,NA,NA,NA,0.05978,NA,NA,NA,0.5978,NA,NA
 2,"Latvia","Latvia","LVA",NA,NA,NA,"Crop_products",23.3333333333333,NA,NA,0.2562,NA,NA,NA,0.05978,NA,NA,NA,0.5978,NA,NA
