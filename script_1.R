@@ -66,7 +66,7 @@ Bouwman_2017$P_pc <- Bouwman_2017$Crop_component_P_concentration_kg_elemental_P_
 Bouwman_2017$DM_pc <- Bouwman_2017$Crop_component_DM_concentration_kg_DM_kg_fresh_weight*100
 Bouwman_2017$Primary_reference_of_dataset <- Bouwman_2017$Reference_where_data_were_collated
 
-Bouwman_2017<- select(Bouwman_2017, Original_region, Reference_where_data_were_collated,
+Bouwman_2017<- dplyr::select(Bouwman_2017, Original_region, Reference_where_data_were_collated,
                        Website_of_source_of_collated_data,Primary_reference_of_dataset,
                       Original_crop, Original_crop_component,
                       N_pc, P_pc,DM_pc)
@@ -87,7 +87,7 @@ Conant_2013$Website_of_source_of_collated_data <- Conant_2013$DOI
 Conant_2013$Primary_reference_of_dataset <- Conant_2013$Reference_where_data_were_collated
 Conant_2013$CR_removed_pc <- (1-Conant_2013$`Crop_residue_returned$Proportion`)*100
 
-Conant_2013<- select(Conant_2013, Original_region, Reference_where_data_were_collated,
+Conant_2013<- dplyr::select(Conant_2013, Original_region, Reference_where_data_were_collated,
                       Website_of_source_of_collated_data,Primary_reference_of_dataset,
                      Original_crop, Original_crop_component,
                      CR_removed_pc)
@@ -102,7 +102,7 @@ EU_N_Panel_2016_N_animal_feed$Material_N_pc_fresh <- EU_N_Panel_2016_N_animal_fe
 EU_N_Panel_2016_N_animal_feed$Original_crop <- NA
 EU_N_Panel_2016_N_animal_feed$Original_crop_component <- NA
 
-EU_N_Panel_2016_N_animal_feed<- select(EU_N_Panel_2016_N_animal_feed, Original_region, Reference_where_data_were_collated,
+EU_N_Panel_2016_N_animal_feed<- dplyr::select(EU_N_Panel_2016_N_animal_feed, Original_region, Reference_where_data_were_collated,
                                 Website_of_source_of_collated_data,Primary_reference_of_dataset,
                                 Original_crop, Original_crop_component,Material,
                                 Material_N_pc_fresh)
@@ -127,7 +127,7 @@ FAO_2004$CR_N_pc_fresh <- FAO_2004$Crop_residue_concentration_N_kg_N_tonne/1000*
 FAO_2004$CR_P_pc_fresh <- FAO_2004$Crop_residue_elemental_P_concentration_kg_P_tonne/1000*100 #Convert to percentage
 FAO_2004$CR_K_pc_fresh <- FAO_2004$Crop_residue_elemental_K_concentration_kg_K_tonne/1000*100 #Convert to percentage
 
-Crop_residue_removal_Ghana_Kenya_Mali <- select(FAO_2004,Reference_where_data_were_collated,
+Crop_residue_removal_Ghana_Kenya_Mali <- dplyr::select(FAO_2004,Reference_where_data_were_collated,
                                                 Website_of_source_of_collated_data,
                                                 Primary_reference_of_dataset,
                                                 Original_crop,
@@ -157,7 +157,7 @@ Crop_residue_removal_Ghana_Kenya_Mali<-Crop_residue_removal_Ghana_Kenya_Mali %>%
 Crop_residue_removal_Ghana_Kenya_Mali$CR_removed_pc <- Crop_residue_removal_Ghana_Kenya_Mali$value
 
 #Select required columns
-Crop_residue_removal_Ghana_Kenya_Mali <- select(Crop_residue_removal_Ghana_Kenya_Mali,
+Crop_residue_removal_Ghana_Kenya_Mali <- dplyr::select(Crop_residue_removal_Ghana_Kenya_Mali,
                                                 Original_region, Reference_where_data_were_collated,
                                                 Website_of_source_of_collated_data,Primary_reference_of_dataset,
                                                 Original_crop,Original_crop_component,CR_removed_pc)
@@ -174,7 +174,7 @@ Crop_residue_removal_Ghana_Kenya_Mali<- melt(Crop_residue_removal_Ghana_Kenya_Ma
 FAO_2004$Original_region <- "World"
 
 #Select columns of interest 
-FAO_2004 <- select(FAO_2004, 
+FAO_2004 <- dplyr::select(FAO_2004, 
                    Original_region,
                    Reference_where_data_were_collated,
                    Website_of_source_of_collated_data,
@@ -208,7 +208,7 @@ FAO_2004<-FAO_2004 %>% mutate(Original_crop_component=case_when(
 FAO_2004$variable <- gsub("CP_","",FAO_2004$variable)
 FAO_2004$variable <- gsub("CR_","",FAO_2004$variable)
 
-FAO_2004<- select(FAO_2004, Original_region, Reference_where_data_were_collated,
+FAO_2004<- dplyr::select(FAO_2004, Original_region, Reference_where_data_were_collated,
                       Website_of_source_of_collated_data,Primary_reference_of_dataset,
                       Original_crop, Original_crop_component,variable,value)
 
@@ -231,7 +231,7 @@ IFA_2020 <- mutate(IFA_2020,
 IFA_2020$Original_region <- "World" #Add Original_region information.
 
 #Select columns of interest
-IFA_2020 <- select(IFA_2020, 
+IFA_2020 <- dplyr::select(IFA_2020, 
                    Original_region, Reference_where_data_were_collated,
                    Website_of_source_of_collated_data,Primary_reference_of_dataset,
                    Original_crop, Original_crop_component,
@@ -261,7 +261,7 @@ IPCC_2018$Primary_reference_of_dataset <- "Various, from IPCC (2019) literature 
 IPCC_2018$DM_pc <- IPCC_2018$DRY_Proportion*100
 
 #Select columns of interest
-IPCC_2018 <- select(IPCC_2018, 
+IPCC_2018 <- dplyr::select(IPCC_2018, 
                    Original_region, Reference_where_data_were_collated,
                    Website_of_source_of_collated_data,Primary_reference_of_dataset,
                    Original_crop, N_pc,
@@ -308,7 +308,7 @@ IPNI_2012<-IPNI_2012 %>% mutate(Original_crop_component=case_when(
   TRUE~"Crop_products"))
 
 #Select columns of interest
-IPNI_2012 <- select(IPNI_2012, 
+IPNI_2012 <- dplyr::select(IPNI_2012, 
                     Original_region, Reference_where_data_were_collated,
                     Website_of_source_of_collated_data,Primary_reference_of_dataset,
                     Original_crop, Original_crop_component,
@@ -329,7 +329,7 @@ IPNI_2012<- melt(IPNI_2012,
 IPNI_2012$variable <- paste(IPNI_2012$variable, IPNI_2012$DM_or_fresh_basis)
 
 #Delete extraneous DM_or_fresh_basis column
-IPNI_2012 <- select(IPNI_2012, -DM_or_fresh_basis)
+IPNI_2012 <- dplyr::select(IPNI_2012, -DM_or_fresh_basis)
 
 #Koopmans_1998----
 #Create DM_pc column
@@ -342,7 +342,7 @@ Koopmans_1998$N_pc_fresh <- Koopmans_1998$Nitrogen_pc
 Koopmans_1998$HI <- Koopmans_1998$Harvest_index
 
 #Select columns of interest
-Koopmans_1998 <- select(Koopmans_1998, 
+Koopmans_1998 <- dplyr::select(Koopmans_1998, 
                         Original_region, Reference_where_data_were_collated,
                         Website_of_source_of_collated_data,Primary_reference_of_dataset,
                         Original_crop, Original_crop_component,
@@ -387,7 +387,7 @@ Lassaletta_2014$Original_crop_component <- "Crop_products"
 Lassaletta_2014$N_pc_fresh <- Lassaletta_2014$N_content_pc
 
 #Select columns of interest
-Lassaletta_2014 <- select(Lassaletta_2014, 
+Lassaletta_2014 <- dplyr::select(Lassaletta_2014, 
                         Original_region, Reference_where_data_were_collated,
                         Website_of_source_of_collated_data,Primary_reference_of_dataset,
                         Original_crop, Original_crop_component,
@@ -421,7 +421,7 @@ Zhang_2021 <-Zhang_2021 %>% mutate(variable=case_when(
 Zhang_2021$value <- Zhang_2021$Crop_nutrient_concentration_kg_nutrient*100
 
 #Select columns of interest for collation later on
-Zhang_2021 <- select(Zhang_2021,
+Zhang_2021 <- dplyr::select(Zhang_2021,
                      Original_region,Reference_where_data_were_collated,
                      Website_of_source_of_collated_data,Primary_reference_of_dataset,
                      Original_crop,Original_crop_component,variable,value)
@@ -465,7 +465,7 @@ Unkovich_2010$value <- Unkovich_2010$Value
 Unkovich_2010$Original_crop_component <- "Crop_products"
 
 #Select columns of interest
-Unkovich_2010 <- select(Unkovich_2010,
+Unkovich_2010 <- dplyr::select(Unkovich_2010,
                      Original_region,Reference_where_data_were_collated,
                      Website_of_source_of_collated_data,Primary_reference_of_dataset,
                      Original_crop,Original_crop_component,variable,value)
@@ -473,7 +473,7 @@ Unkovich_2010 <- select(Unkovich_2010,
 #USDA_1992----
 USDA_1992 <- as.data.frame(read_csv("data/raw/USDA_1992_Ag_waste_mgmt_field_handbook_chpt_6.csv"))
 #Deselect Dry_wt._lb_bushel and Typical_yield_per_acre_plant_part columns 
-USDA_1992 <- select(USDA_1992, -Dry_wt._lb_bushel,-Typical_yield_per_acre_plant_part,-Original_crop_category)
+USDA_1992 <- dplyr::select(USDA_1992, -Dry_wt._lb_bushel,-Typical_yield_per_acre_plant_part,-Original_crop_category)
 
 
 #Rename columns as appropriate
@@ -505,7 +505,7 @@ Panagos_2022 <- rename(Panagos_2022, Original_region=Region,
                        DM_pc_sd=sd_DM_pc)
 
 #Select columns of interest
-Panagos_2022 <- select(Panagos_2022, 
+Panagos_2022 <- dplyr::select(Panagos_2022, 
                        Original_region, Reference_where_data_were_collated, 
                        Website_of_source_of_collated_data, Primary_reference_of_dataset,
                        Original_crop, Original_crop_component, P_pc,
@@ -520,7 +520,7 @@ Panagos_2022 <- melt(Panagos_2022,id=c("Original_region","Reference_where_data_w
 #FAO_2020----
 #Delete N, P, K and S columns as they show the total kg of nutrient per 1 metric tonne of crop products plus 1 metric tonne of crop residues. 
 #These are not useful for this analysis given they do not account for harvest index. 
-FAO_2020 <-select(FAO_2020, 
+FAO_2020 <-dplyr::select(FAO_2020, 
                   -N,-P,-K,-S)
 
 #Convert values from kg nutrient per metric tonne of fresh weight to a percentage of fresh weight basis.
@@ -538,7 +538,7 @@ FAO_2020 <- mutate(FAO_2020,
                    Original_region= "World") 
 
 #Select columns of interest
-FAO_2020 <- select(FAO_2020, Original_region, Reference_where_data_were_collated, 
+FAO_2020 <- dplyr::select(FAO_2020, Original_region, Reference_where_data_were_collated, 
                    Website_of_source_of_collated_data, Primary_reference_of_dataset,
                    Original_crop, 
                    N_pc_CP_fresh,N_pc_CR_fresh,
@@ -571,7 +571,7 @@ FAO_2020$variable <- gsub("_CP|_CR","",FAO_2020$variable)
 
 #Swain_2022----
 #Select columns of interest
-Swain_2022 <- select(Swain_2022, 
+Swain_2022 <- dplyr::select(Swain_2022, 
                      Original_region, 
                      Reference_where_data_were_collated,
                      Website_of_source_of_collated_data,
@@ -583,7 +583,7 @@ Swain_2022 <- select(Swain_2022,
 
 #Bessembinder_1995----
 #Select columns of interest
-Bessembinder_1995 <- select(Bessembinder_1995, 
+Bessembinder_1995 <- dplyr::select(Bessembinder_1995, 
                      Original_region, 
                      Reference_where_data_were_collated,
                      Website_of_source_of_collated_data,
@@ -595,7 +595,7 @@ Bessembinder_1995 <- select(Bessembinder_1995,
 
 #Angeleska_2022----
 #Select columns of interest
-Angeleska_2022 <- select(Angeleska_2022, 
+Angeleska_2022 <- dplyr::select(Angeleska_2022, 
                             Original_region, 
                             Reference_where_data_were_collated,
                             Website_of_source_of_collated_data,
@@ -610,7 +610,7 @@ Angeleska_2022 <- select(Angeleska_2022,
 Nijhof_1987 <- as.data.frame(Nijhof_1987)
 
 #De-select columns that aren't of interest
-Nijhof_1987 <- select(Nijhof_1987, 
+Nijhof_1987 <- dplyr::select(Nijhof_1987, 
                       -Author_last_name,
                       -Source_title,
                       -Pub_year,
@@ -628,8 +628,12 @@ Nijhof_1987 <- melt(Nijhof_1987,
 #Roy_2016----
 Roy_2016 <- as.data.frame(Roy_2016)
 
+#Roy et al (2016) Table 29 data for India referred to total uptake per unit of main produce rather than per unit of crop product. Therefore it was excluded. 
+Roy_2016<- Roy_2016 %>% 
+  filter(!Original_region=="India")
+
 #Deselect columns that are not of interest
-Roy_2016 <- select(Roy_2016,
+Roy_2016 <- dplyr::select(Roy_2016,
                    -Pub_page_Number,
                    -Fe_uptake_kg_per_t,
                    -Mn_uptake_kg_per_t,
@@ -650,7 +654,7 @@ Roy_2016 <- mutate(Roy_2016,
                    "Cu_pc"=Cu_content_kg_per_t/10,
                    "Mn_pc"=Mn_content_kg_per_t/10,
                    "Zn_pc"=Zn_content_kg_per_t/10) %>% 
-  select(-N_content_kg_per_t,
+  dplyr::select(-N_content_kg_per_t,
          -P2O5_content_kg_per_t,
          -K2O_content_kg_per_t,
          -Ca_content_kg_per_t,
@@ -699,7 +703,7 @@ Norton_2011 <- mutate(Norton_2011,
                       Al_pc_sd=Al_mg_kg_DM_sd/Mg_kg_to_pc_factor)
 
 #De-select columns that are not of interest (columns that are in extraneous units)
-Norton_2011 <- select(Norton_2011,-contains("mg_kg_DM")) %>% select(-Pub_page_Number,
+Norton_2011 <- dplyr::select(Norton_2011,-contains("mg_kg_DM")) %>% dplyr::select(-Pub_page_Number,
                                                                     -Year_sowing,
                                                                     -Number_years_data,
                                                                     -Sites_years,
@@ -709,7 +713,7 @@ Norton_2011 <- select(Norton_2011,-contains("mg_kg_DM")) %>% select(-Pub_page_Nu
 Norton_2011$Original_region <- paste(Norton_2011$Original_region,Norton_2011$Original_state,Norton_2011$Original_site)
 
 #Delete extraneous State and Site columns
-Norton_2011 <- select(Norton_2011,-Original_state,-Original_site)
+Norton_2011 <- dplyr::select(Norton_2011,-Original_state,-Original_site)
 
 #Melt data
 Norton_2011 <- melt(Norton_2011,id=c("Original_region","Reference_where_data_were_collated",
@@ -718,7 +722,7 @@ Norton_2011 <- melt(Norton_2011,id=c("Original_region","Reference_where_data_wer
 
 #Kumssa_2022----
 #Select columns of interest (exclude soil test results)
-Kumssa_2022 <- select(Kumssa_2022, 
+Kumssa_2022 <- dplyr::select(Kumssa_2022, 
                          Original_region, 
                          Reference_where_data_were_collated,
                          Website_of_source_of_collated_data,
@@ -798,7 +802,7 @@ Kumssa_2022  <- mutate(Kumssa_2022,
                       "Zn_pc"=Zn_grain/Mg_kg_to_pc_factor)
 
 #De-select unnecessary columns
-Kumssa_2022 <- select(Kumssa_2022,
+Kumssa_2022 <- dplyr::select(Kumssa_2022,
                       -Ag_grain,
                       -Al_grain,
                       -As_grain,
@@ -840,7 +844,7 @@ Kumssa_2022 <- Kumssa_2022 %>% group_by(Original_region,
                                         #SamplingStart,
                                         #SamplingEnd,
                                         Latitude,
-                                        Longitude) %>% select(-Crop_ICP_Run,-Crop_ICP_Run_Se) %>% summarise(
+                                        Longitude) %>% dplyr::select(-Crop_ICP_Run,-Crop_ICP_Run_Se) %>% summarise(
     across(where(is.numeric), mean,na.rm=TRUE)) 
 
 #Melt data
@@ -886,7 +890,7 @@ Crop_df$variable <- gsub(" ","",Crop_df$variable)
 Crop_df <- dplyr::filter(Crop_df, !is.na(value))
 
 #Create a summary of references used
-Crop_df_references <- unique(Crop_df %>% select(Original_region, Reference_where_data_were_collated,
+Crop_df_references <- unique(Crop_df %>% dplyr::select(Original_region, Reference_where_data_were_collated,
                                          Website_of_source_of_collated_data,Primary_reference_of_dataset))
 
 #Get country code information
@@ -1252,7 +1256,7 @@ UN_countries_codes$Malawi[131] <- c("Malawi")
 
 #Create dataframe which shows countries in each Original_region
 #Deselect extraneous columns
-UN_country_codes_summary <- select(UN_countries_codes,
+UN_country_codes_summary <- dplyr::select(UN_countries_codes,
                                    -`Alpha-2_code`,
                                    -`Alpha-3_code`,
                                    -Numeric_code,
@@ -1264,7 +1268,7 @@ A <- function(x) ifelse(is.na(x),x,UN_country_codes_summary$Country)
 ncol_df <- ncol(UN_country_codes_summary)
 
 #Apply function to data frame and delete obsolete Country column
-UN_country_codes_summary <- UN_country_codes_summary %>% mutate(across(2:all_of(ncol_df),A)) %>% select(-Country)
+UN_country_codes_summary <- UN_country_codes_summary %>% mutate(across(2:all_of(ncol_df),A)) %>% dplyr::select(-Country)
 
 #Transpose data frame
 Transposed_UN_country_codes_summary <-as.data.frame(t(UN_country_codes_summary))
@@ -1273,7 +1277,7 @@ Transposed_UN_country_codes_summary <- cbind(rownames(Transposed_UN_country_code
 #Create column with only the terms Crop_products and Crop_residues----
 #Create dataframe with unique Original_crop-Component names
 Unique_original_crop_component <- as.data.frame(unique(Crop_df$Original_crop_component)) %>% rename(Original_crop_component="unique(Crop_df$Original_crop_component)") %>% 
-  arrange( Original_crop_component, desc())
+  arrange(  desc(Original_crop_component))
 
 #Create column with Crop_component information
 Unique_original_crop_component <- Unique_original_crop_component %>% mutate(Crop_component=case_when(
@@ -1301,7 +1305,7 @@ Crop_df <- Crop_df %>% mutate(Crop_component=case_when(
   TRUE~Crop_component))
 
 #Deselect Original_crop_Original_crop_component column
-Crop_df <- select(Crop_df, 
+Crop_df <- dplyr::select(Crop_df, 
                   -Original_crop_Original_crop_component)
 
 #Create standardised UN country code columns----
@@ -1315,7 +1319,7 @@ Crop_df$UN_intermediate_region_name <- countrycode(Crop_df$ISO3_CODE, origin = '
 #Create column with UN equivalent of the 'Item Code' category. 
 #Create dataframe with unique Original_crop names to test that the function works ok and doesn't leave any NAs
 Unique_original_crops <- as.data.frame(unique(Crop_df$Original_crop)) %>% rename(Original_crop="unique(Crop_df$Original_crop)") %>% 
-  arrange( Original_crop, desc())
+  arrange(  desc(Original_crop))
 
 write.csv(Unique_original_crops,"data/Unique_original_crops.csv",row.names=FALSE)
 
@@ -2286,7 +2290,7 @@ names(Crop_df)  %<>% stringr::str_replace_all("\\s","_") %>% tolower
 Crop_df <- Original_crop_to_item_code_converter(Crop_df , Crop_df$original_crop)
 
 #Reorder columns of Crop_df
-Crop_df <- select(Crop_df, 
+Crop_df <- dplyr::select(Crop_df, 
                   original_crop,
                   item,
                   item_code,
@@ -2393,7 +2397,7 @@ Meta_data_Crop_df$Description1 <- paste(Meta_data_Crop_df$Description1,Meta_data
 Meta_data_Crop_df$Description <- coalesce(Meta_data_Crop_df$Description,Meta_data_Crop_df$Description1)
 
 #De-select unnecessary columns
-Meta_data_Crop_df <- select(Meta_data_Crop_df, -Description1, -Nutrient)
+Meta_data_Crop_df <- dplyr::select(Meta_data_Crop_df, -Description1, -Nutrient)
 
 #Create Units column
 Meta_data_Crop_df<-Meta_data_Crop_df %>% mutate(Units=case_when(
@@ -2484,33 +2488,33 @@ write.csv(Transposed_UN_country_codes_summary,"data/standardised/Transposed_UN_c
 #Create melted dataframe of all original_regions and their listed countries and iso3c codes. List in alphabetic order of country name.For appendix.
 df_countries <- Transposed_UN_country_codes_summary
 df_countries <- melt(df_countries,id="World")
-df_countries <- na.omit(df_countries[]) %>% select(-variable) %>% rename(original_region=World, country=value) #Exclude NAs and rename columns
+df_countries <- na.omit(df_countries[]) %>% dplyr::select(-variable) %>% rename(original_region=World, country=value) #Exclude NAs and rename columns
 df_countries <- df_countries %>%
   group_by(country) %>%
   summarise(original_region = paste(original_region, collapse = "| "))
 df_countries$original_region <- gsub("_"," ",df_countries$original_region)#Exclude "_"'s from original_region column
 df_countries$iso3_code <- countrycode(df_countries$country, origin = 'country.name', destination = 'iso3c')
-df_countries <- select(df_countries,country,iso3_code,original_region )#Select order of columns.
+df_countries <- dplyr::select(df_countries,country,iso3_code,original_region )#Select order of columns.
 write.csv(df_countries,"data/standardised/Original_region_names_and_assigned_countries_for_appendix.csv",row.names=FALSE)
 
 #Create melted dataframe of all original_regions and their listed countries and iso3c codes. List in alphabetic order of country name.For easier machine readable format.
 df_countries <- Transposed_UN_country_codes_summary
 df_countries <- melt(df_countries,id="World")
-df_countries <- na.omit(df_countries[]) %>% select(-variable) %>% rename(original_region=World, country=value) #Exclude NAs and rename columns
+df_countries <- na.omit(df_countries[]) %>% dplyr::select(-variable) %>% rename(original_region=World, country=value) #Exclude NAs and rename columns
 #df_countries <- df_countries %>%
  # group_by(country) %>%
 #  summarise(original_region = paste(original_region, collapse = "| "))
 df_countries$original_region <- gsub("_"," ",df_countries$original_region)#Exclude "_"'s from original_region column
 df_countries$iso3_code <- countrycode(df_countries$country, origin = 'country.name', destination = 'iso3c')
-df_countries <- select(df_countries,country,iso3_code,original_region )#Select order of columns.
+df_countries <- dplyr::select(df_countries,country,iso3_code,original_region )#Select order of columns.
 write.csv(df_countries,"data/standardised/Original_region_names_and_assigned_countries.csv",row.names=FALSE)
 
 #Create data frame with original_crop on one column and UN item name and code in other column. 
 Crop_df_1 <- mutate(Crop_df) %>% 
-  select(item, item_code,item_group_code,original_crop) %>% 
+  dplyr::select(item, item_code,item_group_code,original_crop) %>% 
   filter(item_group_code ==1714) 
 Crop_df_1$item_original_crop <- paste(Crop_df_1$item,"_",Crop_df_1$original_crop)
-Crop_df_1 <- unique(select(Crop_df_1, item, item_code, original_crop))
+Crop_df_1 <- unique(dplyr::select(Crop_df_1, item, item_code, original_crop))
 
 
 write.csv(Crop_df_1,"data/standardised/Original_crop_names_in_each_item_category.csv",row.names=FALSE)
