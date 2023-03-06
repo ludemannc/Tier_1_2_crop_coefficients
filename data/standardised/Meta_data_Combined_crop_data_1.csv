@@ -1,7 +1,7 @@
 "Parameter","Description","Format","Units"
 "original_crop","Name of original crop used in reference where data were collated","Character","Character"
 "item","Item name following UN FAO statistical conventions (note only item names were given to crops in the Item Group Code 1714 it was too difficult to assign Item names to other Item codes because the names vary depending on Item Group Code or Domain)","Character","Character"
-"item_code","Item code following UN FAO statistical conventions","Character","Character"
+"item_code","Item code following UN FAO statistical conventions","Numeric","Numeric"
 "item_group_code","Item code group following UN FAO statistical conventions","Numeric","Numeric"
 "item_group","Item group following UN FAO statistical conventions","Character","Character"
 "factor","Factor value based on UN FAO statistical conventions","Numeric","Numeric"
