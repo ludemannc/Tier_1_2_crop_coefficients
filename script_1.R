@@ -2320,6 +2320,9 @@ Crop_df <- dplyr::select(Crop_df,
 #Replace referrals to \nNitrogen_to_protein_factor with Nitrogen_to_protein_factor.
 Crop_df$variable<- gsub("\nNitrogen_to_protein_factor","Nitrogen_to_protein_factor",Crop_df$variable)#Exclude "_"'s from original_region column
 
+#Convert 
+Crop_df$item_code <- as.numeric(Crop_df$item_code) #This fills in gaps with NA. Dryad submission required missing data to be inclded as NA.
+
 #Create meta-data file for Crop_df
 Meta_data_Crop_df <- as.data.frame(unique(Crop_df$variable)) 
 
@@ -2461,11 +2464,11 @@ Meta_data_Crop_df_a$Description <- c( "Name of original crop used in reference w
                                       "Numeric value of variable")
 
 
-Meta_data_Crop_df_a$Format <- c("Character","Character","Character","Numeric","Character","Numeric","Character","Character",
+Meta_data_Crop_df_a$Format <- c("Character","Character","Numeric","Numeric","Character","Numeric","Character","Character",
                                 "Character","Character","Character","Character","Character","Character","Character","Character",
                                 "Character","Character","Numeric","Numeric","Character","Character","Character","Character","Numeric")
 
-Meta_data_Crop_df_a$Units <- c("Character","Character","Character","Numeric","Character","Numeric","Character","Character",
+Meta_data_Crop_df_a$Units <- c("Character","Character","Numeric","Numeric","Character","Numeric","Character","Character",
                                "Character","Character","Character","Character","Character","Character","Character","Character",
                                "Character","Character","Numeric","Numeric","Character","Character","Character","Character with a description of each variable available in the accompanying Meta_data_Combined_crop_data file","Numeric")
 
@@ -2515,7 +2518,6 @@ Crop_df_1 <- mutate(Crop_df) %>%
   filter(item_group_code ==1714) 
 Crop_df_1$item_original_crop <- paste(Crop_df_1$item,"_",Crop_df_1$original_crop)
 Crop_df_1 <- unique(dplyr::select(Crop_df_1, item, item_code, original_crop))
-
 
 write.csv(Crop_df_1,"data/standardised/Original_crop_names_in_each_item_category.csv",row.names=FALSE)
 Crop_df_1 <- Crop_df_1 %>%

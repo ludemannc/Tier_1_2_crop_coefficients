@@ -246,9 +246,6 @@ Meta_data_Tier_1_and_2_nutrient_coefficients$Units <- c("Character",
                                                         "Elemental potassium in kilograms per metric tonne of fresh weight",
                                                         "Elemental sulphur in kilograms per metric tonne of fresh weight")
 
-
-
-
 #Create data file for FAO as a sub-selection of Tier 1 data for nutrient concentrations of crop products for N, P and K.----
 #Filter to 1714 item_group_code items and to 'World' (Tier 1) values for 'Crop_products'. Select only columns of interest to FAO for Soil Nutrient Budget.
 World_nutrient_coefficients_for_UN_FAO <- Tier_1_and_2_nutrient_coefficients %>% 
