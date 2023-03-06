@@ -7,6 +7,9 @@ GENERAL INFORMATION
 README_LUDEMANN_CROP_DATA_2022.txt
 Provides details of all the datafiles in this DRYAD submission.
 
+Data_diagram_25102022.pdf
+Illustrates the general process for standardisation of data into the final formats.
+
 Combined dataset (Combined_crop_data.csv)
 This dataset includes the combined crop coefficient data from all sources before it was summarised by Tier category. Two meta data files accompany the Combined_crop_data.csv file. The Meta_data_Combined_crop_data_1.csv file describes the header parameters, while the Meta_data_Combined_crop_data_2.csv file describes units for each variable used in the file.
 
