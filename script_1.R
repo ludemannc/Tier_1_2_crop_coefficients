@@ -2320,8 +2320,9 @@ Crop_df <- dplyr::select(Crop_df,
 #Replace referrals to \nNitrogen_to_protein_factor with Nitrogen_to_protein_factor.
 Crop_df$variable<- gsub("\nNitrogen_to_protein_factor","Nitrogen_to_protein_factor",Crop_df$variable)#Exclude "_"'s from original_region column
 
-#Convert 
-Crop_df$item_code <- as.numeric(Crop_df$item_code) #This fills in gaps with NA. Dryad submission required missing data to be inclded as NA.
+#Convert cells with missing values to NA as per DRYAD requirements----
+Crop_df$item_code <- as.numeric(Crop_df$item_code) #This fills in gaps with NA. Dryad submission required missing data to be included as NA.
+Crop_df <- Crop_df %>% dplyr::mutate(primary_reference_of_dataset=dplyr::na_if(primary_reference_of_dataset,""))#This fills in gaps with NA. Dryad submission required missing data to be included as NA.
 
 #Create meta-data file for Crop_df
 Meta_data_Crop_df <- as.data.frame(unique(Crop_df$variable)) 
