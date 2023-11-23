@@ -29,7 +29,7 @@ Website_of_source_of_collated_data			Character							Website of the reference by
 Variable description: 				Description:
 Percentage_dry_matter_as_carbohydrates =	Percentage of dry matter as carbohydrates.
 Percentage_dry_matter_as_protein=		Percentage of dry matter as protein.
-Nitrogen_to_protein_factor=			The nitrogen to protein factor for converting nitrogen percentage to protein percentage. This value (Jones factor of 6.25 across all crop) was added by Cameron Ludemann to allow interpolation of nitrogen percentage of dry matter.								
+Nitrogen_to_protein_factor=			The nitrogen to protein factor for converting nitrogen percentage to protein percentage. A value of 6.25 was first used (pre 27/9/2023) to allow interpolation of nitrogen percentage of dry matter, however upon rereading the Sinclair and De Wit (1975) article Unkovich refers to it became clear they used a 15% N of protein value which is 100/15=6.67 factor. So a value of 6.67 was used post 27/9/2023. 								
 Percentage_dry_matter_as_nitrogen=		The percentage of dry matter as nitrogen (based on percentage of dry matter as protein divided by the Nitogen_to_protein_factor).
 Percentage_dry_matter_as_lipid=			Percentage of dry matter as lipids.
 Percentage_dry_matter_as_ash=   		Percentage of dry matter as ash.
@@ -55,3 +55,4 @@ to a format suitable for a csv file.
 #For questions ask: Cameron Ludemann (cameron.ludemann@wur.nl) or Martin van Ittersum (martin.vanittersum@wur.nl)
 
 This metadata file aligns to: https://www.wur.nl/en/Value-Creation-Cooperation/WDCC/Data-Management-WDCC/Finishing/Publishing-your-dataset-in-a-repository.htm
+Note the change in Nitrogen_to_protein_factor: on the 27/9/2023 this was changed from 6.25 to 6.67 based on a more in depth reading of the Sinclair and De Wit (1975) article that Unkovich refers to. 
