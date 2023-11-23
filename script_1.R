@@ -10,7 +10,6 @@ library(readr)
 library(dplyr)
 library(reshape2) #melt function
 library(stringr)
-library(stringr)
 library(countrycode)
 
 #Settings----
@@ -318,14 +317,14 @@ IPNI_2012 <- dplyr::select(IPNI_2012,
                     K_pc,
                     S_pc)
 
-#Melt for rdesired format
+#Melt for desired format
 IPNI_2012<- melt(IPNI_2012, 
                 id=c("Original_region",
                      "Reference_where_data_were_collated",
                      "Website_of_source_of_collated_data","Primary_reference_of_dataset",
                      "Original_crop","Original_crop_component", "DM_or_fresh_basis"))
 
-#Create fnal variable column information that accounts for whether the data are on a fresh weight basis. 
+#Create final variable column information that accounts for whether the data are on a fresh weight basis. 
 IPNI_2012$variable <- paste(IPNI_2012$variable, IPNI_2012$DM_or_fresh_basis)
 
 #Delete extraneous DM_or_fresh_basis column
@@ -464,6 +463,50 @@ Unkovich_2010$value <- Unkovich_2010$Value
 #Add an Original_crop_component column
 Unkovich_2010$Original_crop_component <- "Crop_products"
 
+#Create N_pc_fresh values based on N_pc and DM_pc values. 
+Unkovich_2010_DM_pc1 <- select(Unkovich_2010_DM_pc, Original_crop, variable, Value) %>% 
+  rename(value=Value)
+Unkovich_2010_N_pc <- filter(Unkovich_2010, variable=="N_pc") %>% 
+  select(Original_crop, variable, value)
+
+#Rename items in Unkovich_2010_DM_pc1 to match those in Unkovich_2010_N_pc
+Unkovich_2010_DM_pc1 <-Unkovich_2010_DM_pc1 %>% mutate(Original_crop=case_when(
+  str_detect(Original_crop,regex("Oats", ignore_case=TRUE))~"Oat",
+  str_detect(Original_crop,regex("Maize", ignore_case=TRUE))~"Corn",
+  str_detect(Original_crop,regex("Chick pea", ignore_case=TRUE))~"Chickpea",
+  str_detect(Original_crop,regex("Mung bean", ignore_case=TRUE))~"Bean, mung",
+  str_detect(Original_crop,regex("Soybeans", ignore_case=TRUE))~"Soybean",
+  TRUE~Original_crop)) 
+
+Unkovich_2010_N_pc_fresh  <- merge(Unkovich_2010_DM_pc1, Unkovich_2010_N_pc, by.x=c("Original_crop"), by.y=c("Original_crop")) %>% 
+  mutate(value=value.y*value.x/100, 
+         variable="N_pc_fresh") %>% 
+  select(Original_crop, variable, value) %>% 
+  mutate(Original_region="World",
+         Crop_scientific_name=NA,
+         Original_crop_component="Crop_products",
+         Variable=variable,
+         Units="kg N per kg fresh weight",
+         Value=value,
+         Primary_reference_of_dataset="Sinclair and De Wit (1975)",
+         Reference_where_data_were_collated="Unkovich et al (2010) A review of biological yield and harvest index in Australian field crops, Advances in Agronomy, DOI: 10.1016/S0065-2113(10)05005-4",
+         Website_of_source_of_collated_data="https://www.sciencedirect.com/science/article/abs/pii/S0065211310050054?via%3Dihub",
+         Table_in_reference="Table 1",
+         "...12"=NA,
+         "...13"=NA,
+         "...14"=NA,
+         "...15"=NA,
+         "...16"=NA,
+         "...17"=NA,
+         "...18"=NA,
+         "...19"=NA,
+         "...20"=NA,
+         "...21"=NA,
+         "...22"=NA,
+         "...23"=NA)
+  
+Unkovich_2010 <- rbind(Unkovich_2010, Unkovich_2010_N_pc_fresh)
+
 #Select columns of interest
 Unkovich_2010 <- dplyr::select(Unkovich_2010,
                      Original_region,Reference_where_data_were_collated,
@@ -472,9 +515,9 @@ Unkovich_2010 <- dplyr::select(Unkovich_2010,
 
 #USDA_1992----
 USDA_1992 <- as.data.frame(read_csv("data/raw/USDA_1992_Ag_waste_mgmt_field_handbook_chpt_6.csv"))
+
 #Deselect Dry_wt._lb_bushel and Typical_yield_per_acre_plant_part columns 
 USDA_1992 <- dplyr::select(USDA_1992, -Dry_wt._lb_bushel,-Typical_yield_per_acre_plant_part,-Original_crop_category)
-
 
 #Rename columns as appropriate
 USDA_1992 <-  dplyr::rename(USDA_1992, 
@@ -523,6 +566,9 @@ Panagos_2022 <- melt(Panagos_2022,id=c("Original_region","Reference_where_data_w
 FAO_2020 <-dplyr::select(FAO_2020, 
                   -N,-P,-K,-S)
 
+#Remove Carrots, for forage as these data are a double up of Carrots and turnips
+FAO_2020 <- filter(FAO_2020, !Item=="Carrots, for forage")
+
 #Convert values from kg nutrient per metric tonne of fresh weight to a percentage of fresh weight basis.
 FAO_2020 <- mutate(FAO_2020, 
                    Original_crop = Item,
@@ -568,6 +614,20 @@ FAO_2020 <-FAO_2020 %>% mutate(Original_crop_component=case_when(
 
 #Delete the (now) extraneous _CP and _CR from text in the variable column. 
 FAO_2020$variable <- gsub("_CP|_CR","",FAO_2020$variable)
+
+#It was pointed out by Tan Zou (Oct 2023) that the FAO dataset had very high P values for Cassava. 
+#This was due to an error in the original source data provided by the FAO.
+#Values from http://nutrien-ekonomics.com/tools-to-calculate-fertilizer-needs/calculators/nutrient-removal/
+#for Cassava were therefore used for N, P and K.
+#Change values
+FAO_2020$value[FAO_2020$Original_crop == "Cassava" & FAO_2020$variable == "N_pc_fresh"&
+                 FAO_2020$Original_crop_component == "Crop_products"] <- 0.155  #(0.15 based on 31kg N per 20 tonne (fresh) Cassava removed in roots: http://nutrien-ekonomics.com/tools-to-calculate-fertilizer-needs/calculators/nutrient-removal/)
+
+FAO_2020$value[FAO_2020$Original_crop == "Cassava" & FAO_2020$variable == "P_pc_fresh"&
+                 FAO_2020$Original_crop_component == "Crop_products"] <- 0.018 #(0.018 based on 8kg P2O5 (3.52kg P) per 20 tonne (fresh) Cassava removed in roots: http://nutrien-ekonomics.com/tools-to-calculate-fertilizer-needs/calculators/nutrient-removal/)
+
+FAO_2020$value[FAO_2020$Original_crop == "Cassava" & FAO_2020$variable == "K_pc_fresh"&
+                 FAO_2020$Original_crop_component == "Crop_products"] <- 0.26 #(0.026 based on 63kg K2O (52.3kg K) per 20 tonne (fresh) Cassava removed in roots: http://nutrien-ekonomics.com/tools-to-calculate-fertilizer-needs/calculators/nutrient-removal/)
 
 #Swain_2022----
 #Select columns of interest
@@ -1684,7 +1744,7 @@ Original_crop_to_item_code_converter <- function (df,Original_crop){
   str_detect(Original_crop,regex("^Goose and guinea fowl meat$", ignore_case=TRUE))~"1073",
   str_detect(Original_crop,regex("^Gooseberries$", ignore_case=TRUE))~"549",
   str_detect(Original_crop,regex("^Grain maize$", ignore_case=TRUE))~"56",
-  str_detect(Original_crop,regex("^Grain, mixed$", ignore_case=TRUE))~"108",
+  str_detect(Original_crop,regex("^Grain, mixed$", ignore_case=TRUE))~"103",
   str_detect(Original_crop,regex("^Gram flour$", ignore_case=TRUE))~"212",
   str_detect(Original_crop,regex("^Grape Juice$", ignore_case=TRUE))~"562",
   str_detect(Original_crop,regex("^Grapefruit \\(inc. pomelos\\)$", ignore_case=TRUE))~"507",
@@ -2271,7 +2331,6 @@ Unique_original_crops <- Original_crop_to_item_code_converter(Unique_original_cr
 
 #Filter FAO_2022_item_codes to Item_Group_Code 1714 to avoid double ups in Item code values (across Domains)-and Item_Group_Code 1714 is for Crops Primary Item Group that are applicable to our analysis.
 FAO_2022_item_codes$`Item Group Code` <-as.numeric(FAO_2022_item_codes$`Item Group Code`) #Set Item Group Code to numeric
-
 FAO_2022_item_codes <- filter(FAO_2022_item_codes,`Item Group Code`==1714)
 
 #Add other codes to Unique_original_crops data frame based on Item Code

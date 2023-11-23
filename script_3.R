@@ -138,7 +138,6 @@ plots1$K_pc_fresh_plot <- fun_plot(df=df,
                                    shape=reference, 
                                    size=14,ylab="Elemental potassium (% fresh weight as nutrient)")
 
-
 #Save the summary plots with unique names
 lapply(names(plots1), 
        function(x)ggsave(path = "./results/", 

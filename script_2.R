@@ -15,7 +15,6 @@ df <- as.data.frame(read_csv("data/standardised/Combined_crop_data.csv"))
 df_countries <- as.data.frame(read_csv("data/standardised/Transposed_UN_country_codes_summary.csv"))
 df_countries <- rbind(colnames(df_countries), df_countries) #Ensure we have a row with list of all countries in 'World' original region. Only do this if you want means of world Tier 1 and region Tier 2 values. 
 
-
 #Avoid double ups to use of same primary sources of data.----
 #The FAO_2020 data uses IPNI data so to avoid double ups I will include the FAO_2020 data and will exclude any other data that comes from IPNI.
 df_FAO_2020 <- filter(df, #Create FAO_2020 datafame with all FAO data so we can delete all data that refers to IPNI in a second data frame and column bind them together. This gets around the issue of how to filter out IPNI data from other sources.
@@ -25,13 +24,13 @@ df_FAO_2020 <- filter(df, #Create FAO_2020 datafame with all FAO data so we can 
 #Exclude all FAO_2020 or IPNI data in the second dataframe----
 df1 <- filter(df, 
               !reference_where_data_were_collated==
-                "FAO(2020) FAOSTAT Domain Soil Nutrient Budget Metadata, release December 2020 https://fenixservices.fao.org/faostat/static/documents/ESB/ESB_e.pdf",#Exclude FAO_2020 data to avoid double ups when I rbind them later on.
+                "FAO(2020) FAOSTAT Domain Soil Nutrient Budget Metadata, release December 2020 https://fenixservices.fao.org/faostat/static/documents/ESB/ESB_e.pdf" | #Exclude FAO_2020 data to avoid double ups when I rbind them later on.
               !primary_reference_of_dataset == #Exclude IPNI as primary reference as IFA_2020 uses IPNI values too.
-                "IPNI + Comifer",
+                "IPNI + Comifer" |
               !primary_reference_of_dataset ==#Exclude IPNI as primary reference as IFA_2020 uses IPNI values too.
-                "https://www.ipni.net/app/calculator",
+                "https://www.ipni.net/app/calculator"|
               !primary_reference_of_dataset ==#Exclude IPNI as primary reference as IFA_2020 uses IPNI values too.
-                "IPNI",
+                "IPNI" |
               !primary_reference_of_dataset==
                 "IPNI (2014) IPNI Estimates of Nutrient Uptake and Removal, available at: http://www.ipni.net/ipniweb/portal.nsf/0/CBDC9962624CDFCD85257AC60050BBD2/$FILE/Metric%204_1%20&%204_5%200115.pdf")
 
