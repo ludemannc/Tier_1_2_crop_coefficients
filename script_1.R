@@ -33,7 +33,7 @@ IPCC_2018 <- read_csv("data/raw/IPCC_2019_Chpt11_Table11.1A_11072022.csv")
 IPNI_2012 <- read_csv("data/raw/IPNI_2012_Metric_nutrient_uptake_removal_tables_12072022.csv")
 Koopmans_1998 <- read_csv("data/raw/Koopmans&Koppejan_1998_Annex_1.csv")
 Lassaletta_2014 <- read_csv("data/raw/Lassaletta_et_al_2014Supp_Mat_1_24062020A.csv")
-Zhang_2021 <- read_csv("data/raw/Zhang_2021_source_data_fig_5_N_P_detailed_crops_16082022.csv")
+Zhang_2021 <- read_csv("data/raw/Zhang_2021_source_data_fig_5_N_P_detailed_crops_24092026.csv")
 Unkovich_2010 <- read_csv("data/raw/Unkovich_2010_Adv_in_Agron.csv")
 USDA_1992 <- as.data.frame(read_csv("data/raw/USDA_1992_Ag_waste_mgmt_field_handbook_chpt_6.csv"))
 Panagos_2022 <- read_csv("data/raw/Panagos_2022_JofCP&FS.csv")
@@ -954,7 +954,7 @@ Crop_df_references <- unique(Crop_df %>% dplyr::select(Original_region, Referenc
                                          Website_of_source_of_collated_data,Primary_reference_of_dataset))
 
 #Get country code information
-UN_countries_codes <- read_csv("data/raw/UN_countries_codes.csv")
+UN_countries_codes <- read_csv("data/raw/UN_countries_codes_24092026.csv")
 
 #Create columns for each unique region so we can align countries to regions.
 UN_countries_codes$World <- "World"
@@ -1322,13 +1322,28 @@ UN_country_codes_summary <- dplyr::select(UN_countries_codes,
                                    -Numeric_code,
                                    -Latitude_average,
                                    -Longitude_average)
+# 
+# #Create function to convert Region name to country name if a region name is in cell.
+# A <- function(x) ifelse(is.na(x),x,UN_country_codes_summary$Country)
+# ncol_df <- ncol(UN_country_codes_summary)
+# 
+# #Apply function to data frame and delete obsolete Country column
+# UN_country_codes_summary <- UN_country_codes_summary %>% mutate(across(2:all_of(ncol_df),A)) %>% dplyr::select(-Country)
 
-#Create function to convert Region name to country name if a region name is in cell.
-A <- function(x) ifelse(is.na(x),x,UN_country_codes_summary$Country)
-ncol_df <- ncol(UN_country_codes_summary)
 
-#Apply function to data frame and delete obsolete Country column
-UN_country_codes_summary <- UN_country_codes_summary %>% mutate(across(2:all_of(ncol_df),A)) %>% dplyr::select(-Country)
+A <- function(x, Country) {
+  ifelse(is.na(x), x, Country)
+}
+
+UN_country_codes_summary <- UN_country_codes_summary %>%
+  mutate(
+    across(
+      -Country,
+      ~ A(.x, Country)
+    )
+  ) %>%
+  select(-Country)
+
 
 #Transpose data frame
 Transposed_UN_country_codes_summary <-as.data.frame(t(UN_country_codes_summary))
@@ -2542,8 +2557,10 @@ write.csv(Meta_data_Original_regions, "data/standardised/Original_regions_listed
 write.csv(Meta_data_Crop_df_a,"data/standardised/Meta_data_Combined_crop_data_1.csv",row.names= FALSE)
 write.csv(Meta_data_Crop_df,"data/standardised/Meta_data_Combined_crop_data_2.csv", row.names = FALSE)
 
+
+View(Transposed_UN_country_codes_summary)
 #Tidy Transposed_UN_country_codes_summary csv file. 
-headers = read.csv("data/standardised/Transposed_UN_country_codes_summary.csv", skip = 1, header = F, nrows = 1, as.is = T)
+headers = read.csv("data/standardised/Transposed_UN_country_codes_summary.csv", skip = 2, header = F, nrows = 1, as.is = T)
 Transposed_UN_country_codes_summary = read.csv("data/standardised/Transposed_UN_country_codes_summary.csv", skip = 2, header = F)
 colnames(Transposed_UN_country_codes_summary)= headers
 write.csv(Transposed_UN_country_codes_summary,"data/standardised/Transposed_UN_country_codes_summary.csv",row.names=FALSE)
@@ -2584,3 +2601,4 @@ Crop_df_1 <- Crop_df_1 %>%
   group_by(item, item_code) %>%
   summarise(original_crop = paste(original_crop, collapse = "| "))
 write.csv(Crop_df_1,"data/standardised/Original_crop_names_in_each_item_category_appendix_format.csv",row.names=FALSE)
+
