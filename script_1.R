@@ -2,6 +2,7 @@
 ##This script standardises and combines data collated from various sources in the literature for crop nutrient concentration,
 #harvest index, and crop residue concentration. It combines it into one file and then that file is used to perform analysis
 # with FAO crop production data to estimate total nutrient removal at the global and country level. 
+#To commit large files you need to install Git Large File Storage which is explained at: https://youtu.be/fctmfKcc_Fs
     
 #This script was written in R version 4.1.0 with a 64-bit computer.
 getwd()
