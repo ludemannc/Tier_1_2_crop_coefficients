@@ -570,6 +570,10 @@ FAO_2020 <-dplyr::select(FAO_2020,
 #Remove Carrots, for forage as these data are a double up of Carrots and turnips
 FAO_2020 <- filter(FAO_2020, !Item=="Carrots, for forage")
 
+#28/9/2026: Remove papayas as these data are incorrectly high based on original source www.nutrient-ekonomics.com. Later we add new data from latest FAO data. 
+FAO_2020 <- filter(FAO_2020, !Item=="Papayas")
+
+
 #Convert values from kg nutrient per metric tonne of fresh weight to a percentage of fresh weight basis.
 FAO_2020 <- mutate(FAO_2020, 
                    Original_crop = Item,
