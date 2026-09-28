@@ -1,11 +1,3 @@
-"Parameter","Description","Format","Units"
-"item","Item (crop) name as per UN FAO standards","Character","Character"
-"item_code","Item (crop) code as per UN FAO standards","Numeric","Numeric, integer"
-"item_group_code","Item group (crop) code as per UN FAO standards","Numeric","Numeric, integer"
-"N_kg_per_t_fresh_wt","Nitrogen concentration on a fresh weight basis","Numeric","Nitrogen (in kilograms) per metric tonne of fresh weight of crop product"
-"P_kg_per_t_fresh_wt","Elemental phosphorus concentration on a fresh weight basis","Numeric","Elemental phosphorus (in kilograms) per metric tonne of fresh weight of crop product"
-"K_kg_per_t_fresh_wt","Elemental potassium concentration on a fresh weight basis","Numeric","Elemental potassium (in kilograms) per metric tonne of fresh weight of crop product"
-"DM_pc","Dry matter percentage of fresh weight","Numeric","Dry matter as a percentage of fresh weight of crop product"
-"N_pc","Nitrogen concentration on a dry matter basis","Numeric","Nitrogen as a percentage of dry matter of crop product"
-"P_pc","Elemental phosphorus concentration on a dry matter basis","Numeric","Elemental phosphorus as a percentage of dry matter of crop product"
-"K_pc","Elemental potassium concentration on a dry matter basis","Numeric","Elemental potassium as a percentage of dry matter of crop product"
+version https://git-lfs.github.com/spec/v1
+oid sha256:d8731bc1cf090b51d114b473c0d521a3962019085f7d0cadc857480ee4bd56a5
+size 1350

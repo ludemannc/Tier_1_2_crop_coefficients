@@ -21,7 +21,6 @@ df_HI <- filter(df, variable=="HI")
 #Filter df to only 'Crop_products' that are included in the 1714 Item Group Code ("Crops Primary").----
 df <- filter(df, item_group_code==1714, 
              crop_component=="Crop_products")
-
 #Row bind HI data with Crop_products data.
 df <- rbind(df,df_HI)
 
