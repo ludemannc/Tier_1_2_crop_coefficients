@@ -24,13 +24,13 @@ df_FAO_2020 <- filter(df, #Create FAO_2020 datafame with all FAO data so we can 
 #Exclude all FAO_2020 or IPNI data in the second dataframe----
 df1 <- filter(df, 
               !reference_where_data_were_collated==
-                "FAO(2020) FAOSTAT Domain Soil Nutrient Budget Metadata, release December 2020 https://fenixservices.fao.org/faostat/static/documents/ESB/ESB_e.pdf" | #Exclude FAO_2020 data to avoid double ups when I rbind them later on.
+                "FAO(2020) FAOSTAT Domain Soil Nutrient Budget Metadata, release December 2020 https://fenixservices.fao.org/faostat/static/documents/ESB/ESB_e.pdf" & #Exclude FAO_2020 data to avoid double ups when I rbind them later on.
               !primary_reference_of_dataset == #Exclude IPNI as primary reference as IFA_2020 uses IPNI values too.
-                "IPNI + Comifer" |
+                "IPNI + Comifer" &
               !primary_reference_of_dataset ==#Exclude IPNI as primary reference as IFA_2020 uses IPNI values too.
-                "https://www.ipni.net/app/calculator"|
+                "https://www.ipni.net/app/calculator"&
               !primary_reference_of_dataset ==#Exclude IPNI as primary reference as IFA_2020 uses IPNI values too.
-                "IPNI" |
+                "IPNI" &
               !primary_reference_of_dataset==
                 "IPNI (2014) IPNI Estimates of Nutrient Uptake and Removal, available at: http://www.ipni.net/ipniweb/portal.nsf/0/CBDC9962624CDFCD85257AC60050BBD2/$FILE/Metric%204_1%20&%204_5%200115.pdf")
 
