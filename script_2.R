@@ -25,7 +25,8 @@ df_FAO_2020 <- filter(df, #Create FAO_2020 datafame with all FAO data so we can 
 #Exclude all FAO_2020 or IPNI data in the second dataframe----
 df1 <- filter(
   df,
-  reference_where_data_were_collated !=
+  is.na(reference_where_data_were_collated) |
+    reference_where_data_were_collated !=
     "FAO(2020) FAOSTAT Domain Soil Nutrient Budget Metadata, release December 2020 https://fenixservices.fao.org/faostat/static/documents/ESB/ESB_e.pdf",
   is.na(primary_reference_of_dataset) |
     !primary_reference_of_dataset %in% c(
