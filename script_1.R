@@ -2116,7 +2116,7 @@ Original_crop_to_item_code_converter <- function (df,Original_crop){
   str_detect(Original_crop,regex("^Ramie$", ignore_case=TRUE))~"788",
   str_detect(Original_crop,regex("^Rape$", ignore_case=TRUE))~"270",
   str_detect(Original_crop,regex("^Rapeseed$", ignore_case=TRUE))~"270",
-  str_detect(Original_crop,regex("^Rapeseed oil$", ignore_case=TRUE))~"271",
+  str_detect(Original_crop,regex("^Rapeseed oil$", ignore_case=TRUE))~"270",
   str_detect(Original_crop,regex("^Raspberries$", ignore_case=TRUE))~"547",
   str_detect(Original_crop,regex("^Reconsti.Ted Milk$", ignore_case=TRUE))~"908",
   str_detect(Original_crop,regex("^Red clover$", ignore_case=TRUE))~"640",
