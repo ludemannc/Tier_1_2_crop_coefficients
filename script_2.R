@@ -40,6 +40,107 @@ df1 <- filter(
 df1 <- rbind(df_FAO_2020, 
              df1)
 
+# Option B: prefer usable IFA, then FAO, then IPNI family values.----
+# Match each standardized crop, component, region and variable separately.
+# For records known to share IPNI provenance, use non-missing IFA first;
+# otherwise use FAO, otherwise IPNI. Zero is a valid available value.
+# Example: IFA has N but no K -> use IFA N and the best available FAO/IPNI K.
+# Only one family contribution enters each crop-variable mean. If the chosen
+# source has several observations, use their mean once and record the count.
+# Independent studies still contribute separately; this is not a rule to
+# replace every study with IFA data. All original references are preserved.
+# The audit records original values, selected rows and the family mean.
+# Restrict the new rule to FAO primary-crop products (group 1714).
+# The original filter above remains in force outside that scope.
+# Exact aliases are intentional: mixed "IPNI + Comifer" provenance is
+# not assigned to IPNI and keeps its existing exclusion pending review.
+ipni_primary_aliases <- c(
+  "IPNI",
+  "https://www.ipni.net/app/calculator",
+  "https://www.ipni.net/app/calculator/home",
+  "IPNI (2014) IPNI Estimates of Nutrient Uptake and Removal, available at: http://www.ipni.net/ipniweb/portal.nsf/0/CBDC9962624CDFCD85257AC60050BBD2/$FILE/Metric%204_1%20&%204_5%200115.pdf"
+)
+
+source_match_columns <- c(
+  "item", "item_code", "item_group_code", "crop_component",
+  "original_region", "variable"
+)
+
+ipni_family_candidates <- df %>%
+  filter(
+    item_group_code == 1714,
+    crop_component == "Crop_products",
+    !is.na(item),
+    primary_reference_of_dataset %in% ipni_primary_aliases
+  ) %>%
+  mutate(
+    source_family = "IPNI",
+    source = case_when(
+      reference_where_data_were_collated ==
+        "International Fertilizer Association (2020)" ~ "IFA_2020",
+      reference_where_data_were_collated ==
+        "FAO(2020) FAOSTAT Domain Soil Nutrient Budget Metadata, release December 2020 https://fenixservices.fao.org/faostat/static/documents/ESB/ESB_e.pdf" ~ "FAO_2020",
+      reference_where_data_were_collated %in% ipni_primary_aliases ~ "IPNI",
+      TRUE ~ "Other_IPNI_secondary"
+    ),
+    source_priority = case_when(
+      source == "IFA_2020" ~ 1L,
+      source == "FAO_2020" ~ 2L,
+      source == "IPNI" ~ 3L,
+      TRUE ~ 99L
+    )
+  ) %>%
+  group_by(across(all_of(source_match_columns))) %>%
+  mutate(
+    # Select by availability for this variable, not by crop alone.
+    best_priority = if (any(is.finite(value))) {
+      min(source_priority[is.finite(value)])
+    } else {
+      min(source_priority)
+    },
+    selected_for_mean = is.finite(value) & source_priority == best_priority,
+    family_value = if (any(selected_for_mean)) {
+      mean(value[selected_for_mean])
+    } else {
+      NA_real_
+    },
+    selected_observations = sum(selected_for_mean),
+    distinct_selected_values = n_distinct(value[selected_for_mean])
+  ) %>%
+  ungroup()
+
+# Multiple observations within the selected source contribute one mean.
+# Keep the raw candidate values and the count of distinct values in the
+# audit so that crop subtypes or conflicting observations can be reviewed.
+ipni_family_selected <- ipni_family_candidates %>%
+  group_by(across(all_of(source_match_columns))) %>%
+  filter(source_priority == best_priority) %>%
+  arrange(desc(selected_for_mean), .by_group = TRUE) %>%
+  slice(1L) %>%
+  ungroup() %>%
+  mutate(value = family_value) %>%
+  select(all_of(names(df)))
+
+# Remove only the scoped family members that survived the old filter,
+# then add one preferred family contribution for each matching group.
+# Independent primary sources retain their original observations.
+df1 <- bind_rows(
+  df1 %>% filter(!coalesce(
+    item_group_code == 1714 &
+      crop_component == "Crop_products" &
+      !is.na(item) &
+      primary_reference_of_dataset %in% ipni_primary_aliases,
+    FALSE
+  )),
+  ipni_family_selected
+)
+
+# Retain a record of every candidate and the value contributed by its family.
+write_csv(
+  ipni_family_candidates,
+  "data/standardised/Deduplication_audit_IFA_first.csv"
+)
+
 #Create data frame with mean dry matter percentages for each item-crop_component combination. (This allows us to later use these to fill in gaps of nutrient concentrations on a fresh weight or dry matter basis)
 df_DM <- filter(df1, 
                 variable =="DM_pc")
@@ -296,4 +397,5 @@ write.csv(Tier_1_and_2_nutrient_coefficients,"data/standardised/Tier_1_and_2_cro
 write.csv(Meta_data_Tier_1_and_2_nutrient_coefficients, "data/standardised/Meta_data_Tier_1_and_2_crop_coefficients.csv", row.names = FALSE)
 write.csv(World_nutrient_coefficients_for_UN_FAO,"data/standardised/World_crop_coefficients_for_UN_FAO.csv", row.names = FALSE)
 write.csv(Meta_data_World_nutrient_coefficients_for_UN_FAO, "data/standardised/Meta_data_World_crop_coefficients_for_UN_FAO.csv", row.names = FALSE)
+
 

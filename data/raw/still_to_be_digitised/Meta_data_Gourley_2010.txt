@@ -1,0 +1,70 @@
+Metadata
+Version date:21 December 2023
+#File type:CSV
+#File name:"Gourley_2010.csv"
+#File size: 19KB
+#Data are from: Gourley, C.J.P. (2010) Accounting for nutrients on Australian dairy farms - DAV 12307 : final report June 2010  https://vgls.sdp.sirsidynix.net.au/client/search/asset/1292798
+N,P, K and S sub-selection of data are also available at: Gourley et al (2012) Farm Scale nitrogen, phosphorus, potassium and sulfur balances and use efficiencies on Australian dairy farms, Animal Production Science 52 (10) pp929-944 at: https://doi.org/10.1071/AN11337
+#Year of publication: 2010
+#Name of publication or database: Accounting for nutrients on Australian dairy farms - DAV 12307 : final report June 2010
+#Relevant page numbers or tables:Appendix 4
+#DOI: 
+#Website:https://vgls.sdp.sirsidynix.net.au/client/search/asset/1292798
+#Data contained in file:
+##"Missing code"=NA
+
+##Column description:			Format		Units								Description
+Feed_type				Character	Character							Names of feed types evaluated
+n_CP%					Numeric		Numeric								Number of feed samples tested for crude protein
+min_CP%					Numeric		Percentage of dry matter					Minimum value of crude protein
+max_CP%					Numeric		Percentage of dry matter					Maximum value of crude protein
+mean_CP%				Numeric		Percentage of dry matter					Mean value of crude protein
+sd_CP%					Numeric		Percentage of dry matter					Standard deviation value of crude protein
+cv_CP%					Numeric		Percentage of dry matter					Coefficient of variation value of crude protein
+n_N%					Numeric		Numeric								Number of feed samples tested for N
+min_N%					Numeric		Percentage of dry matter					Minimum value of N concentration
+max_N%					Numeric		Percentage of dry matter					Max value of N concentration
+mean_N%					Numeric		Percentage of dry matter					Mean value of N concentration
+sd_N%					Numeric		Percentage of dry matter					Standard deviation value of N concentration
+cv_N%					Numeric		Percentage of dry matter					Coefficient of variation value of N concentration
+n_P%					Numeric		Numeric								Number of feed samples tested for P
+min_P%					Numeric		Percentage of dry matter					Minimum value of P concentration
+max_P%					Numeric		Percentage of dry matter					Max value of P concentration
+mean_P%					Numeric		Percentage of dry matter					Mean value of P concentration
+sd_P%					Numeric		Percentage of dry matter					Standard deviation value of P concentration
+cv_P%					Numeric		Percentage of dry matter					Coefficient of variation value of P concentration
+n_K%					Numeric		Numeric								Number of feed samples tested for K
+min_K%					Numeric		Percentage of dry matter					Minimum value of K concentration
+max_K%					Numeric		Percentage of dry matter					Max value of K concentration
+mean_K%					Numeric		Percentage of dry matter					Mean value of K concentration
+sd_K%					Numeric		Percentage of dry matter					Standard deviation value of K concentration
+cv_K%					Numeric		Percentage of dry matter					Coefficient of variation value of K concentration
+n_S%					Numeric		Numeric								Number of feed samples tested for S
+min_S%					Numeric		Percentage of dry matter					Minimum value of S concentration
+max_S%					Numeric		Percentage of dry matter					Max value of S concentration
+mean_S%					Numeric		Percentage of dry matter					Mean value of S concentration
+sd_S%					Numeric		Percentage of dry matter					Standard deviation value of S concentration
+cv_S%					Numeric		Percentage of dry matter					Coefficient of variation value of S concentration
+n_Ca%					Numeric		Numeric								Number of feed samples tested for Ca
+min_Ca%					Numeric		Percentage of dry matter					Minimum value of Ca concentration
+max_Ca%					Numeric		Percentage of dry matter					Max value of Ca concentration
+mean_Ca%				Numeric		Percentage of dry matter					Mean value of Ca concentration
+sd_Ca%					Numeric		Percentage of dry matter					Standard deviation value of Ca concentration
+cv_Ca%					Numeric		Percentage of dry matter					Coefficient of variation value of Ca concentration
+n_Mg%					Numeric		Numeric								Number of feed samples tested for Mg
+min_Mg%					Numeric		Percentage of dry matter					Minimum value of Mg concentration
+max_Mg%					Numeric		Percentage of dry matter					Max value of Mg concentration
+mean_Mg%				Numeric		Percentage of dry matter					Mean value of Mg concentration
+sd_Mg%					Numeric		Percentage of dry matter					Standard deviation value of Mg concentration
+cv_Mg%					Numeric		Percentage of dry matter					Coefficient of variation value of Mg concentration
+n_MJME_kg_DM				Numeric		Numeric								Number of feed samples tested for metabolisable energy per kilogram of dry matter
+min_MJME_kg_DM				Numeric		Megajoules of metabolisable energy per kilogram of dry matter	Minimum value of megajoules of metabolisable energy per kilogram of dry matter
+max_MJME_kg_DM				Numeric		Megajoules of metabolisable energy per kilogram of dry matter	Max value of megajoules of metabolisable energy per kilogram of dry matter
+mean_MJME_kg_DM				Numeric		Megajoules of metabolisable energy per kilogram of dry matter	Mean value of megajoules of metabolisable energy per kilogram of dry matter
+sd_MJME_kg_DM				Numeric		Megajoules of metabolisable energy per kilogram of dry matter 	Standard deviation value of megajoules of metabolisable energy per kilogram of dry matter
+cv_MJME_kg_DM				Numeric		Megajoules of metabolisable energy per kilogram of dry matter	Coefficient of variation value of megajoules of metabolisable energy per kilogram of dry matter
+
+#Data were converted from pdf into excel format using Adobe software. Errors were manually checked and data were put into a tidier csv file format.  
+#For questions ask: Cameron Ludemann (cameron.ludemann@wur.nl) who digitised these data from the report.
+
+
