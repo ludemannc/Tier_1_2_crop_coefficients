@@ -11,7 +11,12 @@ library(reshape2)
 library(countrycode)
 
 #Read files----
-df <- as.data.frame(read_csv("data/standardised/Combined_crop_data.csv"))
+df <- read.csv(
+  "data/standardised/Combined_crop_data.csv",
+  fileEncoding = "UTF-8",#overcomes issue of special characters in csv file not allowing you to visualise dataframe
+  stringsAsFactors = FALSE
+)
+
 df_countries <- as.data.frame(read_csv("data/standardised/Transposed_UN_country_codes_summary.csv"))
 df_countries <- rbind(colnames(df_countries), df_countries) #Ensure we have a row with list of all countries in 'World' original region. Only do this if you want means of world Tier 1 and region Tier 2 values. 
 
@@ -40,7 +45,7 @@ df1 <- filter(
 df1 <- rbind(df_FAO_2020, 
              df1)
 
-# Option B: prefer usable IFA, then FAO, then IPNI family values.----
+# Option  to account for duplications: prefer usable IFA, then FAO, then IPNI family values.----
 # Match each standardized crop, component, region and variable separately.
 # For records known to share IPNI provenance, use non-missing IFA first;
 # otherwise use FAO, otherwise IPNI. Zero is a valid available value.
@@ -397,5 +402,6 @@ write.csv(Tier_1_and_2_nutrient_coefficients,"data/standardised/Tier_1_and_2_cro
 write.csv(Meta_data_Tier_1_and_2_nutrient_coefficients, "data/standardised/Meta_data_Tier_1_and_2_crop_coefficients.csv", row.names = FALSE)
 write.csv(World_nutrient_coefficients_for_UN_FAO,"data/standardised/World_crop_coefficients_for_UN_FAO.csv", row.names = FALSE)
 write.csv(Meta_data_World_nutrient_coefficients_for_UN_FAO, "data/standardised/Meta_data_World_crop_coefficients_for_UN_FAO.csv", row.names = FALSE)
+
 
 
