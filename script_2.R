@@ -11,11 +11,7 @@ library(reshape2)
 library(countrycode)
 
 #Read files----
-df <- read.csv(
-  "data/standardised/Combined_crop_data.csv",
-  fileEncoding = "UTF-8",#overcomes issue of special characters in csv file not allowing you to visualise dataframe
-  stringsAsFactors = FALSE
-)
+df <- as.data.frame(read_csv("data/standardised/Combined_crop_data.csv"))
 
 df_countries <- as.data.frame(read_csv("data/standardised/Transposed_UN_country_codes_summary.csv"))
 df_countries <- rbind(colnames(df_countries), df_countries) #Ensure we have a row with list of all countries in 'World' original region. Only do this if you want means of world Tier 1 and region Tier 2 values. 
@@ -89,9 +85,9 @@ ipni_family_candidates <- df %>%
       TRUE ~ "Other_IPNI_secondary"
     ),
     source_priority = case_when(
-      source == "IFA_2020" ~ 1L,
-      source == "FAO_2020" ~ 2L,
-      source == "IPNI" ~ 3L,
+       source == "IFA_2020" ~ 1L,
+       source == "FAO_2020" ~ 2L,
+       source == "IPNI" ~ 3L,
       TRUE ~ 99L
     )
   ) %>%
