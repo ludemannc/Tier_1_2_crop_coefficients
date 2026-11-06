@@ -144,4 +144,3 @@ lapply(names(plots1),
                          plot=plots1[[x]],width=15,height=5))
 #Note, some sources had multiple values because they had multiple estimates per region.
 
-
